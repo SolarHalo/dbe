@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+div#abgne_marquee {
+	position: relative;
+	overflow: hidden;	/* 超出範圍的部份要隱藏 */
+	width: 375px;
+	height: 25px;
+	border: 1px solid #ccc;
+}
+div#abgne_marquee ul, div#abgne_marquee li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+div#abgne_marquee ul {
+	position: absolute;
+}
+div#abgne_marquee ul li a {
+	display: block;
+	overflow: hidden;	/* 超出範圍的部份要隱藏 */
+	font-size:12px;
+	height: 25px;
+	line-height: 25px;
+	text-decoration: none;
+}
