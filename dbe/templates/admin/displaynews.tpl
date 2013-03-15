@@ -113,8 +113,11 @@
 		</form>
   </div>
   <div class="modal-footer">
-    <a href="#" class="btn"  data-dismiss="modal">关闭</a>
-    <a id="modifynewsBtn" href="#" class="btn btn-primary">保存</a>
+  	<div>
+	    <a href="#" class="btn"  data-dismiss="modal">关闭</a>
+	    <a id="modifynewsBtn" href="#" class="btn btn-primary">保存</a>
+  	</div>
+  	<div class="help-inline updateNewsMsg" style="color:red"></div>
   </div>
 </div>
 
@@ -168,7 +171,9 @@ $(document).ready(function(){
 
 	$("#modifynewsBtn").click(function(){
 
-		
+		if(beforeSubmit()==false){
+			return;
+		}
 		var news_id = $(this).attr("un");
 		var news_title = $("#news_title").val();
 		var news_createtime = $("#news_createdate").val();
@@ -229,8 +234,70 @@ $(document).ready(function(){
 	$("#gotoBtn").click(function(){
 		var page = $("#pageto").attr("value");
 		window.location.href = "displaynews.php?pageNo="+page+"";
-		});
+	});
+
+	$("#news_title").blur(function(){
+		validateTitle();
+	});
+	
+	$("#news_order").blur(function(){
+		validateOrder();
+	});
+
+
 	
 });
+
+
+/**
+ * 验证数字
+ * @param objValue
+ * @returns {Boolean} true-校验通过，false-校验失败
+ */
+ function validateNum(value){
+	 var result = true;
+	 var errorMsg = "";
+	 if (isNaN(value)) {
+         errorMsg = "排序只能输入数字";
+         result = false;
+     } else {
+         var n = parseInt(value);
+         if (n.toString() != value) {
+        	 errorMsg = "排序只能输入数字 ";
+        	 result = false;
+         }else if(value.length>6){
+        	 errorMsg = "最多只能输入6位数字";
+        	 result = false;
+         }
+     }
+	 $(".updateNewsMsg").text(errorMsg);
+     return result;
+}
+
+function validateTitle(){
+	var title = $("#news_title").val();
+	if(title.length>255||title.length<1){
+		$(".updateNewsMsg").text("新闻标题不能超过255或小于1");
+		return false;
+	}else{
+		$(".updateNewsMsg").text("");
+		return true;
+	}
+
+}
+
+function validateOrder(){
+	var news_order = $("#news_order").val();
+	return validateNum(news_order);
+}
+
+function beforeSubmit(){
+	if(validateOrder()==true&&validateTitle()==true){
+		return true;
+	}else{
+		return false;
+	}
+}
+
 
 </script>

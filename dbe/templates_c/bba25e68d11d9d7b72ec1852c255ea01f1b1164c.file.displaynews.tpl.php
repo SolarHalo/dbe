@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-03-14 22:19:19
+<?php /* Smarty version Smarty-3.1.13, created on 2013-03-15 20:14:00
          compiled from "D:\workspace4php\dbe-a\dbe\templates\admin\displaynews.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:112255141dc67b6bc15-44833870%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'bba25e68d11d9d7b72ec1852c255ea01f1b1164c' => 
     array (
       0 => 'D:\\workspace4php\\dbe-a\\dbe\\templates\\admin\\displaynews.tpl',
-      1 => 1363246402,
+      1 => 1363349635,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_5141dc67ccc7b8_77462387',
   'variables' => 
   array (
     'news' => 0,
@@ -26,8 +28,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'foo' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_5141dc67ccc7b8_77462387',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5141dc67ccc7b8_77462387')) {function content_5141dc67ccc7b8_77462387($_smarty_tpl) {?>
 <?php echo $_smarty_tpl->getSubTemplate ('admin/header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
@@ -170,8 +170,11 @@ $_smarty_tpl->tpl_vars['foo']->first = $_smarty_tpl->tpl_vars['foo']->iteration 
 		</form>
   </div>
   <div class="modal-footer">
-    <a href="#" class="btn"  data-dismiss="modal">关闭</a>
-    <a id="modifynewsBtn" href="#" class="btn btn-primary">保存</a>
+  	<div>
+	    <a href="#" class="btn"  data-dismiss="modal">关闭</a>
+	    <a id="modifynewsBtn" href="#" class="btn btn-primary">保存</a>
+  	</div>
+  	<div class="help-inline updateNewsMsg" style="color:red"></div>
   </div>
 </div>
 
@@ -225,7 +228,9 @@ $(document).ready(function(){
 
 	$("#modifynewsBtn").click(function(){
 
-		
+		if(beforeSubmit()==false){
+			return;
+		}
 		var news_id = $(this).attr("un");
 		var news_title = $("#news_title").val();
 		var news_createtime = $("#news_createdate").val();
@@ -286,8 +291,70 @@ $(document).ready(function(){
 	$("#gotoBtn").click(function(){
 		var page = $("#pageto").attr("value");
 		window.location.href = "displaynews.php?pageNo="+page+"";
-		});
+	});
+
+	$("#news_title").blur(function(){
+		validateTitle();
+	});
+	
+	$("#news_order").blur(function(){
+		validateOrder();
+	});
+
+
 	
 });
+
+
+/**
+ * 验证数字
+ * @param objValue
+ * @returns {Boolean} true-校验通过，false-校验失败
+ */
+ function validateNum(value){
+	 var result = true;
+	 var errorMsg = "";
+	 if (isNaN(value)) {
+         errorMsg = "排序只能输入数字";
+         result = false;
+     } else {
+         var n = parseInt(value);
+         if (n.toString() != value) {
+        	 errorMsg = "排序只能输入数字 ";
+        	 result = false;
+         }else if(value.length>6){
+        	 errorMsg = "最多只能输入6位数字";
+        	 result = false;
+         }
+     }
+	 $(".updateNewsMsg").text(errorMsg);
+     return result;
+}
+
+function validateTitle(){
+	var title = $("#news_title").val();
+	if(title.length>255||title.length<1){
+		$(".updateNewsMsg").text("新闻标题不能超过255或小于1");
+		return false;
+	}else{
+		$(".updateNewsMsg").text("");
+		return true;
+	}
+
+}
+
+function validateOrder(){
+	var news_order = $("#news_order").val();
+	return validateNum(news_order);
+}
+
+function beforeSubmit(){
+	if(validateOrder()==true&&validateTitle()==true){
+		return true;
+	}else{
+		return false;
+	}
+}
+
 
 </script><?php }} ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-03-15 10:30:14
+<?php /* Smarty version Smarty-3.1.13, created on 2013-03-15 17:17:54
          compiled from "D:\workspace4php\dbe-a\dbe\templates\news.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:214135142868f85dd07-93561437%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '14497303b4b9b45e1fa01cc3b69a177683ff1bed' => 
     array (
       0 => 'D:\\workspace4php\\dbe-a\\dbe\\templates\\news.tpl',
-      1 => 1363314608,
+      1 => 1363314636,
       2 => 'file',
     ),
   ),
@@ -109,7 +109,6 @@ $_smarty_tpl->tpl_vars['new']->_loop = true;
               <?php echo $_smarty_tpl->tpl_vars['news']->value->news_body;?>
             
              </p>
-             
         </div> 
 	<!-- Google CDN jQuery with fallback to local -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

@@ -1,9 +1,8 @@
-
 <div class="row" >
 	<div class="span3">
 	</div>
 	<div class="span9">
-		<form method="post" class="form-horizontal" >
+		<form method="post" class="form-horizontal" onsubmit="return beforeSubmit();">
 		<table class="table table-bordered table-condensed span12">
 		<caption class="well"><strong>添加新闻</strong></caption>
 			<tr>
@@ -39,12 +38,12 @@
 			
 			<tr>
 				<td><label class="control-label">内容：</label></td>
-				<td><textarea cols="80" id="content" name="content" class="ckeditor">ddd</textarea></td>
+				<td><textarea cols="80" id="content" name="content" class="ckeditor"></textarea></td>
 				
 			</tr>
 			<tr>
 				<td>&nbsp;</td>
-				<td><input type="submit" value="提交" class="btn btn-primary"><span class="help-inline addnewsMsg" style="color:red"></span></td>
+				<td><input id="addBtn" type="submit" value="提交" class="btn btn-primary"><span class="help-inline addnewsMsg" style="color:red"></span></td>
 			</tr>
 		</table>
 		
@@ -53,8 +52,20 @@
 </div>
 <script>
 	$(document).ready(function(){
+
+		
 		$("#news_createdate").val(getCurrentDate());
 		$("#date").val(getCurrentDate());
+
+		$("#news_title").blur(function(){
+			validateTitle();
+		});
+		
+		$("#news_order").blur(function(){
+			validateOrder();
+		});
+
+		
 	});
 
 	//获取当前时间
@@ -62,4 +73,58 @@
 		var time = new Date();
 		return time = time.format("yyyy-MM-dd");
 	}
+
+	/**
+	 * 验证数字
+	 * @param objValue
+	 * @returns {Boolean} true-校验通过，false-校验失败
+	 */
+	 function validateNum(value){
+		 var result = true;
+		 var errorMsg = "";
+		 if (isNaN(value)) {
+             errorMsg = "排序只能输入数字";
+             result = false;
+         } else {
+             var n = parseInt(value);
+             if (n.toString() != value) {
+            	 errorMsg = "排序只能输入数字 ";
+            	 result = false;
+             }else if(value.length>6){
+            	 errorMsg = "最多只能输入6位数字";
+            	 result = false;
+             }
+         }
+		 $(".addnewsMsg").text(errorMsg);
+         return result;
+	}
+
+	function validateTitle(){
+		var title = $("#news_title").val();
+		if(title.length>255||title.length<1){
+			$(".addnewsMsg").text("新闻标题不能超过255或小于1");
+			return false;
+		}else{
+			$(".addnewsMsg").text("");
+			return true;
+		}
+	
+	}
+
+	function validateOrder(){
+		var news_order = $("#news_order").val();
+		return validateNum(news_order);
+	}
+	
+	function beforeSubmit(){
+		if(validateOrder()&&validateTitle()){
+			return true;
+		}else{
+			return false;
+		}
+	}
+		
+
+		
+
 </script>

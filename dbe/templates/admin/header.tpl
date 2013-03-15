@@ -13,6 +13,7 @@
 <script type="text/javascript" src="../js/ckeditor/ckeditor.js"></script>
 <script type="text/javascript" src="../js/bootstrap-collapse.js" ></script>
 <script type="text/javascript" src="../js/date.js"></script>
+<!--<script type="text/javascript" src="../js/news.js"></script>-->
 
 <script type="text/javascript">
 $(".collapse").collapse()

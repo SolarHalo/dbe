@@ -13,6 +13,10 @@ if(!array_key_exists('administrator', $_SESSION)){
 		$news_createtime = $_POST['date'];
 		$news_type = $_POST['news_type'];
 		
+		if(!$news_order||$news_order==''){
+			$news_order = 0;
+		}
+		
 		$news = array("news_title"=>$news_title,"news_order"=>$news_order,"news_type"=>$news_type,"news_createtime"=>$news_createtime,"news_body"=>$news_body);
 		$newsdb = new DbeNews($dbutil);
 		$result = $newsdb->addNew($news);
