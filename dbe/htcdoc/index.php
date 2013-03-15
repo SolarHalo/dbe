@@ -30,7 +30,7 @@ include "../includes/DbeNews.class.php";
 	}
 	
 	$newsdb = new DbeNews($dbutil);
-	$news = $newsdb->getAllNews();
+	$news = $newsdb->getLastNews();
 	$smarty->assign("news",$news);
 	$smarty->display("index.tpl");
 

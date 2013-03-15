@@ -124,7 +124,8 @@ function switchmodTag(modtag,modcontent,modk) {
       </table>
       </form>
     </div>
-    <div class="fotter2"> <a href="#" class="back">返回</a> <a href="#" class="link">友情连接</a> </div>
+<!--    <div class="fotter2"> <a href="#" class="back">返回</a> <a href="#" class="link">友情连接</a> </div>-->
+   {{include file='footer.tpl'}}
   </div>
 </div>
 </body>

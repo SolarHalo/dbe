@@ -88,7 +88,7 @@ function switchmodTag(modtag,modcontent,modk) {
 </p>
             </div>
             <div class="newlist">
-            	<span class="newlist-title"><img src="images/newlistioc.png" align="absbottom"/>&nbsp;<a href="#">marre&gt;&gt;</a></span>
+            	<span class="newlist-title"><img src="images/newlistioc.png" align="absbottom"/>&nbsp;<a href="news.php">marre&gt;&gt;</a></span>
                 <ul id="newsRun">
                 	{{foreach $news as $new}}
                 	<li><a href="news.php?news_id={{$new->id}}"><font size="3">&bull;</font>&nbsp;{{$new->news_title}}<span>{{$new->news_createtime}}</span></a></li>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-03-14 22:18:38
+<?php /* Smarty version Smarty-3.1.13, created on 2013-03-15 10:25:13
          compiled from "D:\workspace4php\dbe-a\dbe\templates\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:189395141dc3e143e94-49882146%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '12d650d876c71da3a206752ba5bff4e74802fd06' => 
     array (
       0 => 'D:\\workspace4php\\dbe-a\\dbe\\templates\\index.tpl',
-      1 => 1363187765,
+      1 => 1363314063,
       2 => 'file',
     ),
   ),
@@ -15,14 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_5141dc3e204d16_48155825',
   'variables' => 
   array (
     'news' => 0,
     'new' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_5141dc3e204d16_48155825',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5141dc3e204d16_48155825')) {function content_5141dc3e204d16_48155825($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -116,7 +116,7 @@ function switchmodTag(modtag,modcontent,modk) {
 </p>
             </div>
             <div class="newlist">
-            	<span class="newlist-title"><img src="images/newlistioc.png" align="absbottom"/>&nbsp;<a href="#">marre&gt;&gt;</a></span>
+            	<span class="newlist-title"><img src="images/newlistioc.png" align="absbottom"/>&nbsp;<a href="news.php">marre&gt;&gt;</a></span>
                 <ul id="newsRun">
                 	<?php  $_smarty_tpl->tpl_vars['new'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['new']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['news']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}

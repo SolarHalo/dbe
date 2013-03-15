@@ -19,12 +19,19 @@ if(!array_key_exists('user', $_SESSION)){
 }
 
 $news_id = $_GET['news_id'];
-$newsdb = new DbeNews($dbutil);
-$news = $newsdb->getNewsById($news_id);
 
+$newsdb = new DbeNews($dbutil);
 $allnews = $newsdb->getAllNews();
 
-$smarty->assign("news",$news);
+if($news_id){
+	$news = $newsdb->getNewsById($news_id);
+	
+}else{
+	$news = $allnews[0];
+}
+	$smarty->assign("news",$news);
+
+
 
 $smarty->assign("allnews",$allnews);
 

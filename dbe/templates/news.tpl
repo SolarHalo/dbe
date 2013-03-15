@@ -72,50 +72,6 @@ function switchmodTag(modtag,modcontent,modk) {
             <p>
               {{$news->news_body}}            
              </p>
-             <p>     
-                DF-712U的特点
-             </p>
-             <p> 
-                 ● 采用色域宽广的Digital Best Engineering UV墨水，高精度打印技术配合高清晰度墨水，实现至高UV打印品质。<br />
-                 ● CMYK配合LcLm六色，能呈现纤细白皙柔滑肌肤的打印效果。配合白色及透明墨水，实现表现力丰富的高附加价值的打印。<br />
-                 ● 开放式宽幅平台W)730mm x D)1,200mm印刷，充分节省空间的设计，伸缩高度为100mm，为有厚度的打印材料专门设计。实现高效直喷/打样/量产。
-                 ● 采用不含汞的低温UV-LED光源，安全环保，也适用于耐热性低的材料。
-             </p>
-             <p>    
-                About DF-712U
-             </p>
-             <p>  
-                高附加价值的方案应用<br />
-                ●　高遮密性的白色墨水；透明墨水的立体打印。<br />
-                ●　高精度的PLC程序控制，精确的重复打印。<br />
-                ●　2Pt字体的精准清晰打印<br />
-                ●　高伸缩性墨水，适合柔性材料打印。<br />
-                ●  日本制造的打印引擎，动作安定，品质保证，价格合理。
-            </p>
-            <p>  
-                高附加价值的方案应用<br />
-                ●　高遮密性的白色墨水；透明墨水的立体打印。<br />
-                ●　高精度的PLC程序控制，精确的重复打印。<br />
-                ●　2Pt字体的精准清晰打印<br />
-                ●　高伸缩性墨水，适合柔性材料打印。<br />
-                ●  日本制造的打印引擎，动作安定，品质保证，价格合理。
-            </p>
-            <p>  
-                高附加价值的方案应用<br />
-                ●　高遮密性的白色墨水；透明墨水的立体打印。<br />
-                ●　高精度的PLC程序控制，精确的重复打印。<br />
-                ●　2Pt字体的精准清晰打印<br />
-                ●　高伸缩性墨水，适合柔性材料打印。<br />
-                ●  日本制造的打印引擎，动作安定，品质保证，价格合理。
-            </p>
-            <p>  
-                高附加价值的方案应用<br />
-                ●　高遮密性的白色墨水；透明墨水的立体打印。<br />
-                ●　高精度的PLC程序控制，精确的重复打印。<br />
-                ●　2Pt字体的精准清晰打印<br />
-                ●　高伸缩性墨水，适合柔性材料打印。<br />
-                ●  日本制造的打印引擎，动作安定，品质保证，价格合理。
-            </p>
         </div> 
 	<!-- Google CDN jQuery with fallback to local -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -159,7 +115,8 @@ function switchmodTag(modtag,modcontent,modk) {
 		})(jQuery);
 	</script>
     </div>
-    <div class="fotter2"> <a href="#" class="back">返回</a> <a href="#" class="link">友情连接</a> </div>
+<!--    <div class="fotter2"> <a href="#" class="back">返回</a> <a href="#" class="link">友情连接</a> </div>-->
+	 {{include file='footer.tpl'}}
   </div>
 </div>
 </body>
