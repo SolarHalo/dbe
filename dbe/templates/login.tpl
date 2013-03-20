@@ -63,8 +63,15 @@
     <form method="post">
       <table width="100%" border="0" cellspacing="0" cellpadding="0" class="login_table">
         <tr>
-          <td colspan="3" valign="top"><h2><span  class="zhuce">登录</span><a href="register.php">注册</a></h2></td>
-       	<td><a href="index.php"><span style="float:left;padding-top:0;"><img src="images/close.png" /></span></a></td>
+          <td colspan="3" valign="top">
+	          <h2>
+	          	<span class="zhuce">登录</span>
+	          	<a href="register.php">注册</a>
+	          </h2>
+	          <a href="index.php" style="float:right;position:relative;top:-33px;left:-10px;">
+	          	<span style="padding-top:0;"><img src="images/close.png" /></span>
+	          </a>
+          </td>
         </tr>
         <tr>
           <td colspan="3" valign="top">&nbsp;</td>

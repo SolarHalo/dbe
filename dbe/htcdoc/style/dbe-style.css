@@ -597,7 +597,7 @@ background-position: 5px;
 #newpage .newlist{
 	width:280px;
 	padding:0;
-	
+	border-right:1px solid #539C00;
 	}
 #newpage .newlist li{
 	width:280px;
@@ -626,7 +626,9 @@ code{color:#5b70ff;}
     height: 480px; 
     overflow: auto;
     padding: 0 20px;
-    width: 660px;}
+    width: 660px;
+    border-left:1px solid #78BC1B;
+    }
  
  .content p{
 	 padding:10px 0;

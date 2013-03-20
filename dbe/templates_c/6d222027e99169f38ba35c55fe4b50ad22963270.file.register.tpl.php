@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-03-20 23:22:35
+<?php /* Smarty version Smarty-3.1.13, created on 2013-03-20 23:59:31
          compiled from "D:\workspace4php\dbe-a\dbe\templates\register.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:324775141dc48e41dd1-22260147%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6d222027e99169f38ba35c55fe4b50ad22963270' => 
     array (
       0 => 'D:\\workspace4php\\dbe-a\\dbe\\templates\\register.tpl',
-      1 => 1363792945,
+      1 => 1363795167,
       2 => 'file',
     ),
   ),
@@ -89,12 +89,18 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <form >
       <table width="100%" style="height:345px" border="0" cellspacing="0" cellpadding="0" class="login_table ta_box">
         <tr>
-         	<td colspan="3" valign="top"><h2><a href="login.php">登录</a><span  class="zhuce">注册</span></h2></td>
-         	<td><a href="index.php"><span style="float:left;padding-top:0;"><img src="images/close.png" /></span></a></td>
+         	<td colspan="4" valign="top">
+	         	<h2>
+	         		<a href="login.php">登录</a><span  class="zhuce">注册</span>
+	         	</h2>
+	         	<a href="index.php" style="float:right;position:relative;top:-33px;left:-10px;">
+	          		<span style="padding-top:0;"><img src="images/close.png" /></span>
+	          	</a>
+         	</td>
         </tr>
-        <tr>
-          <td colspan="4" height="20"></td>
-        </tr>
+<!--        <tr>-->
+<!--          <td colspan="4" height="20"></td>-->
+<!--        </tr>-->
         <tr>
           <td align="right">用户名</td>
           <td><input id="user_name" type="text" class="input_css" /></td>
@@ -138,7 +144,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <tr>
           <td>&nbsp;</td>
           <td>&nbsp;</td>
-           <td>&nbsp;</td>
+          <td>&nbsp;</td>
           <td><input id="registerBt" type="button" class="login_zc" value=""/></td>
         </tr>
          <tr>
