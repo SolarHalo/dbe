@@ -66,6 +66,7 @@
       <table width="100%" style="height:345px" border="0" cellspacing="0" cellpadding="0" class="login_table ta_box">
         <tr>
          	<td colspan="4" valign="top"><h2><a href="login.php">登录</a><span  class="zhuce">注册</span></h2></td>
+         	<td><a href="index.php"><span style="float:left;padding-top:0;"><img src="images/close.png" /></span></a></td>
         </tr>
         <tr>
           <td colspan="4" height="20"></td>

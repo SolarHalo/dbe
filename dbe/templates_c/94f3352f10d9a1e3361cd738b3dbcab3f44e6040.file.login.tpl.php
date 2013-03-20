@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-03-20 22:06:36
+<?php /* Smarty version Smarty-3.1.13, created on 2013-03-20 23:22:55
          compiled from "D:\workspace4php\dbe-a\dbe\templates\login.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:162665141dc37b4cbe9-46243255%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '94f3352f10d9a1e3361cd738b3dbcab3f44e6040' => 
     array (
       0 => 'D:\\workspace4php\\dbe-a\\dbe\\templates\\login.tpl',
-      1 => 1363788392,
+      1 => 1363792971,
       2 => 'file',
     ),
   ),
@@ -88,7 +88,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       <table width="100%" border="0" cellspacing="0" cellpadding="0" class="login_table">
         <tr>
           <td colspan="3" valign="top"><h2><span  class="zhuce">登录</span><a href="register.php">注册</a></h2></td>
-<!--       	<td><a href="index.php"><span style="float:left;padding-top:0;"><img src="images/close.png" /></span></a></td>-->
+       	<td><a href="index.php"><span style="float:left;padding-top:0;"><img src="images/close.png" /></span></a></td>
         </tr>
         <tr>
           <td colspan="3" valign="top">&nbsp;</td>
