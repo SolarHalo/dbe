@@ -43,17 +43,20 @@
 <!--</script>-->
 <!---->
 <!--</head>-->
+
 {{include file='header1.tpl'}}
+
 <body>
 	<div id="conter">
+    	{{include file='statusbar.tpl'}}
     	{{include file='header.tpl'}}
         <div class="container" id="container">
         	<div id="sub-nav">
             	 <ul>
                  	<li class="subnav-01"><a href="index.php">首页</a></li>
-                    <li class="subnav-01"><a href="#">公司介绍</a></li>
-                    <li class="subnav-01"><a href="#">设计、研发、生产</a></li>
-                    <li class="subnav-03"><a href="#">全球合作网络</a></li>
+                    <li class="subnav-01"><a href="dbemessage.php?type=company">公司介绍</a></li>
+                    <li class="subnav-01"><a href="dbemessage.php?type=design">设计、研发、生产</a></li>
+                    <li class="subnav-03"><a href="dbemessage.php?type=operation">全球合作网络</a></li>
                  </ul>
             </div>
             <div class="jianjie">
@@ -100,7 +103,7 @@
             </div> 
         </div>
 <!--        <div class="fotter2" style="margin-top:25px;">-->
-<!--        	<a href="#" class="back">返回</a>  -->
+<!--        	<a href="index.php" class="back">返回</a>  -->
 <!--            <a href="#" class="link">友情连接</a>-->
 <!--        </div>-->
 {{include file='footer.tpl'}}

@@ -24,8 +24,8 @@
 		/**
 		 * 获取最新的5条新闻
 		 */
-		function getLastNews(){
-			$sql = "select * from dbe_news order by news_order desc limit 0,5";
+		function getLastNews($num){
+			$sql = "select * from dbe_news order by news_order desc limit 0,".$num;
 			return $this->dbutil->get_results($sql);
 		}
 		

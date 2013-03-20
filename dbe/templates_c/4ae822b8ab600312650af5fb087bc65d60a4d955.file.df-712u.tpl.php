@@ -1,4 +1,25 @@
-<!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">-->
+<?php /* Smarty version Smarty-3.1.13, created on 2013-03-20 14:14:04
+         compiled from "D:\workspace4php\dbe-a\dbe\templates\df-712u.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:18038514855ae1a5e23-05209590%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '4ae822b8ab600312650af5fb087bc65d60a4d955' => 
+    array (
+      0 => 'D:\\workspace4php\\dbe-a\\dbe\\templates\\df-712u.tpl',
+      1 => 1363759933,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '18038514855ae1a5e23-05209590',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_514855ae355336_39422754',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_514855ae355336_39422754')) {function content_514855ae355336_39422754($_smarty_tpl) {?><!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">-->
 <!--<html xmlns="http://www.w3.org/1999/xhtml">-->
 <!--<head>-->
 <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />-->
@@ -43,12 +64,15 @@
 <!--</script>-->
 <!---->
 <!--</head>-->
-{{include file='header1.tpl'}}
+<?php echo $_smarty_tpl->getSubTemplate ('header1.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 
 <body>
 	<div id="conter">
-	{{include file='statusbar.tpl'}}
-    	{{include file='header.tpl'}}
+	<?php echo $_smarty_tpl->getSubTemplate ('statusbar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
+    	<?php echo $_smarty_tpl->getSubTemplate ('header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
         <div class="container" id="container">
         	<div id="sub-nav">
             	 <ul>
@@ -100,7 +124,8 @@
                 </div>
            </div>  
         </div>
-        {{include file='footer.tpl'}}
+        <?php echo $_smarty_tpl->getSubTemplate ('footer.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 <!--        <div class="fotter2" style="margin-top:5px;">-->
 <!--        	<a href="#" class="back">返回</a>  -->
 <!--            <a href="#" class="link">友情连接</a>-->
@@ -108,3 +133,4 @@
     </div>
 </body>
 </html>
+<?php }} ?>

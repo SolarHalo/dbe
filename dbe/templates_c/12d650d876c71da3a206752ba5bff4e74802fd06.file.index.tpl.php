@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-03-15 10:25:13
+<?php /* Smarty version Smarty-3.1.13, created on 2013-03-20 14:10:44
          compiled from "D:\workspace4php\dbe-a\dbe\templates\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:189395141dc3e143e94-49882146%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '12d650d876c71da3a206752ba5bff4e74802fd06' => 
     array (
       0 => 'D:\\workspace4php\\dbe-a\\dbe\\templates\\index.tpl',
-      1 => 1363314063,
+      1 => 1363759834,
       2 => 'file',
     ),
   ),
@@ -24,58 +24,59 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5141dc3e204d16_48155825')) {function content_5141dc3e204d16_48155825($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>index</title>
-<link href="style/dbe-style.css" type="text/css" rel="stylesheet" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
-<script src="js/marqueerun.js" type="text/javascript"></script>
-<script type="text/javascript">  
-$(window).resize(function() {
-   if($(window).width()<1180){
-	$("#conter") .css ({"margin-left":"0","left":"0"});
-}else{
-$("#conter") .css ({"margin-left":"-590px","left":"50%"}); 
-}
- if($(window).height()<700){
-	$("#conter") .css ({"margin-top":"0","top":"0"});
-}else{
-$("#conter") .css ({"margin-top":"-361px","top":"50%"}); 
-}
-}); 
- $(function(){
-          $('#wrapper').hide();
-          $('.xiaogu').mouseenter(function(){
-          	
-          	 $('#wrapper').slideDown("slow");
-          	  
-           });
-          $('#head').mouseleave(function(){
-          	  $('#wrapper').slideUp();
-          	  
-           });
-  	});
-function switchmodTag(modtag,modcontent,modk) {
-	 for(i=1; i <4; i++) {
-		 if (i==modk) {
-			 document.getElementById(modtag+i).className="menuOn";document.getElementById(modcontent+i).
-			 className="slidingList";}
-		 else {
-			 document.getElementById(modtag+i).className="menuNo";document.getElementById(modcontent+i).
-			 className="slidingList_none";}
-		 }
- }
-</script>
-
-<script type="text/javascript"> 
-	$(document.body).ready(function(){ 
-	$("#newsRun").RollTitle({line:1,speed:200,timespan:1500}); 
-	}); 
-</script> 
-
-</head>
+<?php if ($_valid && !is_callable('content_5141dc3e204d16_48155825')) {function content_5141dc3e204d16_48155825($_smarty_tpl) {?><!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">-->
+<!--<html xmlns="http://www.w3.org/1999/xhtml">-->
+<!--<head>-->
+<!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />-->
+<!--<title>Dbe | Digital Best Engineering</title>-->
+<!--<link href="style/dbe-style.css" type="text/css" rel="stylesheet" />-->
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>-->
+<!--<script src="js/marqueerun.js" type="text/javascript"></script>-->
+<!--<script type="text/javascript">  -->
+<!--$(window).resize(function() {-->
+<!--   if($(window).width()<1180){-->
+<!--	$("#conter") .css ({"margin-left":"0","left":"0"});-->
+<!--}else{-->
+<!--$("#conter") .css ({"margin-left":"-590px","left":"50%"}); -->
+<!--}-->
+<!-- if($(window).height()<700){-->
+<!--	$("#conter") .css ({"margin-top":"0","top":"0"});-->
+<!--}else{-->
+<!--$("#conter") .css ({"margin-top":"-361px","top":"50%"}); -->
+<!--}-->
+<!--}); -->
+<!-- $(function(){-->
+<!--          $('#wrapper').hide();-->
+<!--          $('.xiaogu').mouseenter(function(){-->
+<!--          	-->
+<!--          	 $('#wrapper').slideDown("slow");-->
+<!--          	  -->
+<!--           });-->
+<!--          $('#head').mouseleave(function(){-->
+<!--          	  $('#wrapper').slideUp();-->
+<!--          	  -->
+<!--           });-->
+<!--  	});-->
+<!--function switchmodTag(modtag,modcontent,modk) {-->
+<!--	 for(i=1; i <4; i++) {-->
+<!--		 if (i==modk) {-->
+<!--			 document.getElementById(modtag+i).className="menuOn";document.getElementById(modcontent+i).-->
+<!--			 className="slidingList";}-->
+<!--		 else {-->
+<!--			 document.getElementById(modtag+i).className="menuNo";document.getElementById(modcontent+i).-->
+<!--			 className="slidingList_none";}-->
+<!--		 }-->
+<!-- }-->
+<!--</script>-->
+<!---->
+<!--<script type="text/javascript"> -->
+<!--	$(document.body).ready(function(){ -->
+<!--	$("#newsRun").RollTitle({line:1,speed:200,timespan:1500}); -->
+<!--	}); -->
+<!--</script> -->
+<!---->
+<!--</head>-->
+<?php echo $_smarty_tpl->getSubTemplate ('header1.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
 <body>
 	<div id="conter">
@@ -87,7 +88,7 @@ function switchmodTag(modtag,modcontent,modk) {
         	<div class="nav">
             	<img src="images/index-title.png" class="titletxt"/>
                 <div class="nav-list"> 
-                    <span><a href="dbemessage.php?type=dbe" class="nav-li"><img src="images/home1.png" /></a></span> 
+                    <span><a href="dbemessage.php?type=company" class="nav-li"><img src="images/home1.png" /></a></span> 
                     <span class="dis-y">
                     	<a href="dbemessage.php?type=df-712u" class="chanp1 nav-li"><img src="images/home2.png" /></a>
                         <div class="dis-no">
@@ -116,7 +117,7 @@ function switchmodTag(modtag,modcontent,modk) {
 </p>
             </div>
             <div class="newlist">
-            	<span class="newlist-title"><img src="images/newlistioc.png" align="absbottom"/>&nbsp;<a href="news.php">marre&gt;&gt;</a></span>
+            	<span class="newlist-title"><img src="images/newlistioc.png" align="absbottom"/>&nbsp;<a href="news.php">more&gt;&gt;</a></span>
                 <ul id="newsRun">
                 	<?php  $_smarty_tpl->tpl_vars['new'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['new']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['news']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
@@ -137,7 +138,8 @@ $_smarty_tpl->tpl_vars['new']->_loop = true;
                 开创无版彩印&nbsp;&nbsp;&nbsp;&nbsp;提供优质色彩方案
                 <font size="4">&bull;</font>
             </div>
-            <a href="#">友情连接</a>
+<!--            <a href="#">友情连接</a>-->
+            <label>友情连接</label>
         </div>
     </div>
 </body>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-03-15 20:14:00
+<?php /* Smarty version Smarty-3.1.13, created on 2013-03-19 23:39:17
          compiled from "D:\workspace4php\dbe-a\dbe\templates\admin\displaynews.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:112255141dc67b6bc15-44833870%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'bba25e68d11d9d7b72ec1852c255ea01f1b1164c' => 
     array (
       0 => 'D:\\workspace4php\\dbe-a\\dbe\\templates\\admin\\displaynews.tpl',
-      1 => 1363349635,
+      1 => 1363707551,
       2 => 'file',
     ),
   ),
@@ -29,100 +29,95 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5141dc67ccc7b8_77462387')) {function content_5141dc67ccc7b8_77462387($_smarty_tpl) {?>
-<?php echo $_smarty_tpl->getSubTemplate ('admin/header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+<?php if ($_valid && !is_callable('content_5141dc67ccc7b8_77462387')) {function content_5141dc67ccc7b8_77462387($_smarty_tpl) {?><div class="adminMainBody">
 
-<div class="row">
-	<div class="span3">
-		
-		
-	</div>
-	<div class="span9">
-		<table id="newstable" class="table table-bordered table-striped table-condensed span12">
-		<caption class="well"><strong>新闻列表</strong></caption>
-			<thead>
-				<tr>
-					<td>#</td>
-					<td>排序</td>
-					<td>类别</td>
-					<td>文章标题</td>
-					<td>时间</td>
-					<td>操作</td>
-				</tr>
-			</thead>
-			<tbody>
-				<?php  $_smarty_tpl->tpl_vars['new'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['new']->_loop = false;
+	<div class="row">
+		<div class="span12">
+			<table id="newstable" class="table table-bordered table-striped table-condensed span12">
+			<caption class="well"><strong>新闻列表</strong></caption>
+				<thead>
+					<tr>
+						<td class="span1">#</td>
+						<td class="span1">排序</td>
+						<td class="span2">类别</td>
+						<td >文章标题</td>
+						<td class="span2">时间</td>
+						<td class="span3">操作</td>
+					</tr>
+				</thead>
+				<tbody>
+					<?php  $_smarty_tpl->tpl_vars['new'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['new']->_loop = false;
  $_smarty_tpl->tpl_vars['key'] = new Smarty_Variable;
  $_from = $_smarty_tpl->tpl_vars['news']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['new']->key => $_smarty_tpl->tpl_vars['new']->value){
 $_smarty_tpl->tpl_vars['new']->_loop = true;
  $_smarty_tpl->tpl_vars['key']->value = $_smarty_tpl->tpl_vars['new']->key;
 ?>
-				<tr>
-					<td><?php echo $_smarty_tpl->tpl_vars['key']->value;?>
+					<tr>
+						<td><?php echo $_smarty_tpl->tpl_vars['key']->value;?>
 </td>
-					<td class="news_order"><?php echo $_smarty_tpl->tpl_vars['new']->value->news_order;?>
+						<td class="news_order"><?php echo $_smarty_tpl->tpl_vars['new']->value->news_order;?>
 </td>
-					<td class="news_type"><?php if ($_smarty_tpl->tpl_vars['new']->value->news_type==1){?>企业新闻<?php }?></td>
-					<td class="news_title"><?php echo $_smarty_tpl->tpl_vars['new']->value->news_title;?>
+						<td class="news_type"><?php if ($_smarty_tpl->tpl_vars['new']->value->news_type==1){?>企业新闻<?php }?></td>
+						<td class="news_title"><?php echo $_smarty_tpl->tpl_vars['new']->value->news_title;?>
 </td>
-					<td class="news_createtime"><?php echo $_smarty_tpl->tpl_vars['new']->value->news_createtime;?>
+						<td class="news_createtime"><?php echo $_smarty_tpl->tpl_vars['new']->value->news_createtime;?>
 </td>
-					<td>
-						<a  href="#updateNewsModal" data-toggle="modal" class="btn btn-info modifynews" un="<?php echo $_smarty_tpl->tpl_vars['new']->value->id;?>
+						<td>
+							<a  href="#updateNewsModal" data-toggle="modal" class="btn btn-info modifynews" un="<?php echo $_smarty_tpl->tpl_vars['new']->value->id;?>
 "><i class="icon-pencil icon-white"></i> 编辑</a>
-						<a  href="#delNewsModal" data-toggle="modal" class="btn btn-danger delnews" un="<?php echo $_smarty_tpl->tpl_vars['new']->value->id;?>
+							<a  href="#delNewsModal" data-toggle="modal" class="btn btn-danger delnews" un="<?php echo $_smarty_tpl->tpl_vars['new']->value->id;?>
 "><i class="icon-trash icon-white"></i> 删除</a>
-					</td>
-				</tr>
-				<?php } ?>
-			</tbody>
-		</table>
-		<div class="row-fluid">
-				  <div class="span4">
-					<div class="pagination">
-					  <ul>
-					    <li <?php if ($_smarty_tpl->tpl_vars['page']->value->haspre){?>class="active"<?php }else{ ?>class="disabled"<?php }?>><a href="displaynews.php?pageNo=<?php echo $_smarty_tpl->tpl_vars['page']->value->pre;?>
+						</td>
+					</tr>
+					<?php } ?>
+				</tbody>
+			</table>
+			<div class="row">
+					  <div class="span4">
+						<div class="pagination">
+						  <ul>
+						    <li <?php if ($_smarty_tpl->tpl_vars['page']->value->haspre){?>class="active"<?php }else{ ?>class="disabled"<?php }?>><a href="displaynews.php?pageNo=<?php echo $_smarty_tpl->tpl_vars['page']->value->pre;?>
 " class="active">Prev</a></li>
-					  	
-					  	<?php $_smarty_tpl->tpl_vars['foo'] = new Smarty_Variable;$_smarty_tpl->tpl_vars['foo']->step = 1;$_smarty_tpl->tpl_vars['foo']->total = (int)ceil(($_smarty_tpl->tpl_vars['foo']->step > 0 ? $_smarty_tpl->tpl_vars['endPage']->value+1 - ($_smarty_tpl->tpl_vars['startPage']->value) : $_smarty_tpl->tpl_vars['startPage']->value-($_smarty_tpl->tpl_vars['endPage']->value)+1)/abs($_smarty_tpl->tpl_vars['foo']->step));
+						  	
+						  	<?php $_smarty_tpl->tpl_vars['foo'] = new Smarty_Variable;$_smarty_tpl->tpl_vars['foo']->step = 1;$_smarty_tpl->tpl_vars['foo']->total = (int)ceil(($_smarty_tpl->tpl_vars['foo']->step > 0 ? $_smarty_tpl->tpl_vars['endPage']->value+1 - ($_smarty_tpl->tpl_vars['startPage']->value) : $_smarty_tpl->tpl_vars['startPage']->value-($_smarty_tpl->tpl_vars['endPage']->value)+1)/abs($_smarty_tpl->tpl_vars['foo']->step));
 if ($_smarty_tpl->tpl_vars['foo']->total > 0){
 for ($_smarty_tpl->tpl_vars['foo']->value = $_smarty_tpl->tpl_vars['startPage']->value, $_smarty_tpl->tpl_vars['foo']->iteration = 1;$_smarty_tpl->tpl_vars['foo']->iteration <= $_smarty_tpl->tpl_vars['foo']->total;$_smarty_tpl->tpl_vars['foo']->value += $_smarty_tpl->tpl_vars['foo']->step, $_smarty_tpl->tpl_vars['foo']->iteration++){
 $_smarty_tpl->tpl_vars['foo']->first = $_smarty_tpl->tpl_vars['foo']->iteration == 1;$_smarty_tpl->tpl_vars['foo']->last = $_smarty_tpl->tpl_vars['foo']->iteration == $_smarty_tpl->tpl_vars['foo']->total;?>
-					    <li <?php if ($_smarty_tpl->tpl_vars['page']->value->pageNo==$_smarty_tpl->tpl_vars['foo']->value){?>class="active"<?php }?>><a href="displaynews.php?pageNo=<?php echo $_smarty_tpl->tpl_vars['foo']->value;?>
+						    <li <?php if ($_smarty_tpl->tpl_vars['page']->value->pageNo==$_smarty_tpl->tpl_vars['foo']->value){?>class="active"<?php }?>><a href="displaynews.php?pageNo=<?php echo $_smarty_tpl->tpl_vars['foo']->value;?>
 " ><?php echo $_smarty_tpl->tpl_vars['foo']->value;?>
 </a></li>
-					    <?php }} ?>
-					    
-					    
-					    <li <?php if ($_smarty_tpl->tpl_vars['page']->value->hasnext){?>class="active"<?php }else{ ?>class="disabled"<?php }?>><a href="displaynews.php?pageNo=<?php echo $_smarty_tpl->tpl_vars['page']->value->next;?>
+						    <?php }} ?>
+						    
+						    
+						    <li <?php if ($_smarty_tpl->tpl_vars['page']->value->hasnext){?>class="active"<?php }else{ ?>class="disabled"<?php }?>><a href="displaynews.php?pageNo=<?php echo $_smarty_tpl->tpl_vars['page']->value->next;?>
 " class="active">Next</a></li>
-					  </ul>
-					</div>
-					
-				  </div>
-				  <div class="span3" style="padding:20px 0 0 0">
-				  
-					  <div class="input-append">
-					    <input id="pageto" type="text" value="<?php echo $_smarty_tpl->tpl_vars['page']->value->pageNo;?>
+						  </ul>
+						</div>
+						
+					  </div>
+					  <div class="span3" style="padding:20px 0 0 0">
+					  
+						  <div class="input-append">
+						    <input id="pageto" type="text" value="<?php echo $_smarty_tpl->tpl_vars['page']->value->pageNo;?>
 " class="span2">
-			    		<button id="gotoBtn" class="btn btn-primary" onclick="gotoPage()">GO</button>
-				      </div>
-				  </div>
-				  <div class="span5" style="padding:20px 0 0 0">
-					  第<?php echo $_smarty_tpl->tpl_vars['page']->value->pageNo;?>
+				    		<button id="gotoBtn" class="btn btn-primary" onclick="gotoPage()">GO</button>
+					      </div>
+					  </div>
+					  <div class="span5" style="padding:20px 0 0 0">
+						  第<?php echo $_smarty_tpl->tpl_vars['page']->value->pageNo;?>
 /<?php echo $_smarty_tpl->tpl_vars['page']->value->totalpage;?>
 页
-					 显示<?php echo $_smarty_tpl->tpl_vars['page']->value->startIndex+1;?>
+						 显示<?php echo $_smarty_tpl->tpl_vars['page']->value->startIndex+1;?>
 到<?php echo $_smarty_tpl->tpl_vars['page']->value->endIndex;?>
 条记录，共<?php echo $_smarty_tpl->tpl_vars['page']->value->totalsize;?>
 条记录
-				  
-				  </div>
+					  
+					  </div>
 				</div>
+			</div>
 	</div>
 </div>
-
 <div class="modal hide fade" id="updateNewsModal">
   <div class="modal-header">
     <a class="close" data-dismiss="modal">×</a>
@@ -172,7 +167,8 @@ $_smarty_tpl->tpl_vars['foo']->first = $_smarty_tpl->tpl_vars['foo']->iteration 
   <div class="modal-footer">
   	<div>
 	    <a href="#" class="btn"  data-dismiss="modal">关闭</a>
-	    <a id="modifynewsBtn" href="#" class="btn btn-primary">保存</a>
+<!--	    <a id="modifynewsBtn" href="#" class="btn btn-primary">保存</a>-->
+	    <button id="modifynewsBtn" class="btn btn-primary">保存</button>
   	</div>
   	<div class="help-inline updateNewsMsg" style="color:red"></div>
   </div>
@@ -190,7 +186,8 @@ $_smarty_tpl->tpl_vars['foo']->first = $_smarty_tpl->tpl_vars['foo']->iteration 
   </div>
   <div class="modal-footer">
     <a href="#" class="btn"  data-dismiss="modal">关闭</a>
-    <a id="delnewsbtn" href="#" class="btn btn-danger">确认</a>
+<!--    <a id="delnewsbtn" href="#" class="btn btn-danger">确认</a>-->
+	<button id="delnewsbtn" class="btn btn-danger">确认</button>
   </div>
 </div>
 
@@ -256,8 +253,8 @@ $(document).ready(function(){
 					updatedRow.children(".news_type").html(news_type_cn);
 					updatedRow.children(".news_createtime").html(news_createtime);
 //					updatedRow.children(".news_body").html(content);
-					$("#updateNewsModal").modal('hide');
-
+//					$("#updateNewsModal").modal('hide');
+					$("#modifynewsBtn").attr('data-dismiss','modal');
 				}
 			},
 			'error':function(){
@@ -276,7 +273,8 @@ $(document).ready(function(){
 				if(data==-1){
 					alert("deletenews failed");
 				}else{
-					$("#delNewsModal").modal('hide');
+					$("#delnewsbtn").attr('data-dismiss','modal');
+//					$("#delNewsModal").modal('hide');
 					$("#newstable >tbody >tr >td").children("a[un='"+news_id+"']").parents("tr").remove();
 				}
 			}

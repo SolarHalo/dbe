@@ -47,44 +47,25 @@
 
 <body>
 	<div id="conter">
-		{{include file='statusbar.tpl'}}
+    	{{include file='statusbar.tpl'}}
     	{{include file='header.tpl'}}
+        <div style=" background:url(images/Network.jpg); float:left; width:1180px; height:632px;">
         <div class="container" id="container">
         	<div id="sub-nav">
             	 <ul>
-                 	<li class="subnav-01"><a href="index.php">首页</a></li> 
-                    <li class="subnav-01"><a href="dbemessage.php?type=df-712u">DF-712U</a></li> 
-                    <li class="subnav-03"><a href="dbemessage.php?type=dr-640r">DR-640R</a></li>
+                 	<li class="subnav-01"><a href="index.php">首页</a></li>
+                    <li class="subnav-01"><a href="dbemessage.php?type=company">公司介绍</a></li>
+                    <li class="subnav-01"><a href="dbemessage.php?type=design">设计、研发、生产</a></li>
+                    <li class="subnav-03"><a href="dbemessage.php?type=operation">全球合作网络</a></li>
                  </ul>
             </div> 
-           <div class="chanpjies1">
-           		<div class="chanpjies-top-l">
-                	<img src="images/photo01.png" style="padding-right:20px;" class="fl" />
-                    <img src="images/pp2.png" class="fl" />
-                    <p class="fl">
-                    	<strong>产品特性</strong><br /><br />
-                        •对人体和环境影响极小的环保性墨水<br />
-                        • 搭载高艳丽的树脂墨水<br />
-                        • 实现了高耐候性、耐水性和耐刮擦性<br />
-                        • 极强的墨水伸缩性、柔软性及延展性，  适用于各种后加工处理<br />
-                        •对无涂层材料有广泛的适应能力，  可开发不同行业的解决方案
-                    </p>
-                </div>
-                <div class="chanpjies-top-r">
-                	<strong>原厂墨水</strong>
-                	<img src="images/jieshaoimages01.png" />
-                </div>
-                <div class="chanpjies-bot">
-                	<img src="images/biao1.jpg" class="fl" />
-                    <img src="images/photo02.png" style="position: absolute; float:left; bottom:36px; right:66px;" />
-                </div>
-           </div>  
         </div>
-        {{include file='footer.tpl'}}
-<!--        <div class="fotter2" style="margin-top:5px;">-->
-<!--        	<a href="#" class="back">返回</a>  -->
-<!--            <a href="#" class="link">友情连接</a>-->
-<!--        </div> -->
+        <div class="fotter2" style="margin-top:525px;">
+        	<a href="index.php" class="back">返回</a>
+        	<label class="link">友情连接</label>  
+<!--           <a href="#" class="link">友情连接</a>-->
+        </div>
+        </div>
     </div>
 </body>
 </html>

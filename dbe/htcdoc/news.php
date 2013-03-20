@@ -1,4 +1,5 @@
 <?php
+ob_start();
 include "../configs/load.php";
 include "../includes/DbeNews.class.php";
 
@@ -36,5 +37,6 @@ if($news_id){
 $smarty->assign("allnews",$allnews);
 
 $smarty->display("news.tpl");
+ob_end_flush();
 
 ?>

@@ -1,4 +1,5 @@
 <?php
+ob_start();
 require '../configs/load.php';
 include BASE_HOME.'includes/DbeUser.class.php';
 
@@ -26,6 +27,6 @@ if(array_key_exists('user_name', $_POST) && array_key_exists('user_passwd', $_PO
 	$smarty->display("login.tpl");
 	
 }
-
+ob_end_flush();
 
 ?>

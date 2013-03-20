@@ -2,7 +2,9 @@
 <html lang="zh_CN">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>dbe</title>
+<meta name="keywords" content="DF-712U,DR-640R,LED-UV,平板,打印机,高品质,印刷,工业产品,打印,dbe，数码打印，进口">
+<meta name="description" content="罗迪精密股份有限公司创立于2012年，主要从事各类大型喷墨写真打印机的研发、生产及销售。主要产品含盖所有数码印刷相关产业。">
+<title>dbe后台管理</title>
 <link href="../style/bootstrap.min.css" type="text/css" rel="stylesheet" />
 <link href="../style/admincss.css" type="text/css" rel="stylesheet" />
 <!--<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />-->

@@ -1,4 +1,5 @@
 <?php
+ob_start();
 include "../../configs/load.php";
 
 if(!array_key_exists('administrator', $_SESSION)){
@@ -16,4 +17,5 @@ if(!array_key_exists('administrator', $_SESSION)){
 
 
 $smarty->display("admin/index.tpl");
+ob_end_flush();//输出全部内容到浏览器 
 ?>

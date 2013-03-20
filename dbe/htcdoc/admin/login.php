@@ -1,4 +1,5 @@
 <?php
+ob_start();
 require '../../configs/load.php';
 include BASE_HOME.'includes/Administrator.class.php';
 
@@ -28,4 +29,5 @@ if($result == false){
 }
 
 $smarty->display("admin/login.tpl");
+ob_end_flush();//输出全部内容到浏览器 
 ?>

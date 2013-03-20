@@ -1,71 +1,67 @@
-{{* 引入头部文件 *}}
-{{include file='admin/header.tpl'}}
-<div class="row">
-	<div class="span3">
-		{{* 引入导航文件 *}}
-		{{*include file='admin/leftnav.tpl'*}}
-	</div>
-	<div class="span9">
-		<table id="newstable" class="table table-bordered table-striped table-condensed span12">
-		<caption class="well"><strong>新闻列表</strong></caption>
-			<thead>
-				<tr>
-					<td>#</td>
-					<td>排序</td>
-					<td>类别</td>
-					<td>文章标题</td>
-					<td>时间</td>
-					<td>操作</td>
-				</tr>
-			</thead>
-			<tbody>
-				{{foreach $news as $key=>$new}}
-				<tr>
-					<td>{{$key}}</td>
-					<td class="news_order">{{$new->news_order}}</td>
-					<td class="news_type">{{if $new->news_type==1}}企业新闻{{/if}}</td>
-					<td class="news_title">{{$new->news_title}}</td>
-					<td class="news_createtime">{{$new->news_createtime}}</td>
-					<td>
-						<a  href="#updateNewsModal" data-toggle="modal" class="btn btn-info modifynews" un="{{$new->id}}"><i class="icon-pencil icon-white"></i> 编辑</a>
-						<a  href="#delNewsModal" data-toggle="modal" class="btn btn-danger delnews" un="{{$new->id}}"><i class="icon-trash icon-white"></i> 删除</a>
-					</td>
-				</tr>
-				{{/foreach}}
-			</tbody>
-		</table>
-		<div class="row-fluid">
-				  <div class="span4">
-					<div class="pagination">
-					  <ul>
-					    <li {{if $page->haspre}}class="active"{{else}}class="disabled"{{/if}}><a href="displaynews.php?pageNo={{$page->pre}}" class="active">Prev</a></li>
-					  	
-					  	{{for $foo=$startPage to $endPage}}
-					    <li {{if $page->pageNo==$foo}}class="active"{{/if}}><a href="displaynews.php?pageNo={{$foo}}" >{{$foo}}</a></li>
-					    {{/for}}
-					    
-					    
-					    <li {{if $page->hasnext}}class="active"{{else}}class="disabled"{{/if}}><a href="displaynews.php?pageNo={{$page->next}}" class="active">Next</a></li>
-					  </ul>
-					</div>
-					
-				  </div>
-				  <div class="span3" style="padding:20px 0 0 0">
-				  
-					  <div class="input-append">
-					    <input id="pageto" type="text" value="{{$page->pageNo}}" class="span2">
-			    		<button id="gotoBtn" class="btn btn-primary" onclick="gotoPage()">GO</button>
-				      </div>
-				  </div>
-				  <div class="span5" style="padding:20px 0 0 0">
-					  第{{$page->pageNo}}/{{$page->totalpage}}页
-					 显示{{$page->startIndex+1}}到{{$page->endIndex}}条记录，共{{$page->totalsize}}条记录
-				  
-				  </div>
+<div class="adminMainBody">
+
+	<div class="row">
+		<div class="span12">
+			<table id="newstable" class="table table-bordered table-striped table-condensed span12">
+			<caption class="well"><strong>新闻列表</strong></caption>
+				<thead>
+					<tr>
+						<td class="span1">#</td>
+						<td class="span1">排序</td>
+						<td class="span2">类别</td>
+						<td >文章标题</td>
+						<td class="span2">时间</td>
+						<td class="span3">操作</td>
+					</tr>
+				</thead>
+				<tbody>
+					{{foreach $news as $key=>$new}}
+					<tr>
+						<td>{{$key}}</td>
+						<td class="news_order">{{$new->news_order}}</td>
+						<td class="news_type">{{if $new->news_type==1}}企业新闻{{/if}}</td>
+						<td class="news_title">{{$new->news_title}}</td>
+						<td class="news_createtime">{{$new->news_createtime}}</td>
+						<td>
+							<a  href="#updateNewsModal" data-toggle="modal" class="btn btn-info modifynews" un="{{$new->id}}"><i class="icon-pencil icon-white"></i> 编辑</a>
+							<a  href="#delNewsModal" data-toggle="modal" class="btn btn-danger delnews" un="{{$new->id}}"><i class="icon-trash icon-white"></i> 删除</a>
+						</td>
+					</tr>
+					{{/foreach}}
+				</tbody>
+			</table>
+			<div class="row">
+					  <div class="span4">
+						<div class="pagination">
+						  <ul>
+						    <li {{if $page->haspre}}class="active"{{else}}class="disabled"{{/if}}><a href="displaynews.php?pageNo={{$page->pre}}" class="active">Prev</a></li>
+						  	
+						  	{{for $foo=$startPage to $endPage}}
+						    <li {{if $page->pageNo==$foo}}class="active"{{/if}}><a href="displaynews.php?pageNo={{$foo}}" >{{$foo}}</a></li>
+						    {{/for}}
+						    
+						    
+						    <li {{if $page->hasnext}}class="active"{{else}}class="disabled"{{/if}}><a href="displaynews.php?pageNo={{$page->next}}" class="active">Next</a></li>
+						  </ul>
+						</div>
+						
+					  </div>
+					  <div class="span3" style="padding:20px 0 0 0">
+					  
+						  <div class="input-append">
+						    <input id="pageto" type="text" value="{{$page->pageNo}}" class="span2">
+				    		<button id="gotoBtn" class="btn btn-primary" onclick="gotoPage()">GO</button>
+					      </div>
+					  </div>
+					  <div class="span5" style="padding:20px 0 0 0">
+						  第{{$page->pageNo}}/{{$page->totalpage}}页
+						 显示{{$page->startIndex+1}}到{{$page->endIndex}}条记录，共{{$page->totalsize}}条记录
+					  
+					  </div>
 				</div>
+			</div>
 	</div>
 </div>
-
 <div class="modal hide fade" id="updateNewsModal">
   <div class="modal-header">
     <a class="close" data-dismiss="modal">×</a>
@@ -115,7 +111,8 @@
   <div class="modal-footer">
   	<div>
 	    <a href="#" class="btn"  data-dismiss="modal">关闭</a>
-	    <a id="modifynewsBtn" href="#" class="btn btn-primary">保存</a>
+<!--	    <a id="modifynewsBtn" href="#" class="btn btn-primary">保存</a>-->
+	    <button id="modifynewsBtn" class="btn btn-primary">保存</button>
   	</div>
   	<div class="help-inline updateNewsMsg" style="color:red"></div>
   </div>
@@ -133,7 +130,8 @@
   </div>
   <div class="modal-footer">
     <a href="#" class="btn"  data-dismiss="modal">关闭</a>
-    <a id="delnewsbtn" href="#" class="btn btn-danger">确认</a>
+<!--    <a id="delnewsbtn" href="#" class="btn btn-danger">确认</a>-->
+	<button id="delnewsbtn" class="btn btn-danger">确认</button>
   </div>
 </div>
 
@@ -199,8 +197,8 @@ $(document).ready(function(){
 					updatedRow.children(".news_type").html(news_type_cn);
 					updatedRow.children(".news_createtime").html(news_createtime);
 //					updatedRow.children(".news_body").html(content);
-					$("#updateNewsModal").modal('hide');
-
+//					$("#updateNewsModal").modal('hide');
+					$("#modifynewsBtn").attr('data-dismiss','modal');
 				}
 			},
 			'error':function(){
@@ -219,7 +217,8 @@ $(document).ready(function(){
 				if(data==-1){
 					alert("deletenews failed");
 				}else{
-					$("#delNewsModal").modal('hide');
+					$("#delnewsbtn").attr('data-dismiss','modal');
+//					$("#delNewsModal").modal('hide');
 					$("#newstable >tbody >tr >td").children("a[un='"+news_id+"']").parents("tr").remove();
 				}
 			}

@@ -80,7 +80,11 @@ if($method == 'addadmin'){
 	
 	$userdb = new DbeUser($dbutil);
 	$result = $userdb->addUser($user);
-	echo $result;
+	if($result!=-1){
+		$registedUser = $userdb->getUserByUsername($user['user_name']);
+		$_SESSION['user'] = $registedUser;
+	}
+	echo 'registerUser：'.$registedUser->user_name.'-----'.$_SESSION['user']->user_name;
 //	if($result!=-1){
 //		echo "success";
 //	}else{

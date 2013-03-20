@@ -2,7 +2,7 @@
 /**
  * 用户管理类
  */
-
+session_start();
 class DbeUser{
 	var $dbutil;
 	
@@ -34,11 +34,21 @@ class DbeUser{
 			return;
 		}
 		$result = $this->dbutil->insert("dbe_user", $user);
-		if($result!=-1){
-			$user = $this->dbutil->get_row("select * from dbe_user where user_email='".$user.user_name."'");
-			$_SESSION['user'] = $user;
-		}
+		
+//		if($result!=-1){
+//			$user = $this->dbutil->get_row("select * from dbe_user where user_name='".$user['user_name']."'");
+//			$_SESSION['user'] = $user;
+//		}
 		return $result;
+	}
+	
+	/**
+	 * 根据用户名获取用户
+	 * @param unknown_type $username
+	 */
+	function getUserByUsername($username){
+		$user = $this->dbutil->get_row("select * from dbe_user where user_name='".$username."'");
+		return $user;
 	}
 	
 	/**

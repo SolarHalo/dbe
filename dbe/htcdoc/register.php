@@ -1,5 +1,5 @@
 <?php
-
+ob_start();
 include "../configs/load.php";
 include "../includes/DbeUser.class.php";
 
@@ -36,6 +36,6 @@ include "../includes/DbeUser.class.php";
 	$smarty->display("register.tpl");
 	
 
-
+ob_end_flush();
 
 ?>

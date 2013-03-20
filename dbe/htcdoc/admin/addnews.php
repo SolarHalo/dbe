@@ -1,4 +1,5 @@
 <?php
+ob_start();
 include "../../configs/load.php";
 include '../../includes/DbeNews.class.php';
 if(!array_key_exists('administrator', $_SESSION)){
@@ -39,5 +40,5 @@ if(!array_key_exists('administrator', $_SESSION)){
 		
 		
 	}
-
+ob_end_flush();//输出全部内容到浏览器 
 ?>

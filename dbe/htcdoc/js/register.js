@@ -134,7 +134,8 @@ $(document).ready(function(){
 				'user_purchasing':user_purchasing},
 			'success': function(data){
 				if(data != -1){
-					$("#wrongMsg").html("您已注册成功！")
+					$("#wrongMsg").html("您已注册成功！");
+					window.location.href="/dbe/htcdoc/index.php";
 				}else {
 					$("#wrongMsg").html("注册失败，请重试！");
 				}
@@ -224,9 +225,6 @@ function validateUsername(){
 			},
 			'error':function(XMLHttpRequest, textStatus, errorThrown){
 				alert("ajax for checkusername fail");
-				alert(XMLHttpRequest.status);
-	             alert(XMLHttpRequest.readyState);
-	             alert(textStatus);
 				return false;
 			}
 		});
@@ -239,6 +237,9 @@ function validateUsername(){
  */
 function validateEmail(){
 	var email = $("#user_email").val();
+	if(email.length<1){
+		return true;
+	}
 	var emailPat=/^(.+)@(.+)$/;
 	if(!emailPat.test(email)){
 		$("#wrongMsg").html("请输入正确的邮箱格式！");

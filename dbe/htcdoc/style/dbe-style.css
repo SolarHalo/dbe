@@ -42,7 +42,7 @@ body{
 	width:100px;
 	}
 #login a{
-	text-align:right;
+	text-align:left;
 	color:#fff;
 	float:right;
 	margin:0 15px 0 5px;
@@ -440,7 +440,7 @@ body{
 }
 .input_css {
 	background:url(../images/input_bg.gif) no-repeat;
-	width:182px;
+	width:195px;
 	height:31px;
 	border:none;
 	line-height:31px;
@@ -514,7 +514,7 @@ a { outline:none; }/*针对火狐*/
 	height: auto;
 	position: absolute;
 	left: 0px;
-	top: 68px;
+	top: 83px;
   z-index:888;
 }
 
@@ -540,7 +540,7 @@ a { outline:none; }/*针对火狐*/
  font-weight:normal;background-color:#ff0000;  
 } 
 #slidingBlock h4.menuNo .guanynav{
-background: url(../images/lianx2.jpg) no-repeat; 
+background: url(../images/guanyu2.jpg) no-repeat; 
 
 }
 #slidingBlock h4.menuNo .chnapnav{
@@ -548,11 +548,15 @@ background: url(../images/chanp2.jpg) no-repeat;
 
 }
 #slidingBlock h4.menuNo .lanxinav{
-background: url(../images/guanyu2.jpg) no-repeat; 
+background: url(../images/lianx2.jpg) no-repeat; 
 
 }
+/*#slidingBlock h4.menuOn .guanynav{*/
+/*background: url(../images/lianx1.jpg) no-repeat; */
+/**/
+/*}*/
 #slidingBlock h4.menuOn .guanynav{
-background: url(../images/lianx1.jpg) no-repeat; 
+background: url(../images/guanyu1.jpg) no-repeat; 
 
 }
 #slidingBlock h4.menuOn .chnapnav{
@@ -560,7 +564,7 @@ background: url(../images/chanp1.jpg) no-repeat;
 
 }
 #slidingBlock h4.menuOn .lanxinav{
-background: url(../images/guanyu1.jpg) no-repeat; 
+background: url(../images/lianx1.jpg) no-repeat; 
 
 }
 #slidingBlock DIV.slidingList_none {
@@ -649,6 +653,7 @@ code{color:#5b70ff;}
 	margin:0 5px 0 15px;
 	text-decoration:none;
 }
+
 
 
 

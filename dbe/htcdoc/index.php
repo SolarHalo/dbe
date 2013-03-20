@@ -1,4 +1,5 @@
 <?php
+ob_start();
 include "../configs/load.php";
 include "../includes/DbeNews.class.php";
 
@@ -30,10 +31,10 @@ include "../includes/DbeNews.class.php";
 	}
 	
 	$newsdb = new DbeNews($dbutil);
-	$news = $newsdb->getLastNews();
+	$news = $newsdb->getLastNews(4);
 	$smarty->assign("news",$news);
 	$smarty->display("index.tpl");
 
-
+ob_end_flush();
 
 ?>

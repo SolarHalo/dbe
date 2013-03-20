@@ -1,4 +1,5 @@
 <?php
+ob_start();
 require '../configs/load.php';
 include BASE_HOME.'includes/FileUtil.php';
 
@@ -20,6 +21,6 @@ if($fileName){
 }else{
 	$smarty->display("download.tpl");
 }
-
+ob_end_flush();//输出全部内容到浏览器 
 
 ?>
