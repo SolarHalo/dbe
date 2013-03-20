@@ -92,7 +92,7 @@ $(document).ready(function(){
 				if(data == -1){
 					alert("deleteuser failed");
 				}else{
-//					$("#deluserModal").modal('hide');
+					$("#deluserModal").modal('hide');
 					$("#deluser").attr('data-dismiss','modal');
 					$("#usertable >tbody >tr >td").children("a[un='"+username+"']").parents("tr").remove();
 				}

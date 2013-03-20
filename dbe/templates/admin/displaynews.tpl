@@ -62,7 +62,7 @@
 			</div>
 	</div>
 </div>
-<div class="modal hide fade" id="updateNewsModal">
+<div class="modal hide" id="updateNewsModal">
   <div class="modal-header">
     <a class="close" data-dismiss="modal">×</a>
     <h3 id="wintitle">编辑新闻</h3>
@@ -196,8 +196,7 @@ $(document).ready(function(){
 					}
 					updatedRow.children(".news_type").html(news_type_cn);
 					updatedRow.children(".news_createtime").html(news_createtime);
-//					updatedRow.children(".news_body").html(content);
-//					$("#updateNewsModal").modal('hide');
+					$("#updateNewsModal").modal('hide');
 					$("#modifynewsBtn").attr('data-dismiss','modal');
 				}
 			},
@@ -217,8 +216,8 @@ $(document).ready(function(){
 				if(data==-1){
 					alert("deletenews failed");
 				}else{
+					$("#delNewsModal").modal('hide');
 					$("#delnewsbtn").attr('data-dismiss','modal');
-//					$("#delNewsModal").modal('hide');
 					$("#newstable >tbody >tr >td").children("a[un='"+news_id+"']").parents("tr").remove();
 				}
 			}

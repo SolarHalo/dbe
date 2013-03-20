@@ -147,7 +147,7 @@ $(document).ready(function(){
 						$(".userc").addClass("error");
 						$("#uerrorp").html("用户名已存在!");
 					}else if(data.trim() == 'success'){
-//						$("#addadminModal").modal('hide');
+						$("#addadminModal").modal('hide');
 						$("#savuser").attr('data-dismiss','modal');
 						if(type == "save"){
 							$("#usertable > tbody").append("<tr><td>新增</td><td>"+username+"</td><td width='280'>" +
@@ -169,7 +169,7 @@ $(document).ready(function(){
 				if(data==-1){
 					alert("deleteadmin failed");
 				}else{
-//					$("#deladminModal").modal('hide');
+					$("#deladminModal").modal('hide');
 				$("#deluser").attr('data-dismiss','modal');
 					$("#usertable >tbody >tr >td").children("a[un='"+username+"']").parents("tr").remove();
 				}

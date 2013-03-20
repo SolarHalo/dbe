@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-03-19 23:39:17
+<?php /* Smarty version Smarty-3.1.13, created on 2013-03-21 00:22:35
          compiled from "D:\workspace4php\dbe-a\dbe\templates\admin\displaynews.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:112255141dc67b6bc15-44833870%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'bba25e68d11d9d7b72ec1852c255ea01f1b1164c' => 
     array (
       0 => 'D:\\workspace4php\\dbe-a\\dbe\\templates\\admin\\displaynews.tpl',
-      1 => 1363707551,
+      1 => 1363796543,
       2 => 'file',
     ),
   ),
@@ -118,7 +118,7 @@ $_smarty_tpl->tpl_vars['foo']->first = $_smarty_tpl->tpl_vars['foo']->iteration 
 			</div>
 	</div>
 </div>
-<div class="modal hide fade" id="updateNewsModal">
+<div class="modal hide" id="updateNewsModal">
   <div class="modal-header">
     <a class="close" data-dismiss="modal">×</a>
     <h3 id="wintitle">编辑新闻</h3>
@@ -252,8 +252,7 @@ $(document).ready(function(){
 					}
 					updatedRow.children(".news_type").html(news_type_cn);
 					updatedRow.children(".news_createtime").html(news_createtime);
-//					updatedRow.children(".news_body").html(content);
-//					$("#updateNewsModal").modal('hide');
+					$("#updateNewsModal").modal('hide');
 					$("#modifynewsBtn").attr('data-dismiss','modal');
 				}
 			},
@@ -274,7 +273,7 @@ $(document).ready(function(){
 					alert("deletenews failed");
 				}else{
 					$("#delnewsbtn").attr('data-dismiss','modal');
-//					$("#delNewsModal").modal('hide');
+					$("#delNewsModal").modal('hide');
 					$("#newstable >tbody >tr >td").children("a[un='"+news_id+"']").parents("tr").remove();
 				}
 			}
