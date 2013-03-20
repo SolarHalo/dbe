@@ -62,7 +62,7 @@
     <div  class="login_center">
     <form method="post">
       <table width="100%" border="0" cellspacing="0" cellpadding="0" class="login_table">
-        <tr>
+        <tr class="logintr">
           <td colspan="3" valign="top">
 	          <h2>
 	          	<span class="zhuce">登录</span>
@@ -73,19 +73,19 @@
 	          </a>
           </td>
         </tr>
-        <tr>
+        <tr >
           <td colspan="3" valign="top">&nbsp;</td>
         </tr>
         <tr>
           <td>&nbsp;</td>
           <td>&nbsp;</td>
         </tr>
-        <tr>
+        <tr class="logintr">
           <td align="right">用户名/密码</td>
           <td><input name="user_name" type="text" class="input_css" /></td>
           <td rowspan="5"><img src="images/logo2.jpg" width="329" height="175" /></td>
         </tr>
-        <tr>
+        <tr class="logintr">
           <td  align="right">登录密码</td>
           <td><input name="user_passwd" type="password" class="input_css" /></td>
         </tr>

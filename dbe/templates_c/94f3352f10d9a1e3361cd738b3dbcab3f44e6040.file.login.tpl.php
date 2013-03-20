@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-03-20 23:49:25
+<?php /* Smarty version Smarty-3.1.13, created on 2013-03-21 00:15:14
          compiled from "D:\workspace4php\dbe-a\dbe\templates\login.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:162665141dc37b4cbe9-46243255%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '94f3352f10d9a1e3361cd738b3dbcab3f44e6040' => 
     array (
       0 => 'D:\\workspace4php\\dbe-a\\dbe\\templates\\login.tpl',
-      1 => 1363794561,
+      1 => 1363796108,
       2 => 'file',
     ),
   ),
@@ -86,7 +86,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <div  class="login_center">
     <form method="post">
       <table width="100%" border="0" cellspacing="0" cellpadding="0" class="login_table">
-        <tr>
+        <tr class="logintr">
           <td colspan="3" valign="top">
 	          <h2>
 	          	<span class="zhuce">登录</span>
@@ -97,19 +97,19 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	          </a>
           </td>
         </tr>
-        <tr>
+        <tr >
           <td colspan="3" valign="top">&nbsp;</td>
         </tr>
         <tr>
           <td>&nbsp;</td>
           <td>&nbsp;</td>
         </tr>
-        <tr>
+        <tr class="logintr">
           <td align="right">用户名/密码</td>
           <td><input name="user_name" type="text" class="input_css" /></td>
           <td rowspan="5"><img src="images/logo2.jpg" width="329" height="175" /></td>
         </tr>
-        <tr>
+        <tr class="logintr">
           <td  align="right">登录密码</td>
           <td><input name="user_passwd" type="password" class="input_css" /></td>
         </tr>
