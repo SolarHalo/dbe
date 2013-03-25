@@ -13,16 +13,16 @@
 <script type="text/javascript">  
 $(window).resize(function() {
 	   if($(window).width()<1180){
-		$("#conter") .css ({"margin-left":"0","left":"0"});
-	}else{
-	$("#conter") .css ({"margin-left":"-590px","left":"50%"}); 
-	}
-	 if($(window).height()<700){
-		$("#conter") .css ({"margin-top":"0","top":"0"});
-	}else{
-	$("#conter") .css ({"margin-top":"-361px","top":"50%"}); 
-	}
-	}); 
+		    $("#conter") .css ({"margin-left":"0","left":"0"});
+	   }else{
+	     $("#conter") .css ({"margin-left":"-590px","left":"50%"}); 
+	   }
+	   if($(window).height()<700){
+		     $("#conter") .css ({"margin-top":"0","top":"0"});
+	   }else{
+	      $("#conter") .css ({"margin-top":"-361px","top":"50%"}); 
+	   }
+	  }); 
 	 $(function(){
 	          $('#wrapper').hide();
 	          $('.xiaogu').mouseenter(function(){
@@ -34,6 +34,19 @@ $(window).resize(function() {
 	          	  $('#wrapper').slideUp();
 	          	  
 	           });
+	           
+	           if($(window).width()<1180){
+		           $("#conter") .css ({"margin-left":"0","left":"0"});
+	          }else{
+	              $("#conter") .css ({"margin-left":"-590px","left":"50%"}); 
+	           }
+	           if($(window).height()<700){
+		           $("#conter") .css ({"margin-top":"0","top":"0"});
+	           }else{
+	             $("#conter") .css ({"margin-top":"-361px","top":"50%"}); 
+	            }
+	           
+	           
 	  	});
 	function switchmodTag(modtag,modcontent,modk) {
 		 for(i=1; i <4; i++) {
