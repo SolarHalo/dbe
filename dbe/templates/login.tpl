@@ -81,7 +81,7 @@
           <td>&nbsp;</td>
         </tr>
         <tr class="logintr">
-          <td align="right">用户名/密码</td>
+          <td align="right">用户名/邮箱</td>
           <td><input name="user_name" type="text" class="input_css" /></td>
           <td rowspan="5"><img src="images/logo2.jpg" width="329" height="175" /></td>
         </tr>
