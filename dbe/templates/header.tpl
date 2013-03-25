@@ -46,7 +46,10 @@
                             </span> 
                         </div> 
                         <div class="slidingList_none" id="slidingList3">
-                          <img src="images/mapimg.jpg" style="padding-left:20px;" />
+                          <img src="images/mapimg.jpg" style="padding-left:20px;" border="0" usemap="#Map201303" /><map name="Map201303" id="Map201303">
+                            <area shape="rect" coords="629,70,817,110" href="mailto:sale@dbeprinter.com" />
+                          </map>
+
                         </div> 
                     </div>
             	</div> 
