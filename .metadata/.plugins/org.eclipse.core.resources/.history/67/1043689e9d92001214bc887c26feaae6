@@ -1,0 +1,5 @@
+
+<div style="margin-left:auto;margin-right:auto;width:70%;">
+<div>{{$fileurl}}</div>
+<img src="{{$fileurl}}"/>
+</div>

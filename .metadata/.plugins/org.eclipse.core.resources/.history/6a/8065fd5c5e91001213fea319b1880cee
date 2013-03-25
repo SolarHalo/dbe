@@ -1,0 +1,74 @@
+{{* 引入头部文件 *}}
+{{include file='admin/header.tpl'}}
+
+<div class="span4 dbeheader">
+	<h3 id="dbetitle" style="color:#fff">dbe欢迎您</h3>
+	<a href="../index.php" style="color:#fff">网站首页</a><span style="color:#fff">&nbsp;|&nbsp;</span><a href="logout.php" style="color:#fff">注销</a>
+</div>
+<div class="row" style="background-color:#2F3840;height:960px;">
+	<div class="span3">
+		<ul class="nav nav-list " style="height:80%;font-size:16px;font-weight:bold;color:#fff">
+			  <li class="nav-header "navlist"">
+			  <i class="icon-edit icon-white" ></i>
+			    <span class="navlist">新闻列表</span>
+			  </li>
+			  <li {{if $currentnav == 'news'}}class="active"{{/if}}>
+			    <a href="displaynews.php"><span class="navlist">新闻列表</span></a>
+			  </li>
+			  <li {{if $currentnav == 'addNews'}}class="active"{{/if}}>
+			    <a href="addnews.php" >添加新闻</a>
+			  </li>
+			  
+			  <li class="nav-header">
+			  <i class="icon-user icon-white"></i>
+			    会员管理
+			  </li>
+			  <li {{if $currentnav == 'users'}}class="active"{{/if}}>
+			    <a href="usermanage.php?type=user" >会员列表</a>
+			  </li>
+			  <li {{if $currentnav == 'admins'}}class="active"{{/if}}>
+			    <a href="usermanage.php?type=admin" >管理员</a>
+			  </li>
+			</ul>
+
+<!--  <ul class="accordion">-->
+<!--    <li id="one" class="files"> <a href="#one">新闻列表</a>-->
+<!--      <ul class="sub-menu">-->
+<!--        <li><a href="displaynews.php"><em>01</em>新闻列表</a></li>-->
+<!--        <li><a href="addnews.php"><em>02</em>添加新闻</a></li>-->
+<!--      </ul>-->
+<!--    </li>-->
+<!--    <li id="two" class="mail"> <a href="#two" >会员管理</a>-->
+<!--      <ul class="sub-menu">-->
+<!--        <li><a href="usermanage.php?type=user"><em>01</em>会员列表</a></li>-->
+<!--        <li><a href="usermanage.php?type=admin"><em>02</em>管理员</a></li>-->
+<!--      </ul>-->
+<!--    </li>-->
+<!--  </ul>-->
+		
+	</div>
+</div>
+
+
+<script type="text/javascript">
+		$(document).ready(function() {
+			// Store variables
+			var accordion_head = $('.accordion > li > a'),
+				accordion_body = $('.accordion li > .sub-menu');
+			// Open the first tab on load
+			accordion_head.first().addClass('active').next().slideDown('normal');
+			// Click function
+			accordion_head.on('click', function(event) {
+				// Disable header links
+				event.preventDefault();
+				// Show and hide the tabs on click
+				if ($(this).attr('class') != 'active'){
+					accordion_body.slideUp('normal');
+					$(this).next().stop(true,true).slideToggle('normal');
+					accordion_head.removeClass('active');
+					$(this).addClass('active');
+				}
+			});
+		});
+	</script>
+	

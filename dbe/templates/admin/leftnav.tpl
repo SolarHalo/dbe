@@ -29,6 +29,17 @@
 			  <li {{if $currentnav == 'admins'}}class="active"{{/if}}>
 			    <a href="usermanage.php?type=admin" ><span style="text-shadow: 0px 1px 0px rgba(0,0,0, .35);">管理员</span></a>
 			  </li>
+			  
+<!--			  <li class="nav-header">-->
+<!--			  <i class="icon-picture icon-white"></i>-->
+<!--			    <span style="text-shadow: 0px 1px 0px rgba(0,0,0, .35);font-size:large;">图片管理</span>-->
+<!--			  </li>-->
+<!--			  <li {{if $currentnav == 'picmanage'}}class="active"{{/if}}>-->
+<!--			    <a href="fileupload.php" ><span style="text-shadow: 0px 1px 0px rgba(0,0,0, .35);">上传图片</span></a>-->
+<!--			  </li>-->
+<!--			   <li {{if $currentnav == 'piclist'}}class="active"{{/if}}>-->
+<!--			    <a href="piclists.php" ><span style="text-shadow: 0px 1px 0px rgba(0,0,0, .35);">图片列表</span></a>-->
+<!--			  </li>-->
 			</ul>
 
 		

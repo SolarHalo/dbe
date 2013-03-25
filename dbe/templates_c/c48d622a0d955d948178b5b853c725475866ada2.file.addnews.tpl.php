@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-03-19 23:25:23
+<?php /* Smarty version Smarty-3.1.13, created on 2013-03-24 22:31:09
          compiled from "D:\workspace4php\dbe-a\dbe\templates\admin\addnews.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:311345141dc6a373e46-43336549%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'c48d622a0d955d948178b5b853c725475866ada2' => 
     array (
       0 => 'D:\\workspace4php\\dbe-a\\dbe\\templates\\admin\\addnews.tpl',
-      1 => 1363706629,
+      1 => 1364135458,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,28 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'unifunc' => 'content_5141dc6a3d5139_25176326',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5141dc6a3d5139_25176326')) {function content_5141dc6a3d5139_25176326($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5141dc6a3d5139_25176326')) {function content_5141dc6a3d5139_25176326($_smarty_tpl) {?><script>
+		KindEditor.ready(function(K) {
+			var editor1 = K.create('textarea[name="content"]', {
+				cssPath : '../js/kindeditor/plugins/code/prettify.css',
+				uploadJson : '../js/kindeditor/php/upload_json.php',
+				fileManagerJson : '../js/kindeditor/php/file_manager_json.php',
+				allowFileManager : true,
+				afterCreate : function() {
+					var self = this;
+					K.ctrl(document, 13, function() {
+						self.sync();
+//						K('form[name=example]')[0].submit();
+					});
+					K.ctrl(self.edit.doc, 13, function() {
+						self.sync();
+//						K('form[name=example]')[0].submit();
+					});
+				}
+			});
+			prettyPrint();
+		});
+	</script>
 <div class="row" >
 	<div class="span12">
 		<div class="adminMainBody">
@@ -28,7 +49,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				<caption class="well"><strong>添加新闻</strong></caption>
 					<tr>
 						<td><label class="control-label">标题：</label></td>
-						<td><input id="news_title" name="news_title" type="text"></td>
+						<td><input id="news_title" name="news_title" type="text" ></td>
 					</tr>
 					<tr>
 						<td><label class="control-label">日期：</label></td>
@@ -43,7 +64,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					<tr>
 						<td><label class="control-label">排序：</label></td>
 						<td>
-							<input id="news_order" name="news_order" type="text">
+							<input id="news_order" name="news_order" type="text" >
 							<span class="help-inline">数字大的排前面</span>
 						</td>
 					</tr>
@@ -59,7 +80,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					
 					<tr>
 						<td><label class="control-label">内容：</label></td>
-						<td><textarea cols="80" id="content" name="content" class="ckeditor"></textarea></td>
+						<td>
+<!--						<textarea cols="80" id="content" name="content" class="ckeditor" ></textarea>-->
+							<textarea id="content" name="content" style="visibility:hidden;width:100%;height:350px;"><<?php ?>?php echo htmlspecialchars($htmlData); ?<?php ?>></textarea>
+						</td>
 						
 					</tr>
 					<tr>
@@ -74,10 +98,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </div>
 <script>
 	$(document).ready(function(){
-
-		
 		$("#news_createdate").val(getCurrentDate());
 		$("#date").val(getCurrentDate());
+
 
 		$("#news_title").blur(function(){
 			validateTitle();

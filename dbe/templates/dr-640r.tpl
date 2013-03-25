@@ -76,7 +76,7 @@
                 </div>
                 <div class="chanpjies-bot">
                 	<img src="images/biao1.jpg" class="fl" />
-                    <img src="images/photo02.png" style="position: absolute; float:left; bottom:36px; right:66px;" />
+                    <img src="images/photo02.png" style="position: absolute; float:left; bottom:25px; right:66px; height:300px;" />
                 </div>
            </div>  
         </div>

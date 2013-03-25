@@ -1,0 +1,43 @@
+<?php
+ob_start();
+include "../../configs/load.php";
+include '../../includes/DbeNews.class.php';
+if(!array_key_exists('administrator', $_SESSION)){
+	header("Location: login.php");
+}
+	if(array_key_exists("news_title", $_POST)){
+		$news_title = $_POST['news_title'];
+		$news_order = $_POST['news_order'];
+		$news_type = $_POST['news_type'];
+		$news_body = $_POST['content'];
+		$news_createtime = $_POST['date'];
+		$news_type = $_POST['news_type'];
+		if($news_body){
+			$news_body = str_replace("\", "", "img src=");
+		}
+		if(!$news_order||$news_order==''){
+			$news_order = 0;
+		}
+		$news = array("news_title"=>$news_title,"news_order"=>$news_order,"news_type"=>$news_type,"news_createtime"=>$news_createtime,"news_body"=>$news_body);
+		$newsdb = new DbeNews($dbutil);
+		$result = $newsdb->addNew($news);
+		if($result>0){
+			header("Location: displaynews.php");
+//			//移除所有图片
+//			deldir("../upload");
+		}else{
+			echo "新增新闻失败！";
+		}
+	}else{
+		$smarty->assign("newstype",$newstype);
+		$currentnav = "addNews";
+		$managetpl = "admin/addnews.tpl";
+		$smarty->assign("currentnav",$currentnav);
+		$smarty->assign("managetpl",$managetpl);
+		$smarty->display("admin/index.tpl");
+	}
+	
+
+
+ob_end_flush();//输出全部内容到浏览器 
+?>

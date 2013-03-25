@@ -1,0 +1,5 @@
+{{if $loged=='Y'}}
+<div id="loged" style="visibility:visible;">{{$username}}&nbsp;欢迎您&nbsp;|&nbsp;<a href="logout.php">退出</a></div>
+{{else}}
+<div id="login" style="visibility:visible"><a href="login.php">登录</a>&nbsp;&nbsp;<a href="register.php">注册</a></div>
+{{/if}}

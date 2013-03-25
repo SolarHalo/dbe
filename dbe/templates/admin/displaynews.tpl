@@ -1,3 +1,5 @@
+
+
 <div class="adminMainBody">
 
 	<div class="row">
@@ -23,7 +25,8 @@
 						<td class="news_title">{{$new->news_title}}</td>
 						<td class="news_createtime">{{$new->news_createtime}}</td>
 						<td>
-							<a  href="#updateNewsModal" data-toggle="modal" class="btn btn-info modifynews" un="{{$new->id}}"><i class="icon-pencil icon-white"></i> 编辑</a>
+<!--							<a  href="#updateNewsModal" data-toggle="modal" class="btn btn-info modifynews" un="{{$new->id}}"><i class="icon-pencil icon-white"></i> 编辑</a>-->
+							<a  href="updatenews.php?news_id={{$new->id}}" data-toggle="modal" class="btn btn-info modifynews" un="{{$new->id}}"><i class="icon-pencil icon-white"></i> 编辑</a>
 							<a  href="#delNewsModal" data-toggle="modal" class="btn btn-danger delnews" un="{{$new->id}}"><i class="icon-trash icon-white"></i> 删除</a>
 						</td>
 					</tr>
@@ -62,21 +65,21 @@
 			</div>
 	</div>
 </div>
-<div class="modal hide" id="updateNewsModal">
+<div class="modal hide fade span12" id="updateNewsModal" style="width:80%;height:80%;">
   <div class="modal-header">
     <a class="close" data-dismiss="modal">×</a>
     <h3 id="wintitle">编辑新闻</h3>
   </div>
-  <div class="modal-body">
+  <div class="modal-body span12">
+  
   <form method="post" class="form-horizontal">
 		<table class="table table-bordered">
-		<caption>编辑新闻</caption>
 			<tr>
-				<td><label class="control-label">标题：</label></td>
-				<td><input id="news_title" name="news_title" type="text"></td>
+				<td class="span1"><label class="control-label">标题：</label></td>
+				<td><input id="news_title" name="news_title" type="text" class="x-large"></td>
 			</tr>
 			<tr>
-				<td><label class="control-label">日期：</label></td>
+				<td  class="span1"><label class="control-label">日期：</label></td>
 				<td>
 					<input id="news_createdate" 
 						disabled="disabled" 
@@ -86,12 +89,12 @@
 			</tr>
 			
 			<tr>
-				<td><label class="control-label">排序：</label></td>
+				<td class="span1"><label class="control-label">排序：</label></td>
 				<td><input id="news_order" name="news_order" type="text"></td>
 			</tr>
 			
 			<tr>
-				<td><label class="control-label">分类：</label></td>
+				<td  class="span1"><label class="control-label">分类：</label></td>
 				<td>
 					<select id="newstype" name="newstype">
 					  <option  value="1">企业新闻</option>
@@ -101,8 +104,11 @@
 			</tr>
 			
 			<tr>
-				<td><label class="control-label">内容：</label></td>
-				<td><textarea cols="80" id="content" name="content" class="ckeditor"></textarea></td>
+				<td class="span1"><label class="control-label">内容：</label></td>
+				<td>
+<!--				<textarea cols="80" id="content" name="content" class="ckeditor"></textarea>-->
+				<textarea id="content" name="content" style="visibility:hidden;width:100%;height:350px;"><?php echo htmlspecialchars($htmlData); ?></textarea>
+				</td>
 			</tr>
 			
 		</table>
@@ -299,3 +305,4 @@ function beforeSubmit(){
 
 
 </script>
+

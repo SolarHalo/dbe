@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="js/jquery-1.8.0.min.js"></script>
+<script src="kindeditor-4.1.5"></script>
+<title>html</title>
+</head>
+
+<body>
+	<textarea rows="30" cols="30" id="content"></textarea>
+</body>
+
+</html>

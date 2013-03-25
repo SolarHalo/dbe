@@ -1,4 +1,5 @@
 <?php
+ob_start();
 include "../../configs/load.php";
 include '../../includes/DbeNews.class.php';
 include BASE_HOME.'includes/Page.class.php';
@@ -50,5 +51,5 @@ $smarty->assign("endPage",$endPage);
 $smarty->assign("currentnav","news");
 $smarty->assign("managetpl","admin/displaynews.tpl");
 $smarty->display("admin/index.tpl");
-
+ob_end_flush();//输出全部内容到浏览器 
 ?>

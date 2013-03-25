@@ -1,0 +1,351 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Zero or negative length StyleRange 732:0",1363706657275
+error,log,,,"Zero or negative length StyleRange 763:0",1363706657277
+error,log,,,"Zero or negative length StyleRange 823:0",1363706657279
+error,log,,,"Zero or negative length StyleRange 845:0",1363706657281
+error,log,,,"Zero or negative length StyleRange 865:0",1363706657283
+error,log,,,"Zero or negative length StyleRange 901:0",1363706657285
+error,log,,,"Zero or negative length StyleRange 932:0",1363706657287
+error,log,,,"Zero or negative length StyleRange 1043:0",1363706657289
+error,log,,,"Zero or negative length StyleRange 53:0",1363706657317
+error,log,,,"Zero or negative length StyleRange 83:0",1363706657319
+error,log,,,"Zero or negative length StyleRange 93:0",1363706657321
+error,log,,,"Zero or negative length StyleRange 108:0",1363706657323
+error,log,,,"Zero or negative length StyleRange 174:0",1363706657326
+error,log,,,"Zero or negative length StyleRange 224:0",1363706657328
+error,log,,,"Zero or negative length StyleRange 275:0",1363706657329
+error,log,,,"Zero or negative length StyleRange 289:0",1363706657331
+error,log,,,"Zero or negative length StyleRange 311:0",1363706657333
+error,log,,,"Zero or negative length StyleRange 331:0",1363706657336
+error,log,,,"Zero or negative length StyleRange 635:0",1363706657342
+error,log,,,"Zero or negative length StyleRange 658:0",1363706657344
+error,log,,,"Zero or negative length StyleRange 680:0",1363706657346
+error,log,,,"Zero or negative length StyleRange 700:0",1363706657348
+error,log,,,"Zero or negative length StyleRange 732:0",1363706657349
+error,log,,,"Zero or negative length StyleRange 763:0",1363706657351
+error,log,,,"Zero or negative length StyleRange 823:0",1363706657353
+error,log,,,"Zero or negative length StyleRange 845:0",1363706657355
+error,log,,,"Zero or negative length StyleRange 865:0",1363706657357
+error,log,,,"Zero or negative length StyleRange 901:0",1363706657359
+error,log,,,"Zero or negative length StyleRange 932:0",1363706657361
+error,log,,,"Zero or negative length StyleRange 1043:0",1363706657363
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1363706657390
+error,log,,,"Zero or negative length StyleRange 53:0",1363706658599
+error,log,,,"Zero or negative length StyleRange 83:0",1363706658600
+error,log,,,"Zero or negative length StyleRange 93:0",1363706658601
+error,log,,,"Zero or negative length StyleRange 108:0",1363706658603
+error,log,,,"Zero or negative length StyleRange 174:0",1363706658605
+error,log,,,"Zero or negative length StyleRange 224:0",1363706658606
+error,log,,,"Zero or negative length StyleRange 275:0",1363706658608
+error,log,,,"Zero or negative length StyleRange 289:0",1363706658609
+error,log,,,"Zero or negative length StyleRange 311:0",1363706658611
+error,log,,,"Zero or negative length StyleRange 331:0",1363706658612
+error,log,,,"Zero or negative length StyleRange 635:0",1363706658614
+error,log,,,"Zero or negative length StyleRange 658:0",1363706658615
+error,log,,,"Zero or negative length StyleRange 680:0",1363706658617
+error,log,,,"Zero or negative length StyleRange 700:0",1363706658618
+error,log,,,"Zero or negative length StyleRange 732:0",1363706658620
+error,log,,,"Zero or negative length StyleRange 763:0",1363706658622
+error,log,,,"Zero or negative length StyleRange 823:0",1363706658624
+error,log,,,"Zero or negative length StyleRange 845:0",1363706658625
+error,log,,,"Zero or negative length StyleRange 865:0",1363706658627
+error,log,,,"Zero or negative length StyleRange 901:0",1363706658628
+error,log,,,"Zero or negative length StyleRange 932:0",1363706658630
+error,log,,,"Zero or negative length StyleRange 1043:0",1363706658631
+error,log,,,"Zero or negative length StyleRange 53:0",1363706660021
+error,log,,,"Zero or negative length StyleRange 83:0",1363706660023
+error,log,,,"Zero or negative length StyleRange 93:0",1363706660026
+error,log,,,"Zero or negative length StyleRange 108:0",1363706660029
+error,log,,,"Zero or negative length StyleRange 174:0",1363706660031
+error,log,,,"Zero or negative length StyleRange 224:0",1363706660033
+error,log,,,"Zero or negative length StyleRange 275:0",1363706660035
+error,log,,,"Zero or negative length StyleRange 289:0",1363706660038
+error,log,,,"Zero or negative length StyleRange 311:0",1363706660040
+error,log,,,"Zero or negative length StyleRange 331:0",1363706660042
+error,log,,,"Zero or negative length StyleRange 635:0",1363706660043
+error,log,,,"Zero or negative length StyleRange 658:0",1363706660045
+error,log,,,"Zero or negative length StyleRange 680:0",1363706660046
+error,log,,,"Zero or negative length StyleRange 700:0",1363706660048
+error,log,,,"Zero or negative length StyleRange 732:0",1363706660049
+error,log,,,"Zero or negative length StyleRange 763:0",1363706660051
+error,log,,,"Zero or negative length StyleRange 823:0",1363706660052
+error,log,,,"Zero or negative length StyleRange 845:0",1363706660054
+error,log,,,"Zero or negative length StyleRange 865:0",1363706660057
+error,log,,,"Zero or negative length StyleRange 901:0",1363706660059
+error,log,,,"Zero or negative length StyleRange 932:0",1363706660060
+error,log,,,"Zero or negative length StyleRange 1043:0",1363706660062
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1363706663556
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1363706665211
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1363706668142
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1363706672739
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1363706673770
+opened,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1363706674336
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1363706674437
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1363706686503
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1363706690957
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1363706693300
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1363706699775
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1363706701069
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1363706713228
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1363706714213
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1363706715732
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1363706718692
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1363706718816
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363706720342
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363706729545
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1363706754237
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1363706756073
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1363706758080
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1363706763595
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1363706763852
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363706772067
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363706778922
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363706780138
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363706781871
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363706785281
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363706802298
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.moveLineUp",1363706847553
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1363706848506
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363706850221
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363706855998
+error,log,,,"Zero or negative length StyleRange 109:0",1363706861347
+error,log,,,"Zero or negative length StyleRange 124:0",1363706861349
+error,log,,,"Zero or negative length StyleRange 110:0",1363706861469
+error,log,,,"Zero or negative length StyleRange 125:0",1363706861471
+error,log,,,"Zero or negative length StyleRange 111:0",1363706861586
+error,log,,,"Zero or negative length StyleRange 126:0",1363706861587
+error,log,,,"Zero or negative length StyleRange 205:0",1363706861589
+error,log,,,"Zero or negative length StyleRange 111:0",1363706861600
+error,log,,,"Zero or negative length StyleRange 126:0",1363706861602
+error,log,,,"Zero or negative length StyleRange 205:0",1363706861604
+error,log,,,"Zero or negative length StyleRange 111:0",1363706861638
+error,log,,,"Zero or negative length StyleRange 126:0",1363706861640
+error,log,,,"Zero or negative length StyleRange 205:0",1363706861642
+error,log,,,"Zero or negative length StyleRange 111:0",1363706861803
+error,log,,,"Zero or negative length StyleRange 126:0",1363706861805
+error,log,,,"Zero or negative length StyleRange 205:0",1363706861807
+error,log,,,"Zero or negative length StyleRange 111:0",1363706861857
+error,log,,,"Zero or negative length StyleRange 126:0",1363706861859
+error,log,,,"Zero or negative length StyleRange 205:0",1363706861861
+error,log,,,"Zero or negative length StyleRange 126:0",1363706864617
+error,log,,,"Zero or negative length StyleRange 141:0",1363706864619
+error,log,,,"Zero or negative length StyleRange 220:0",1363706864621
+error,log,,,"Zero or negative length StyleRange 297:0",1363706864623
+error,log,,,"Zero or negative length StyleRange 328:0",1363706864624
+error,log,,,"Zero or negative length StyleRange 360:0",1363706864626
+error,log,,,"Zero or negative length StyleRange 392:0",1363706864628
+error,log,,,"Zero or negative length StyleRange 413:0",1363706864630
+error,log,,,"Zero or negative length StyleRange 445:0",1363706864641
+error,log,,,"Zero or negative length StyleRange 584:0",1363706864643
+error,log,,,"Zero or negative length StyleRange 639:0",1363706864645
+error,log,,,"Zero or negative length StyleRange 709:0",1363706864647
+error,log,,,"Zero or negative length StyleRange 764:0",1363706864648
+error,log,,,"Zero or negative length StyleRange 840:0",1363706864650
+error,log,,,"Zero or negative length StyleRange 865:0",1363706864652
+error,log,,,"Zero or negative length StyleRange 885:0",1363706864654
+error,log,,,"Zero or negative length StyleRange 917:0",1363706864655
+error,log,,,"Zero or negative length StyleRange 938:0",1363706864657
+error,log,,,"Zero or negative length StyleRange 991:0",1363706864659
+error,log,,,"Zero or negative length StyleRange 1013:0",1363706864661
+error,log,,,"Zero or negative length StyleRange 1033:0",1363706864662
+error,log,,,"Zero or negative length StyleRange 1064:0",1363706864664
+error,log,,,"Zero or negative length StyleRange 1085:0",1363706864666
+error,log,,,"Zero or negative length StyleRange 1201:0",1363706864668
+error,log,,,"Zero or negative length StyleRange 1232:0",1363706864669
+error,log,,,"Zero or negative length StyleRange 1258:0",1363706864671
+error,log,,,"Zero or negative length StyleRange 1305:0",1363706864673
+error,log,,,"Zero or negative length StyleRange 126:0",1363706864707
+error,log,,,"Zero or negative length StyleRange 141:0",1363706864709
+error,log,,,"Zero or negative length StyleRange 220:0",1363706864711
+error,log,,,"Zero or negative length StyleRange 297:0",1363706864713
+error,log,,,"Zero or negative length StyleRange 328:0",1363706864715
+error,log,,,"Zero or negative length StyleRange 360:0",1363706864716
+error,log,,,"Zero or negative length StyleRange 392:0",1363706864718
+error,log,,,"Zero or negative length StyleRange 413:0",1363706864720
+error,log,,,"Zero or negative length StyleRange 445:0",1363706864722
+error,log,,,"Zero or negative length StyleRange 584:0",1363706864724
+error,log,,,"Zero or negative length StyleRange 639:0",1363706864726
+error,log,,,"Zero or negative length StyleRange 709:0",1363706864728
+error,log,,,"Zero or negative length StyleRange 764:0",1363706864729
+error,log,,,"Zero or negative length StyleRange 840:0",1363706864731
+error,log,,,"Zero or negative length StyleRange 865:0",1363706864733
+error,log,,,"Zero or negative length StyleRange 885:0",1363706864735
+error,log,,,"Zero or negative length StyleRange 917:0",1363706864737
+error,log,,,"Zero or negative length StyleRange 938:0",1363706864739
+error,log,,,"Zero or negative length StyleRange 991:0",1363706864740
+error,log,,,"Zero or negative length StyleRange 1013:0",1363706864742
+error,log,,,"Zero or negative length StyleRange 1033:0",1363706864744
+error,log,,,"Zero or negative length StyleRange 1064:0",1363706864746
+error,log,,,"Zero or negative length StyleRange 1085:0",1363706864747
+error,log,,,"Zero or negative length StyleRange 1201:0",1363706864749
+error,log,,,"Zero or negative length StyleRange 1232:0",1363706864751
+error,log,,,"Zero or negative length StyleRange 1258:0",1363706864753
+error,log,,,"Zero or negative length StyleRange 1305:0",1363706864754
+error,log,,,"Zero or negative length StyleRange 126:0",1363706864787
+error,log,,,"Zero or negative length StyleRange 141:0",1363706864789
+error,log,,,"Zero or negative length StyleRange 220:0",1363706864791
+error,log,,,"Zero or negative length StyleRange 297:0",1363706864793
+error,log,,,"Zero or negative length StyleRange 328:0",1363706864795
+error,log,,,"Zero or negative length StyleRange 360:0",1363706864797
+error,log,,,"Zero or negative length StyleRange 392:0",1363706864799
+error,log,,,"Zero or negative length StyleRange 413:0",1363706864801
+error,log,,,"Zero or negative length StyleRange 445:0",1363706864803
+error,log,,,"Zero or negative length StyleRange 584:0",1363706864805
+error,log,,,"Zero or negative length StyleRange 639:0",1363706864806
+error,log,,,"Zero or negative length StyleRange 709:0",1363706864808
+error,log,,,"Zero or negative length StyleRange 764:0",1363706864810
+error,log,,,"Zero or negative length StyleRange 840:0",1363706864812
+error,log,,,"Zero or negative length StyleRange 865:0",1363706864814
+error,log,,,"Zero or negative length StyleRange 885:0",1363706864816
+error,log,,,"Zero or negative length StyleRange 917:0",1363706864817
+error,log,,,"Zero or negative length StyleRange 938:0",1363706864819
+error,log,,,"Zero or negative length StyleRange 991:0",1363706864821
+error,log,,,"Zero or negative length StyleRange 1013:0",1363706864823
+error,log,,,"Zero or negative length StyleRange 1033:0",1363706864825
+error,log,,,"Zero or negative length StyleRange 1064:0",1363706864826
+error,log,,,"Zero or negative length StyleRange 1085:0",1363706864828
+error,log,,,"Zero or negative length StyleRange 1201:0",1363706864830
+error,log,,,"Zero or negative length StyleRange 1232:0",1363706864832
+error,log,,,"Zero or negative length StyleRange 1258:0",1363706864834
+error,log,,,"Zero or negative length StyleRange 1305:0",1363706864835
+error,log,,,"Zero or negative length StyleRange 126:0",1363706864898
+error,log,,,"Zero or negative length StyleRange 141:0",1363706864900
+error,log,,,"Zero or negative length StyleRange 220:0",1363706864902
+error,log,,,"Zero or negative length StyleRange 297:0",1363706864904
+error,log,,,"Zero or negative length StyleRange 328:0",1363706864905
+error,log,,,"Zero or negative length StyleRange 360:0",1363706864907
+error,log,,,"Zero or negative length StyleRange 392:0",1363706864909
+error,log,,,"Zero or negative length StyleRange 413:0",1363706864911
+error,log,,,"Zero or negative length StyleRange 445:0",1363706864913
+error,log,,,"Zero or negative length StyleRange 584:0",1363706864918
+error,log,,,"Zero or negative length StyleRange 639:0",1363706864920
+error,log,,,"Zero or negative length StyleRange 709:0",1363706864922
+error,log,,,"Zero or negative length StyleRange 764:0",1363706864924
+error,log,,,"Zero or negative length StyleRange 840:0",1363706864925
+error,log,,,"Zero or negative length StyleRange 865:0",1363706864927
+error,log,,,"Zero or negative length StyleRange 885:0",1363706864929
+error,log,,,"Zero or negative length StyleRange 917:0",1363706864930
+error,log,,,"Zero or negative length StyleRange 938:0",1363706864942
+error,log,,,"Zero or negative length StyleRange 991:0",1363706864944
+error,log,,,"Zero or negative length StyleRange 1013:0",1363706864946
+error,log,,,"Zero or negative length StyleRange 1033:0",1363706864947
+error,log,,,"Zero or negative length StyleRange 1064:0",1363706864949
+error,log,,,"Zero or negative length StyleRange 1085:0",1363706864951
+error,log,,,"Zero or negative length StyleRange 1201:0",1363706864953
+error,log,,,"Zero or negative length StyleRange 1232:0",1363706864954
+error,log,,,"Zero or negative length StyleRange 1258:0",1363706864956
+error,log,,,"Zero or negative length StyleRange 1305:0",1363706864958
+error,log,,,"Zero or negative length StyleRange 126:0",1363706865019
+error,log,,,"Zero or negative length StyleRange 141:0",1363706865021
+error,log,,,"Zero or negative length StyleRange 220:0",1363706865022
+error,log,,,"Zero or negative length StyleRange 297:0",1363706865024
+error,log,,,"Zero or negative length StyleRange 328:0",1363706865026
+error,log,,,"Zero or negative length StyleRange 360:0",1363706865028
+error,log,,,"Zero or negative length StyleRange 392:0",1363706865030
+error,log,,,"Zero or negative length StyleRange 413:0",1363706865031
+error,log,,,"Zero or negative length StyleRange 445:0",1363706865033
+error,log,,,"Zero or negative length StyleRange 584:0",1363706865035
+error,log,,,"Zero or negative length StyleRange 639:0",1363706865037
+error,log,,,"Zero or negative length StyleRange 709:0",1363706865039
+error,log,,,"Zero or negative length StyleRange 764:0",1363706865040
+error,log,,,"Zero or negative length StyleRange 840:0",1363706865042
+error,log,,,"Zero or negative length StyleRange 865:0",1363706865044
+error,log,,,"Zero or negative length StyleRange 885:0",1363706865045
+error,log,,,"Zero or negative length StyleRange 917:0",1363706865047
+error,log,,,"Zero or negative length StyleRange 938:0",1363706865049
+error,log,,,"Zero or negative length StyleRange 991:0",1363706865051
+error,log,,,"Zero or negative length StyleRange 1013:0",1363706865052
+error,log,,,"Zero or negative length StyleRange 1033:0",1363706865054
+error,log,,,"Zero or negative length StyleRange 1064:0",1363706865056
+error,log,,,"Zero or negative length StyleRange 1085:0",1363706865058
+error,log,,,"Zero or negative length StyleRange 1201:0",1363706865060
+error,log,,,"Zero or negative length StyleRange 1232:0",1363706865061
+error,log,,,"Zero or negative length StyleRange 1258:0",1363706865063
+error,log,,,"Zero or negative length StyleRange 1305:0",1363706865065
+error,log,,,"Zero or negative length StyleRange 126:0",1363706865108
+error,log,,,"Zero or negative length StyleRange 141:0",1363706865109
+error,log,,,"Zero or negative length StyleRange 220:0",1363706865111
+error,log,,,"Zero or negative length StyleRange 297:0",1363706865113
+error,log,,,"Zero or negative length StyleRange 328:0",1363706865115
+error,log,,,"Zero or negative length StyleRange 360:0",1363706865116
+error,log,,,"Zero or negative length StyleRange 392:0",1363706865118
+error,log,,,"Zero or negative length StyleRange 413:0",1363706865120
+error,log,,,"Zero or negative length StyleRange 445:0",1363706865122
+error,log,,,"Zero or negative length StyleRange 584:0",1363706865124
+error,log,,,"Zero or negative length StyleRange 639:0",1363706865125
+error,log,,,"Zero or negative length StyleRange 709:0",1363706865127
+error,log,,,"Zero or negative length StyleRange 764:0",1363706865129
+error,log,,,"Zero or negative length StyleRange 840:0",1363706865130
+error,log,,,"Zero or negative length StyleRange 865:0",1363706865132
+error,log,,,"Zero or negative length StyleRange 885:0",1363706865134
+error,log,,,"Zero or negative length StyleRange 917:0",1363706865136
+error,log,,,"Zero or negative length StyleRange 938:0",1363706865137
+error,log,,,"Zero or negative length StyleRange 991:0",1363706865139
+error,log,,,"Zero or negative length StyleRange 1013:0",1363706865141
+error,log,,,"Zero or negative length StyleRange 1033:0",1363706865143
+error,log,,,"Zero or negative length StyleRange 1064:0",1363706865145
+error,log,,,"Zero or negative length StyleRange 1085:0",1363706865146
+error,log,,,"Zero or negative length StyleRange 1201:0",1363706865148
+error,log,,,"Zero or negative length StyleRange 1232:0",1363706865150
+error,log,,,"Zero or negative length StyleRange 1258:0",1363706865152
+error,log,,,"Zero or negative length StyleRange 1305:0",1363706865153
+error,log,,,"Zero or negative length StyleRange 126:0",1363706865195
+error,log,,,"Zero or negative length StyleRange 141:0",1363706865197
+error,log,,,"Zero or negative length StyleRange 220:0",1363706865199
+error,log,,,"Zero or negative length StyleRange 297:0",1363706865201
+error,log,,,"Zero or negative length StyleRange 328:0",1363706865203
+error,log,,,"Zero or negative length StyleRange 360:0",1363706865204
+error,log,,,"Zero or negative length StyleRange 392:0",1363706865206
+error,log,,,"Zero or negative length StyleRange 413:0",1363706865208
+error,log,,,"Zero or negative length StyleRange 445:0",1363706865209
+error,log,,,"Zero or negative length StyleRange 584:0",1363706865211
+error,log,,,"Zero or negative length StyleRange 639:0",1363706865213
+error,log,,,"Zero or negative length StyleRange 709:0",1363706865215
+error,log,,,"Zero or negative length StyleRange 764:0",1363706865216
+error,log,,,"Zero or negative length StyleRange 840:0",1363706865218
+error,log,,,"Zero or negative length StyleRange 865:0",1363706865220
+error,log,,,"Zero or negative length StyleRange 885:0",1363706865222
+error,log,,,"Zero or negative length StyleRange 917:0",1363706865224
+error,log,,,"Zero or negative length StyleRange 938:0",1363706865226
+error,log,,,"Zero or negative length StyleRange 991:0",1363706865228
+error,log,,,"Zero or negative length StyleRange 1013:0",1363706865229
+error,log,,,"Zero or negative length StyleRange 1033:0",1363706865231
+error,log,,,"Zero or negative length StyleRange 1064:0",1363706865233
+error,log,,,"Zero or negative length StyleRange 1085:0",1363706865242
+error,log,,,"Zero or negative length StyleRange 1201:0",1363706865244
+error,log,,,"Zero or negative length StyleRange 1232:0",1363706865246
+error,log,,,"Zero or negative length StyleRange 1258:0",1363706865247
+error,log,,,"Zero or negative length StyleRange 1305:0",1363706865249
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1363706867403
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1363706869662
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1363706870334
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1363706872585
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1363706876129
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1363706884421
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1363706898947
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363706900754
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363706905844
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1363706909741
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1363706910403
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1363706911468
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1363706912041
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1363706917227
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1363706927775
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1363706928491
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363706929574
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363706967123
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363706982539
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363707008874
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1363707012633
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1363707012818
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1363707016794
+activated,editor,org.eclipse.wst.css.ui,1.0.501.v201008232042,"org.eclipse.wst.css.core.csssource.source",1363707023099
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1363707024939
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1363707026250
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363707035383
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363707038454
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363707046729
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363707138537
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363707146159
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363707149393
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363707156449

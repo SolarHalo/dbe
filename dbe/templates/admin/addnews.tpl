@@ -1,4 +1,25 @@
-
+<script>
+		KindEditor.ready(function(K) {
+			var editor1 = K.create('textarea[name="content"]', {
+				cssPath : '../js/kindeditor/plugins/code/prettify.css',
+				uploadJson : '../js/kindeditor/php/upload_json.php',
+				fileManagerJson : '../js/kindeditor/php/file_manager_json.php',
+				allowFileManager : true,
+				afterCreate : function() {
+					var self = this;
+					K.ctrl(document, 13, function() {
+						self.sync();
+//						K('form[name=example]')[0].submit();
+					});
+					K.ctrl(self.edit.doc, 13, function() {
+						self.sync();
+//						K('form[name=example]')[0].submit();
+					});
+				}
+			});
+			prettyPrint();
+		});
+	</script>
 <div class="row" >
 	<div class="span12">
 		<div class="adminMainBody">
@@ -7,7 +28,7 @@
 				<caption class="well"><strong>添加新闻</strong></caption>
 					<tr>
 						<td><label class="control-label">标题：</label></td>
-						<td><input id="news_title" name="news_title" type="text"></td>
+						<td><input id="news_title" name="news_title" type="text" ></td>
 					</tr>
 					<tr>
 						<td><label class="control-label">日期：</label></td>
@@ -22,7 +43,7 @@
 					<tr>
 						<td><label class="control-label">排序：</label></td>
 						<td>
-							<input id="news_order" name="news_order" type="text">
+							<input id="news_order" name="news_order" type="text" >
 							<span class="help-inline">数字大的排前面</span>
 						</td>
 					</tr>
@@ -38,7 +59,10 @@
 					
 					<tr>
 						<td><label class="control-label">内容：</label></td>
-						<td><textarea cols="80" id="content" name="content" class="ckeditor"></textarea></td>
+						<td>
+<!--						<textarea cols="80" id="content" name="content" class="ckeditor" ></textarea>-->
+							<textarea id="content" name="content" style="visibility:hidden;width:100%;height:350px;"><?php echo htmlspecialchars($htmlData); ?></textarea>
+						</td>
 						
 					</tr>
 					<tr>
@@ -53,10 +77,9 @@
 </div>
 <script>
 	$(document).ready(function(){
-
-		
 		$("#news_createdate").val(getCurrentDate());
 		$("#date").val(getCurrentDate());
+
 
 		$("#news_title").blur(function(){
 			validateTitle();

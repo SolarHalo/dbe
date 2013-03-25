@@ -1,0 +1,326 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.emf.common,2.6.0.v20100914-1218,"org.eclipse.emf.common",1363829405442
+started,bundle,org.eclipse.epp.usagedata.gathering,1.3.0.R201005261100,"org.eclipse.epp.usagedata.gathering",1363829405492
+started,bundle,org.eclipse.epp.usagedata.recording,1.3.0.R201005261100,"org.eclipse.epp.usagedata.recording",1363829405522
+started,bundle,org.eclipse.equinox.app,1.3.1.R36x_v20100803,"org.eclipse.equinox.app",1363829405552
+started,bundle,org.eclipse.equinox.common,3.6.0.v20100503,"org.eclipse.equinox.common",1363829405642
+started,bundle,org.eclipse.equinox.ds,1.2.1.R36x_v20100803,"org.eclipse.equinox.ds",1363829405712
+started,bundle,org.eclipse.equinox.event,1.2.0.v20100503,"org.eclipse.equinox.event",1363829405782
+started,bundle,org.eclipse.equinox.p2.core,2.0.2.R36x_v20100804,"org.eclipse.equinox.p2.core",1363829406032
+started,bundle,org.eclipse.equinox.p2.directorywatcher,1.0.202.R36x_v20100727,"org.eclipse.equinox.p2.directorywatcher",1363829406042
+started,bundle,org.eclipse.equinox.p2.engine,2.0.0.v20100606,"org.eclipse.equinox.p2.engine",1363829406052
+started,bundle,org.eclipse.equinox.p2.metadata,2.0.0.v20100601,"org.eclipse.equinox.p2.metadata",1363829406072
+started,bundle,org.eclipse.equinox.p2.metadata.repository,1.1.0.v20100513,"org.eclipse.equinox.p2.metadata.repository",1363829406082
+started,bundle,org.eclipse.equinox.p2.operations,2.0.0.v20100510,"org.eclipse.equinox.p2.operations",1363829406102
+started,bundle,org.eclipse.equinox.p2.reconciler.dropins,1.1.0.v20100525,"org.eclipse.equinox.p2.reconciler.dropins",1363829406102
+started,bundle,org.eclipse.equinox.p2.repository,2.0.1.R36x_v20100823,"org.eclipse.equinox.p2.repository",1363829406192
+started,bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.0.0.v20100507-1815,"org.eclipse.equinox.p2.ui.sdk.scheduler",1363829406402
+started,bundle,org.eclipse.equinox.p2.updatechecker,1.1.101.R36x_v20100823,"org.eclipse.equinox.p2.updatechecker",1363829406562
+started,bundle,org.eclipse.equinox.preferences,3.3.0.v20100503,"org.eclipse.equinox.preferences",1363829406572
+started,bundle,org.eclipse.equinox.registry,3.5.0.v20100503,"org.eclipse.equinox.registry",1363829406602
+started,bundle,org.eclipse.equinox.security,1.0.200.v20100503,"org.eclipse.equinox.security",1363829406642
+started,bundle,org.eclipse.equinox.util,1.0.200.v20100503,"org.eclipse.equinox.util",1363829406662
+started,bundle,org.eclipse.help,3.5.0.v20100524,"org.eclipse.help",1363829406682
+started,bundle,org.eclipse.jface,3.6.1.M20100825-0800,"org.eclipse.jface",1363829406692
+started,bundle,org.eclipse.mylyn.commons.net,3.4.1.v20100625-2100-e3x,"org.eclipse.mylyn.commons.net",1363829406692
+started,bundle,org.eclipse.mylyn.commons.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.commons.ui",1363829406932
+started,bundle,org.eclipse.mylyn.monitor.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.monitor.ui",1363829406942
+started,bundle,org.eclipse.php.core,2.2.1.v20100822-1200,"org.eclipse.php.core",1363829406962
+started,bundle,org.eclipse.php.debug.ui,2.2.0.v20100822-0100,"org.eclipse.php.debug.ui",1363829406962
+started,bundle,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.ui",1363829406962
+started,bundle,org.eclipse.rse.connectorservice.local,2.1.100.v200905272300,"org.eclipse.rse.connectorservice.local",1363829406992
+started,bundle,org.eclipse.rse.core,3.1.101.v201009071110,"org.eclipse.rse.core",1363829407042
+started,bundle,org.eclipse.rse.services,3.2.0.v201006041352,"org.eclipse.rse.services",1363829407052
+started,bundle,org.eclipse.rse.services.local,2.1.201.v201009071110,"org.eclipse.rse.services.local",1363829407062
+started,bundle,org.eclipse.rse.subsystems.files.core,3.2.1.v201008191400,"org.eclipse.rse.subsystems.files.core",1363829407082
+started,bundle,org.eclipse.rse.subsystems.files.local,2.1.101.v200907301400,"org.eclipse.rse.subsystems.files.local",1363829407122
+started,bundle,org.eclipse.rse.subsystems.shells.core,3.1.100.v201003010830,"org.eclipse.rse.subsystems.shells.core",1363829407122
+started,bundle,org.eclipse.rse.subsystems.shells.local,2.1.100.v200905272300,"org.eclipse.rse.subsystems.shells.local",1363829407122
+started,bundle,org.eclipse.rse.ui,3.1.101.v201008191400,"org.eclipse.rse.ui",1363829407192
+started,bundle,org.eclipse.search,3.6.0.v20100520-0800,"org.eclipse.search",1363829407212
+started,bundle,org.eclipse.team.core,3.5.100.R36x_v20100825-0800,"org.eclipse.team.core",1363829407522
+started,bundle,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui",1363829407621
+started,bundle,org.eclipse.ui.editors,3.6.1.r361_v20100825-0800,"org.eclipse.ui.editors",1363829407621
+started,bundle,org.eclipse.ui.forms,3.5.2.r36_v20100702,"org.eclipse.ui.forms",1363829407623
+started,bundle,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.ide",1363829407656
+started,bundle,org.eclipse.ui.net,1.2.100.I20100505-1245,"org.eclipse.ui.net",1363829407677
+started,bundle,org.eclipse.ui.views,3.5.0.I20100527-0800,"org.eclipse.ui.views",1363829407960
+started,bundle,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"org.eclipse.ui.workbench",1363829408166
+started,bundle,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.workbench.texteditor",1363829408231
+started,bundle,org.eclipse.wst.common.frameworks,1.2.0.v201003040800,"org.eclipse.wst.common.frameworks",1363829408235
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.102.v201008170019,"org.eclipse.wst.common.project.facet.core",1363829408251
+started,bundle,org.eclipse.wst.common.uriresolver,1.1.401.v201004280700,"org.eclipse.wst.common.uriresolver",1363829408279
+started,bundle,org.eclipse.wst.css.core,1.1.401.v201008161749,"org.eclipse.wst.css.core",1363829408294
+started,bundle,org.eclipse.wst.css.ui,1.0.501.v201008232042,"org.eclipse.wst.css.ui",1363829408360
+started,bundle,org.eclipse.wst.dtd.ui,1.0.500.v201004290328,"org.eclipse.wst.dtd.ui",1363829408376
+started,bundle,org.eclipse.wst.html.core,1.1.402.v201008311901,"org.eclipse.wst.html.core",1363829408391
+started,bundle,org.eclipse.wst.html.ui,1.0.502.v201009010342,"org.eclipse.wst.html.ui",1363829408400
+started,bundle,org.eclipse.wst.jsdt.core,1.1.2.v201009011528,"org.eclipse.wst.jsdt.core",1363829408414
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.200.v201004150600,"org.eclipse.wst.jsdt.manipulation",1363829408424
+started,bundle,org.eclipse.wst.jsdt.ui,1.1.2.v201009010353,"org.eclipse.wst.jsdt.ui",1363829408448
+started,bundle,org.eclipse.wst.jsdt.web.core,1.0.302.v201009091745,"org.eclipse.wst.jsdt.web.core",1363829408526
+started,bundle,org.eclipse.wst.jsdt.web.ui,1.0.302.v201009091745,"org.eclipse.wst.jsdt.web.ui",1363829408536
+started,bundle,org.eclipse.wst.sse.core,1.1.502.v201008311901,"org.eclipse.wst.sse.core",1363829408616
+started,bundle,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui",1363829408626
+started,bundle,org.eclipse.wst.validation,1.2.200.v201005271900,"org.eclipse.wst.validation",1363829408626
+started,bundle,org.eclipse.wst.xml.core,1.1.502.v201009010342,"org.eclipse.wst.xml.core",1363829408636
+started,bundle,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui",1363829408686
+os,sysinfo,,,"win32",1363829408696
+arch,sysinfo,,,"x86",1363829408696
+ws,sysinfo,,,"win32",1363829408696
+locale,sysinfo,,,"zh_CN",1363829408696
+processors,sysinfo,,,"2",1363829408696
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1363829408696
+java.runtime.version,sysinfo,,,"1.6.0_20-b02",1363829408696
+java.specification.name,sysinfo,,,"Java Platform API Specification",1363829408696
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1363829408696
+java.specification.version,sysinfo,,,"1.6",1363829408696
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1363829408696
+java.version,sysinfo,,,"1.6.0_20",1363829408696
+java.vm.info,sysinfo,,,"mixed mode",1363829408696
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1363829408696
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1363829408696
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1363829408696
+java.vm.specification.version,sysinfo,,,"1.0",1363829408696
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1363829408696
+java.vm.version,sysinfo,,,"16.3-b01",1363829408696
+started,bundle,org.eclipse.mylyn.tasks.ui,3.4.2.v20100902-0100-e3x,"org.eclipse.mylyn.tasks.ui",1363829408936
+started,bundle,org.eclipse.jdt.core,3.6.1.v_A68_R36x,"org.eclipse.jdt.core",1363829409026
+started,bundle,org.eclipse.mylyn.team.ui,3.4.2.v20100909-0100-e3x,"org.eclipse.mylyn.team.ui",1363829409066
+started,bundle,org.eclipse.php.debug.daemon,2.2.0.v20100410-0300,"org.eclipse.php.debug.daemon",1363829409076
+started,bundle,org.eclipse.update.scheduler,3.2.300.v20100512,"org.eclipse.update.scheduler",1363829409116
+started,bundle,org.eclipse.jsch.core,1.1.200.I20100505-1245,"org.eclipse.jsch.core",1363829410206
+started,bundle,org.eclipse.php.server.core,2.2.0.v20100410-0300,"org.eclipse.php.server.core",1363829410396
+started,bundle,org.eclipse.update.configurator,3.3.100.v20100512,"org.eclipse.update.configurator",1363829410466
+started,bundle,org.eclipse.update.core,3.2.402.R36x_v20100629,"org.eclipse.update.core",1363829410496
+started,bundle,org.eclipse.jdt.core.manipulation,1.3.0.v20100520-0800,"org.eclipse.jdt.core.manipulation",1363829411766
+started,bundle,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui",1363829411862
+started,bundle,org.eclipse.php.debug.core,2.2.0.v20100822-0100,"org.eclipse.php.debug.core",1363829412961
+started,bundle,org.eclipse.team.cvs.core,3.3.300.I20100526-0800,"org.eclipse.team.cvs.core",1363829413981
+started,bundle,org.eclipse.team.ui,3.5.101.R36x_v20100825-0800,"org.eclipse.team.ui",1363829414811
+started,bundle,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console",1363829415151
+started,bundle,org.eclipse.team.cvs.ui,3.3.301.R36x_v20100825-0800,"org.eclipse.team.cvs.ui",1363829415822
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363829429605
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363829430545
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1363829449366
+started,bundle,org.eclipse.dltk.validators.core,1.0.0.v20100524-0038,"org.eclipse.dltk.validators.core",1363829449986
+started,bundle,org.eclipse.wst.dtd.core,1.1.400.v201004290328,"org.eclipse.wst.dtd.core",1363829450006
+started,bundle,org.eclipse.wst.xsd.core,1.1.502.v201008201521,"org.eclipse.wst.xsd.core",1363829450036
+started,bundle,org.eclipse.dltk.validators.externalchecker,1.0.0.v20090803-1754,"org.eclipse.dltk.validators.externalchecker",1363829450236
+started,bundle,org.eclipse.wst.xsl.core,1.1.0.v201004290328,"org.eclipse.wst.xsl.core",1363829450296
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363829450896
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363829458797
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363829459654
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363829494146
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363829507424
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363829527945
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1363829529698
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1363829544373
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363829545658
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363829610715
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363829650095
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363829662095
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363829664778
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363829683494
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1363829690311
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363829693102
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363829696335
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363829741706
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363830044642
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363830047176
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363831869373
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363831871223
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363831872061
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363831874638
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363831876230
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363831878964
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363833169966
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363833171755
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363833229244
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363833231106
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363833231203
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363833239071
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363833805244
+opened,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1363833812870
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1363833812932
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363833835927
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363833914626
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363833916131
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363833922872
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1363833922915
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1363833923161
+error,log,,,"Zero or negative length StyleRange 2494:0",1363833935517
+error,log,,,"Zero or negative length StyleRange 2524:0",1363833935519
+error,log,,,"Zero or negative length StyleRange 2538:0",1363833935521
+error,log,,,"Zero or negative length StyleRange 2574:0",1363833935523
+error,log,,,"Zero or negative length StyleRange 2616:0",1363833935525
+error,log,,,"Zero or negative length StyleRange 2645:0",1363833935526
+error,log,,,"Zero or negative length StyleRange 2659:0",1363833935528
+error,log,,,"Zero or negative length StyleRange 2694:0",1363833935530
+error,log,,,"Zero or negative length StyleRange 2776:0",1363833935531
+error,log,,,"Zero or negative length StyleRange 2831:0",1363833935533
+error,log,,,"Zero or negative length StyleRange 2847:0",1363833935535
+error,log,,,"Zero or negative length StyleRange 2865:0",1363833935536
+error,log,,,"Zero or negative length StyleRange 2918:0",1363833935538
+error,log,,,"Zero or negative length StyleRange 2980:0",1363833935540
+error,log,,,"Zero or negative length StyleRange 3001:0",1363833935541
+error,log,,,"Zero or negative length StyleRange 3029:0",1363833935543
+error,log,,,"Zero or negative length StyleRange 3060:0",1363833935544
+error,log,,,"Zero or negative length StyleRange 3072:0",1363833935546
+error,log,,,"Zero or negative length StyleRange 3157:0",1363833935548
+error,log,,,"Zero or negative length StyleRange 3212:0",1363833935560
+error,log,,,"Zero or negative length StyleRange 3228:0",1363833935562
+error,log,,,"Zero or negative length StyleRange 3246:0",1363833935564
+error,log,,,"Zero or negative length StyleRange 3304:0",1363833935565
+error,log,,,"Zero or negative length StyleRange 3367:0",1363833935567
+error,log,,,"Zero or negative length StyleRange 3381:0",1363833935568
+error,log,,,"Zero or negative length StyleRange 3414:0",1363833935570
+error,log,,,"Zero or negative length StyleRange 3467:0",1363833935572
+error,log,,,"Zero or negative length StyleRange 3567:0",1363833935573
+error,log,,,"Zero or negative length StyleRange 3625:0",1363833935575
+error,log,,,"Zero or negative length StyleRange 3635:0",1363833935576
+error,log,,,"Zero or negative length StyleRange 3648:0",1363833935578
+error,log,,,"Zero or negative length StyleRange 3663:0",1363833935579
+error,log,,,"Zero or negative length StyleRange 3753:0",1363833935581
+error,log,,,"Zero or negative length StyleRange 3794:0",1363833935583
+error,log,,,"Zero or negative length StyleRange 3803:0",1363833935584
+error,log,,,"Zero or negative length StyleRange 3815:0",1363833935586
+error,log,,,"Zero or negative length StyleRange 3857:0",1363833935588
+error,log,,,"Zero or negative length StyleRange 3876:0",1363833935590
+error,log,,,"Zero or negative length StyleRange 3885:0",1363833935591
+error,log,,,"Zero or negative length StyleRange 3933:0",1363833935593
+error,log,,,"Zero or negative length StyleRange 3952:0",1363833935594
+error,log,,,"Zero or negative length StyleRange 4008:0",1363833935596
+error,log,,,"Zero or negative length StyleRange 4042:0",1363833935597
+error,log,,,"Zero or negative length StyleRange 4093:0",1363833935599
+error,log,,,"Zero or negative length StyleRange 4117:0",1363833935601
+error,log,,,"Zero or negative length StyleRange 4144:0",1363833935603
+error,log,,,"Zero or negative length StyleRange 4174:0",1363833935604
+error,log,,,"Zero or negative length StyleRange 4188:0",1363833935606
+error,log,,,"Zero or negative length StyleRange 4224:0",1363833935608
+error,log,,,"Zero or negative length StyleRange 4266:0",1363833935609
+error,log,,,"Zero or negative length StyleRange 4296:0",1363833935611
+error,log,,,"Zero or negative length StyleRange 4383:0",1363833935612
+error,log,,,"Zero or negative length StyleRange 4413:0",1363833935614
+error,log,,,"Zero or negative length StyleRange 4422:0",1363833935615
+error,log,,,"Zero or negative length StyleRange 4434:0",1363833935617
+error,log,,,"Zero or negative length StyleRange 4475:0",1363833935619
+error,log,,,"Zero or negative length StyleRange 4491:0",1363833935620
+error,log,,,"Zero or negative length StyleRange 4500:0",1363833935623
+error,log,,,"Zero or negative length StyleRange 4543:0",1363833935625
+error,log,,,"Zero or negative length StyleRange 4559:0",1363833935626
+error,log,,,"Zero or negative length StyleRange 4623:0",1363833935627
+error,log,,,"Zero or negative length StyleRange 2494:0",1363833935770
+error,log,,,"Zero or negative length StyleRange 2524:0",1363833935772
+error,log,,,"Zero or negative length StyleRange 2538:0",1363833935773
+error,log,,,"Zero or negative length StyleRange 2574:0",1363833935775
+error,log,,,"Zero or negative length StyleRange 2616:0",1363833935777
+error,log,,,"Zero or negative length StyleRange 2645:0",1363833935778
+error,log,,,"Zero or negative length StyleRange 2659:0",1363833935780
+error,log,,,"Zero or negative length StyleRange 2694:0",1363833935781
+error,log,,,"Zero or negative length StyleRange 2776:0",1363833935783
+error,log,,,"Zero or negative length StyleRange 2831:0",1363833935784
+error,log,,,"Zero or negative length StyleRange 2847:0",1363833935786
+error,log,,,"Zero or negative length StyleRange 2865:0",1363833935788
+error,log,,,"Zero or negative length StyleRange 2918:0",1363833935789
+error,log,,,"Zero or negative length StyleRange 2980:0",1363833935791
+error,log,,,"Zero or negative length StyleRange 3001:0",1363833935792
+error,log,,,"Zero or negative length StyleRange 3029:0",1363833935794
+error,log,,,"Zero or negative length StyleRange 3060:0",1363833935795
+error,log,,,"Zero or negative length StyleRange 3072:0",1363833935797
+error,log,,,"Zero or negative length StyleRange 3157:0",1363833935798
+error,log,,,"Zero or negative length StyleRange 3212:0",1363833935800
+error,log,,,"Zero or negative length StyleRange 3228:0",1363833935801
+error,log,,,"Zero or negative length StyleRange 3246:0",1363833935803
+error,log,,,"Zero or negative length StyleRange 3304:0",1363833935804
+error,log,,,"Zero or negative length StyleRange 3367:0",1363833935806
+error,log,,,"Zero or negative length StyleRange 3381:0",1363833935807
+error,log,,,"Zero or negative length StyleRange 3414:0",1363833935809
+error,log,,,"Zero or negative length StyleRange 3467:0",1363833935810
+error,log,,,"Zero or negative length StyleRange 3567:0",1363833935812
+error,log,,,"Zero or negative length StyleRange 3625:0",1363833935813
+error,log,,,"Zero or negative length StyleRange 3635:0",1363833935815
+error,log,,,"Zero or negative length StyleRange 3648:0",1363833935816
+error,log,,,"Zero or negative length StyleRange 3663:0",1363833935818
+error,log,,,"Zero or negative length StyleRange 3753:0",1363833935819
+error,log,,,"Zero or negative length StyleRange 3794:0",1363833935821
+error,log,,,"Zero or negative length StyleRange 3803:0",1363833935822
+error,log,,,"Zero or negative length StyleRange 3815:0",1363833935824
+error,log,,,"Zero or negative length StyleRange 3857:0",1363833935825
+error,log,,,"Zero or negative length StyleRange 3876:0",1363833935827
+error,log,,,"Zero or negative length StyleRange 3885:0",1363833935828
+error,log,,,"Zero or negative length StyleRange 3933:0",1363833935830
+error,log,,,"Zero or negative length StyleRange 3952:0",1363833935831
+error,log,,,"Zero or negative length StyleRange 4008:0",1363833935833
+error,log,,,"Zero or negative length StyleRange 4042:0",1363833935835
+error,log,,,"Zero or negative length StyleRange 4093:0",1363833935836
+error,log,,,"Zero or negative length StyleRange 4117:0",1363833935889
+error,log,,,"Zero or negative length StyleRange 4144:0",1363833935890
+error,log,,,"Zero or negative length StyleRange 4174:0",1363833935898
+error,log,,,"Zero or negative length StyleRange 4188:0",1363833935899
+error,log,,,"Zero or negative length StyleRange 4224:0",1363833935901
+error,log,,,"Zero or negative length StyleRange 4266:0",1363833935903
+error,log,,,"Zero or negative length StyleRange 4296:0",1363833935904
+error,log,,,"Zero or negative length StyleRange 4383:0",1363833935906
+error,log,,,"Zero or negative length StyleRange 4413:0",1363833935907
+error,log,,,"Zero or negative length StyleRange 4422:0",1363833935909
+error,log,,,"Zero or negative length StyleRange 4434:0",1363833935910
+error,log,,,"Zero or negative length StyleRange 4475:0",1363833935911
+error,log,,,"Zero or negative length StyleRange 4491:0",1363833935913
+error,log,,,"Zero or negative length StyleRange 4500:0",1363833935914
+error,log,,,"Zero or negative length StyleRange 4543:0",1363833935916
+error,log,,,"Zero or negative length StyleRange 4559:0",1363833935918
+error,log,,,"Zero or negative length StyleRange 4623:0",1363833935919
+error,log,,,"Zero or negative length StyleRange 2494:0",1363833935962
+error,log,,,"Zero or negative length StyleRange 2524:0",1363833935963
+error,log,,,"Zero or negative length StyleRange 2538:0",1363833935965
+error,log,,,"Zero or negative length StyleRange 2574:0",1363833935966
+error,log,,,"Zero or negative length StyleRange 2616:0",1363833935968
+error,log,,,"Zero or negative length StyleRange 2645:0",1363833935969
+error,log,,,"Zero or negative length StyleRange 2659:0",1363833935971
+error,log,,,"Zero or negative length StyleRange 2694:0",1363833935972
+error,log,,,"Zero or negative length StyleRange 2776:0",1363833935974
+error,log,,,"Zero or negative length StyleRange 2831:0",1363833935975
+error,log,,,"Zero or negative length StyleRange 2847:0",1363833935977
+error,log,,,"Zero or negative length StyleRange 2865:0",1363833935978
+error,log,,,"Zero or negative length StyleRange 2918:0",1363833935980
+error,log,,,"Zero or negative length StyleRange 2980:0",1363833935981
+error,log,,,"Zero or negative length StyleRange 3001:0",1363833935983
+error,log,,,"Zero or negative length StyleRange 3029:0",1363833935985
+error,log,,,"Zero or negative length StyleRange 3060:0",1363833935987
+error,log,,,"Zero or negative length StyleRange 3072:0",1363833935988
+error,log,,,"Zero or negative length StyleRange 3157:0",1363833935990
+error,log,,,"Zero or negative length StyleRange 3212:0",1363833935992
+error,log,,,"Zero or negative length StyleRange 3228:0",1363833935993
+error,log,,,"Zero or negative length StyleRange 3246:0",1363833935995
+error,log,,,"Zero or negative length StyleRange 3304:0",1363833935996
+error,log,,,"Zero or negative length StyleRange 3367:0",1363833935998
+error,log,,,"Zero or negative length StyleRange 3381:0",1363833935999
+error,log,,,"Zero or negative length StyleRange 3414:0",1363833936001
+error,log,,,"Zero or negative length StyleRange 3467:0",1363833936002
+error,log,,,"Zero or negative length StyleRange 3567:0",1363833936004
+error,log,,,"Zero or negative length StyleRange 3625:0",1363833936005
+error,log,,,"Zero or negative length StyleRange 3635:0",1363833936007
+error,log,,,"Zero or negative length StyleRange 3648:0",1363833936008
+error,log,,,"Zero or negative length StyleRange 3663:0",1363833936010
+error,log,,,"Zero or negative length StyleRange 3753:0",1363833936011
+error,log,,,"Zero or negative length StyleRange 3794:0",1363833936013
+error,log,,,"Zero or negative length StyleRange 3803:0",1363833936014
+error,log,,,"Zero or negative length StyleRange 3815:0",1363833936016
+error,log,,,"Zero or negative length StyleRange 3857:0",1363833936018
+error,log,,,"Zero or negative length StyleRange 3876:0",1363833936020
+error,log,,,"Zero or negative length StyleRange 3885:0",1363833936021
+error,log,,,"Zero or negative length StyleRange 3933:0",1363833936023
+error,log,,,"Zero or negative length StyleRange 3952:0",1363833936024
+error,log,,,"Zero or negative length StyleRange 4008:0",1363833936026
+error,log,,,"Zero or negative length StyleRange 4042:0",1363833936027
+error,log,,,"Zero or negative length StyleRange 4093:0",1363833936029
+error,log,,,"Zero or negative length StyleRange 4117:0",1363833936030
+error,log,,,"Zero or negative length StyleRange 4144:0",1363833936032
+error,log,,,"Zero or negative length StyleRange 4174:0",1363833936033
+error,log,,,"Zero or negative length StyleRange 4188:0",1363833936035
+error,log,,,"Zero or negative length StyleRange 4224:0",1363833936037
+error,log,,,"Zero or negative length StyleRange 4266:0",1363833936038
+error,log,,,"Zero or negative length StyleRange 4296:0",1363833936040
+error,log,,,"Zero or negative length StyleRange 4383:0",1363833936042
+error,log,,,"Zero or negative length StyleRange 4413:0",1363833936043

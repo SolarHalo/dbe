@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-03-20 13:56:27
+<?php /* Smarty version Smarty-3.1.13, created on 2013-03-25 15:12:18
          compiled from "D:\workspace4php\dbe-a\dbe\templates\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:182205141dc31d81e22-52898978%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '02754a88000010bf475b703d91dcd49b3a2383a8' => 
     array (
       0 => 'D:\\workspace4php\\dbe-a\\dbe\\templates\\header.tpl',
-      1 => 1363758980,
+      1 => 1364195515,
       2 => 'file',
     ),
   ),
@@ -41,12 +41,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             </ul>
                         </div>
                         <div class="slidingList" id="slidingList1">
-                            <img src="images/jianpimg.jpg" border="0" usemap="#Mapjieshao" style="padding-left:5px;" />
-                            <map name="Mapjieshao" id="Mapjieshao">
-                              <area shape="rect" coords="16,217,107,262" href="dbemessage.php?type=company" title="公司介绍" />
-                              <area shape="rect" coords="134,215,288,262" href="dbemessage.php?type=design" title="设计、研发、生产" />
-                              <area shape="rect" coords="310,214,424,263" href="dbemessage.php?type=operation" title="全球合作网络"/>
-                            </map>
+                            <div class="about-text">
+                            	<h2>罗迪精密股份有限公司<br />
+                                		<font>Digital Best Engineering Co.,LTD</font>
+                                </h2>
+                                <P>
+                                	罗迪精密股份有限公司创立于2012年，主要从事各类大型喷墨写真打印机的研发、生产及销售。主要产品含盖所有数码印刷相关产业。
+                                </P>
+                                 <P>
+                                	本公司有用优秀的经营和研发团队，秉承着“品质第一、亲切至诚、和而不同、匠心独创”的经营理念，为产业的数码进程做出贡献。
+                                </P>
+                                <a href="dbemessage.php?type=company" class="about-text-sub">公司介绍</a>
+                                <a href="dbemessage.php?type=design" class="about-text-sub">设计、研发、生产</a>
+                                <a href="dbemessage.php?type=operation" class="about-text-sub">全球合作网络</a>
+                            </div>
                       </div>
                         <div class="slidingList_none" id="slidingList2">
                             <span class="dis-y" style="border-right:1px dashed #ccc; padding-right:50px;">

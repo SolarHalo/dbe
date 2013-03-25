@@ -45,7 +45,6 @@
 <!-- -->
 <!--</head>-->
 {{include file='header1.tpl'}}
-
 <body>
 	<div id="conter">
     	{{include file='statusbar.tpl'}}
@@ -62,6 +61,11 @@
     <div id="newpage">
         <div class="newlist">
             <span class="newlist-title">最新消息</span>
+<!--            <ul>-->
+<!--                <li><a href="#"><font size="3">&bull;</font>&nbsp;专为亚洲市场推出的新型LED-UV平板打印机<br /><span>2013-2-22</span></a></li>-->
+<!--                <li><a href="#"><font size="3">&bull;</font>&nbsp;专为亚洲市场推出的新型LED-UV平板打印机<br /><span>2013-2-22</span></a></li>-->
+<!--                <li><a href="#"><font size="3">&bull;</font>&nbsp;专为亚洲市场推出的新型LED-UV平板打印机<br /><span>2013-2-22</span></a></li>-->
+<!--            </ul> -->
             <ul>
             {{foreach $allnews as $new}}
             <li><a href="news.php?news_id={{$new->id}}"><font size="3">&bull;</font>&nbsp;{{$new->news_title}}<br /><span>{{$new->news_createtime}}</span></a></li>
@@ -71,9 +75,7 @@
         
          <div id="content_1" class="content">
             <h1>{{$news->news_title}}</h1>
-            <p>
-              {{$news->news_body}}            
-             </p>
+            <p>{{$news->news_body}} </p>
         </div> 
 	<!-- Google CDN jQuery with fallback to local -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -117,8 +119,7 @@
 		})(jQuery);
 	</script>
     </div>
-<!--    <div class="fotter2"> <a href="#" class="back">返回</a> <a href="#" class="link">友情连接</a> </div>-->
-	 {{include file='footer.tpl'}}
+    <div class="fotter2"> <a href="index.php" class="back">返回</a> <a href="#" class="link">友情连接</a> </div>
   </div>
 </div>
 </body>

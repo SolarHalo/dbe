@@ -44,6 +44,7 @@ define('BASE_HOME', "D:/workspace4php/dbe-a/dbe/");
 //获得http路径的地址
 define('DOMAIN_HOME', "http://localhost/");
 
+
 //define('DOMAIN_HOME', "http://hmu057017.chinaw3.com/");
 
 ?>

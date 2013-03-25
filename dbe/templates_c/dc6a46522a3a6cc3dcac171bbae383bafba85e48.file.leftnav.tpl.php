@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-03-20 21:12:00
+<?php /* Smarty version Smarty-3.1.13, created on 2013-03-25 09:08:31
          compiled from "D:\workspace4php\dbe-a\dbe\templates\admin\leftnav.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:97605141dc630b8d48-48272954%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'dc6a46522a3a6cc3dcac171bbae383bafba85e48' => 
     array (
       0 => 'D:\\workspace4php\\dbe-a\\dbe\\templates\\admin\\leftnav.tpl',
-      1 => 1363785095,
+      1 => 1364140265,
       2 => 'file',
     ),
   ),
@@ -55,6 +55,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			  <li <?php if ($_smarty_tpl->tpl_vars['currentnav']->value=='admins'){?>class="active"<?php }?>>
 			    <a href="usermanage.php?type=admin" ><span style="text-shadow: 0px 1px 0px rgba(0,0,0, .35);">管理员</span></a>
 			  </li>
+			  
+<!--			  <li class="nav-header">-->
+<!--			  <i class="icon-picture icon-white"></i>-->
+<!--			    <span style="text-shadow: 0px 1px 0px rgba(0,0,0, .35);font-size:large;">图片管理</span>-->
+<!--			  </li>-->
+<!--			  <li <?php if ($_smarty_tpl->tpl_vars['currentnav']->value=='picmanage'){?>class="active"<?php }?>>-->
+<!--			    <a href="fileupload.php" ><span style="text-shadow: 0px 1px 0px rgba(0,0,0, .35);">上传图片</span></a>-->
+<!--			  </li>-->
+<!--			   <li <?php if ($_smarty_tpl->tpl_vars['currentnav']->value=='piclist'){?>class="active"<?php }?>>-->
+<!--			    <a href="piclists.php" ><span style="text-shadow: 0px 1px 0px rgba(0,0,0, .35);">图片列表</span></a>-->
+<!--			  </li>-->
 			</ul>
 
 		

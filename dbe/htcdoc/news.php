@@ -37,6 +37,7 @@ if($news_id){
 $smarty->assign("allnews",$allnews);
 
 $smarty->display("news.tpl");
+//$smarty->display("a-010.tpl");
 ob_end_flush();
 
 ?>

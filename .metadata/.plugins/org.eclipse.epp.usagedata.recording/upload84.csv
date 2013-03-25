@@ -1,0 +1,301 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.2.v201009010353,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1364174280800
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1364174288419
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.2.v201009010353,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1364174291500
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1364174398500
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1364174401527
+opened,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364174404369
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364174404421
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1364174406813
+opened,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364174407113
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364174407160
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174415134
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174415855
+opened,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364174426129
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364174426171
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1364174429535
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1364174432654
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364174434011
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1364174438342
+opened,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364174438599
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364174438637
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174440003
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.findReplace",1364174440046
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1364174440203
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174447648
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1364174454756
+started,bundle,org.eclipse.dltk.validators.externalchecker,1.0.0.v20090803-1754,"org.eclipse.dltk.validators.externalchecker",1364174454856
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174456845
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174456937
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1364174458470
+opened,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364174477897
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364174477951
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1364174496686
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.2.v201009010353,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1364174503479
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174516071
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174530920
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174531526
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174534194
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174535957
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174545288
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1364174552981
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174557446
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174558466
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364174581560
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.2.v201009010353,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1364174617611
+closed,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364174617612
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174620113
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174693367
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1364174700027
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174701232
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174780164
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174787483
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174788582
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174789472
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174799034
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1364174817656
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1364174821009
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1364174823843
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1364174826338
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1364174828042
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174831045
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174876110
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1364174880956
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174884834
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174920447
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.2.v201009010353,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1364174923493
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364174927469
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175017456
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175021429
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175065534
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175074922
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175133228
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175185993
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175244561
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175268860
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175270535
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175271400
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175359108
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175364720
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175378341
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175379483
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175442838
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175453542
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175455530
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175456795
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175551462
+opened,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ProblemView",1364175554101
+opened,view,org.eclipse.dltk.ui,2.0.0.v20100909-1720,"org.eclipse.dltk.ui.TypeHierarchy",1364175554705
+opened,view,org.eclipse.ui.views,3.5.0.I20100527-0800,"org.eclipse.ui.views.ContentOutline",1364175555198
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1364175556423
+started,bundle,org.eclipse.wst.common.emf,1.2.1.v201008260500,"org.eclipse.wst.common.emf",1364175560712
+started,bundle,org.eclipse.jem.util,2.1.2.v201008120100,"org.eclipse.jem.util",1364175560732
+started,bundle,org.eclipse.wst.common.emfworkbench.integration,1.2.2.v201008242000,"org.eclipse.wst.common.emfworkbench.integration",1364175560739
+started,bundle,org.eclipse.wst.common.core,1.2.0.v200908252030,"org.eclipse.wst.common.core",1364175560842
+started,bundle,org.eclipse.wst.common.modulecore,1.2.3.v201008242000,"org.eclipse.wst.common.modulecore",1364175560846
+opened,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364175561456
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364175561763
+executed,command,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui.toggle.comment",1364175572309
+error,log,,,"Zero or negative length StyleRange 768:0",1364175575863
+error,log,,,"Zero or negative length StyleRange 789:0",1364175575865
+error,log,,,"Zero or negative length StyleRange 768:0",1364175575876
+error,log,,,"Zero or negative length StyleRange 789:0",1364175575877
+error,log,,,"Zero or negative length StyleRange 769:0",1364175575992
+error,log,,,"Zero or negative length StyleRange 790:0",1364175575994
+error,log,,,"Zero or negative length StyleRange 770:0",1364175576175
+error,log,,,"Zero or negative length StyleRange 791:0",1364175576176
+error,log,,,"Zero or negative length StyleRange 824:0",1364175576178
+error,log,,,"Zero or negative length StyleRange 771:0",1364175576287
+error,log,,,"Zero or negative length StyleRange 792:0",1364175576304
+error,log,,,"Zero or negative length StyleRange 825:0",1364175576306
+error,log,,,"Zero or negative length StyleRange 834:0",1364175576307
+error,log,,,"Zero or negative length StyleRange 771:0",1364175576855
+error,log,,,"Zero or negative length StyleRange 792:0",1364175576856
+error,log,,,"Zero or negative length StyleRange 772:0",1364175577251
+error,log,,,"Zero or negative length StyleRange 793:0",1364175577253
+error,log,,,"Zero or negative length StyleRange 826:0",1364175577255
+error,log,,,"Zero or negative length StyleRange 835:0",1364175577256
+error,log,,,"Zero or negative length StyleRange 773:0",1364175577449
+error,log,,,"Zero or negative length StyleRange 794:0",1364175577450
+error,log,,,"Zero or negative length StyleRange 827:0",1364175577452
+error,log,,,"Zero or negative length StyleRange 836:0",1364175577453
+error,log,,,"Zero or negative length StyleRange 1904:0",1364175577455
+error,log,,,"Zero or negative length StyleRange 1915:0",1364175577456
+error,log,,,"Zero or negative length StyleRange 2058:0",1364175577458
+error,log,,,"Zero or negative length StyleRange 773:0",1364175577467
+error,log,,,"Zero or negative length StyleRange 794:0",1364175577468
+error,log,,,"Zero or negative length StyleRange 827:0",1364175577469
+error,log,,,"Zero or negative length StyleRange 836:0",1364175577471
+error,log,,,"Zero or negative length StyleRange 1904:0",1364175577472
+error,log,,,"Zero or negative length StyleRange 1915:0",1364175577474
+error,log,,,"Zero or negative length StyleRange 2058:0",1364175577475
+error,log,,,"Zero or negative length StyleRange 773:0",1364175577482
+error,log,,,"Zero or negative length StyleRange 794:0",1364175577483
+error,log,,,"Zero or negative length StyleRange 827:0",1364175577485
+error,log,,,"Zero or negative length StyleRange 836:0",1364175577487
+error,log,,,"Zero or negative length StyleRange 1904:0",1364175577489
+error,log,,,"Zero or negative length StyleRange 1915:0",1364175577492
+error,log,,,"Zero or negative length StyleRange 2058:0",1364175577493
+error,log,,,"Zero or negative length StyleRange 789:0",1364175583051
+error,log,,,"Zero or negative length StyleRange 810:0",1364175583053
+error,log,,,"Zero or negative length StyleRange 852:0",1364175583054
+error,log,,,"Zero or negative length StyleRange 789:0",1364175583075
+error,log,,,"Zero or negative length StyleRange 810:0",1364175583077
+error,log,,,"Zero or negative length StyleRange 852:0",1364175583078
+error,log,,,"Zero or negative length StyleRange 789:0",1364175583091
+error,log,,,"Zero or negative length StyleRange 810:0",1364175583092
+error,log,,,"Zero or negative length StyleRange 852:0",1364175583094
+error,log,,,"Zero or negative length StyleRange 789:0",1364175583108
+error,log,,,"Zero or negative length StyleRange 810:0",1364175583109
+error,log,,,"Zero or negative length StyleRange 852:0",1364175583110
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1364175590289
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175597209
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1364175598271
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175599079
+executed,command,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring.commands.renameResource",1364175599090
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364175601300
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1364175602185
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1364175602749
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175608371
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175610638
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175611666
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175665340
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364175667055
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.2.v201009010353,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1364175668456
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175704664
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175705503
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175705920
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175766547
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175772192
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364175957633
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1364175974834
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1364175987074
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1364175989772
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1364175991144
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1364176006054
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1364176007223
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1364176007686
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.moveLineUp",1364176013641
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.moveLineUp",1364176013956
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1364176014780
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176017243
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176038324
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176039466
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176084304
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176086028
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176092311
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176093518
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176155471
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176169739
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176172403
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176173168
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176174154
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1364176194460
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364176197196
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364176203623
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364176210067
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.navigate.backwardHistory",1364176210070
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176217481
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176238454
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176248588
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176473929
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176475524
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176498596
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.2.v201009010353,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1364176502956
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176530327
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176532966
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176540901
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176635166
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176652611
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176654655
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176655708
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176727915
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1364176743264
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1364176751956
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1364176755006
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.moveLineUp",1364176761606
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.moveLineUp",1364176762417
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1364176771537
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1364176772578
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1364176783083
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1364176785390
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1364176785858
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1364176791286
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1364176791612
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176795241
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176840323
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1364176855950
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176875293
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176921663
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1364176934665
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1364176937517
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1364176937987
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176939035
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176973732
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364176979473
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177015604
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1364177020895
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1364177028673
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1364177029229
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177030518
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177111794
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1364177122251
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364177125505
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.2.v201009010353,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1364177148658
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1364177172134
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364177172334
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177186544
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177212022
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177225221
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.findReplace",1364177225265
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177234916
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.2.v201009010353,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1364177235093
+activated,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ResourceNavigator",1364177235790
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.2.v201009010353,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1364177240854
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177242746
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177242847
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1364177266584
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177266920
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.findReplace",1364177266963
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1364177267126
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177279271
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177280434
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177287031
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364177291811
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1364177305239
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177307771
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177308577
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177310156
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177311145
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177312080
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177350617
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.2.v201009010353,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1364177356227
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1364177368767
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1364177369364
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177388476
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177428265
+activated,editor,org.eclipse.php.ui,2.2.1.v20100822-1200,"org.eclipse.php.editor",1364177438783
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177454894
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177533451
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177534217
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177584431
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.2.v201009010353,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1364177591465
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1364177700482
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1364177707232
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177709443
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177730268
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1364177739401
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177740593
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177795128
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1364177810681
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1364177818879
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1364177822679
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1364177848388
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1364177848899
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1364177854807
+executed,command,org.eclipse.wst.jsdt.ui,1.1.2.v201009010353,"org.eclipse.wst.jsdt.ui.edit.text.java.toggle.comment",1364177861235
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1364177862005
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177866109
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177907965
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177918963
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1364177960233

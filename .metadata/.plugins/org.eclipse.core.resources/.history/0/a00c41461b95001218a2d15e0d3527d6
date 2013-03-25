@@ -1,0 +1,54 @@
+<div class="head" id="head">
+        	<a href="#"><img src="images/logo.jpg"  class="fl"/></a>
+            <span class="kslj">
+            	<a href="index.php" class="xiaogu" onmouseover="switchmodTag('mod','slidingList','1');this.blur();">快速连接</a>
+            </span>
+            <span class="lianxwm">
+            	<a href="#" class="xiaogu" onmouseover="switchmodTag('mod','slidingList','3');this.blur();">联系我们</a>
+            </span>
+            <div id="wrapper">
+                <div id="lianxiwm"> 
+                	<div id="slidingBlock"> 
+                        <div>
+                            <ul id="abc">
+                                <h4 class="menuOn" id="mod1" onmouseover="switchmodTag('mod','slidingList','1');this.blur();">
+                                <a href="#" class="guanynav">关于我们</a></h4>
+                                <h4 class="menuNo" id="mod2" onmouseover="switchmodTag('mod','slidingList','2');this.blur();">
+                                <a href="#" class="chnapnav">我们的产品</a></h4> 
+                                <h4 class="menuNo" id="mod3" onmouseover="switchmodTag('mod','slidingList','3');this.blur();">
+                                <a href="#" class="lanxinav">联系我们</a></h4> 
+                            </ul>
+                        </div>
+                        <div class="slidingList" id="slidingList1">
+                            <div class="about-text">
+                            	<h2>罗迪精密股份有限公司<br />
+                                		<font>Digital Best Engineering Co.,LTD</font>
+                                </h2>
+                                <P>
+                                	罗迪精密股份有限公司创立于2012年，主要从事各类大型喷墨写真打印机的研发、生产及销售。主要产品含盖所有数码印刷相关产业。
+                                </P>
+                                 <P>
+                                	本公司有用优秀的经营和研发团队，秉承着“品质第一、亲切至诚、和而不同、匠心独创”的经营理念，为产业的数码进程做出贡献。
+                                </P>
+                                <a href="dbemessage.php?type=company" class="about-text-sub">公司介绍</a>
+                                <a href="dbemessage.php?type=design" class="about-text-sub">设计、研发、生产</a>
+                                <a href="dbemessage.php?type=operation" class="about-text-sub">全球合作网络</a>
+                            </div>
+                      </div>
+                        <div class="slidingList_none" id="slidingList2">
+                            <span class="dis-y" style="border-right:1px dashed #ccc; padding-right:50px;">
+                                <a href="dbemessage.php?type=df-712u" class="chanp1 nav-li"><img src="images/home2.png" /></a> 
+                                <img src="images/pp1.png" style=" right:45px;position: absolute; bottom:30px;width: 120px;" /> 
+                            </span>  
+                            <span class="dis-y">
+                                <a href="dbemessage.php?type=dr-640r" class="chanp2 nav-li"><img src="images/home3.png" /></a>
+                                <img src="images/pp2.png" style=" left:-43px;position: absolute; bottom:38px;width: 120px;" /> 
+                            </span> 
+                        </div> 
+                        <div class="slidingList_none" id="slidingList3">
+                          <img src="images/mapimg.jpg" style="padding-left:20px;" />
+                        </div> 
+                    </div>
+            	</div> 
+        	</div>
+        </div>

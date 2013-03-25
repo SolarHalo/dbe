@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-03-20 14:14:19
+<?php /* Smarty version Smarty-3.1.13, created on 2013-03-25 14:07:20
          compiled from "D:\workspace4php\dbe-a\dbe\templates\dr-640r.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:246395147f834832e45-57704195%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9cab542ab62790996261f629ca7045c66d0750b4' => 
     array (
       0 => 'D:\\workspace4php\\dbe-a\\dbe\\templates\\dr-640r.tpl',
-      1 => 1363759961,
+      1 => 1364191634,
       2 => 'file',
     ),
   ),
@@ -66,7 +66,32 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <!--</head>-->
 <?php echo $_smarty_tpl->getSubTemplate ('header1.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
-
+<script type="text/javascript">
+$(window).resize(function() {
+	   if($(window).width()<1180){
+		$("#conter") .css ({"margin-left":"0","left":"0"});
+	}else{
+	$("#conter") .css ({"margin-left":"-590px","left":"50%"}); 
+	}
+	 if($(window).height()<700){
+		$("#conter") .css ({"margin-top":"0","top":"0"});
+	}else{
+	$("#conter") .css ({"margin-top":"-361px","top":"50%"}); 
+	}
+	}); 
+	 $(function(){
+	          $('#wrapper').hide();
+	          $('.xiaogu').mouseenter(function(){
+	          	
+	          	 $('#wrapper').slideDown("slow");
+	          	  
+	           });
+	          $('#head').mouseleave(function(){
+	          	  $('#wrapper').slideUp();
+	          	  
+	           });
+	  	});
+</script>
 <body>
 	<div id="conter">
 		<?php echo $_smarty_tpl->getSubTemplate ('statusbar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
@@ -100,7 +125,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 </div>
                 <div class="chanpjies-bot">
                 	<img src="images/biao1.jpg" class="fl" />
-                    <img src="images/photo02.png" style="position: absolute; float:left; bottom:36px; right:66px;" />
+                    <img src="images/photo02.png" style="position: absolute; float:left; bottom:25px; right:66px;" />
                 </div>
            </div>  
         </div>

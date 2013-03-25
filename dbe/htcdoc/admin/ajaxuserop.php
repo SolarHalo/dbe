@@ -84,13 +84,23 @@ if($method == 'addadmin'){
 		$registedUser = $userdb->getUserByUsername($user['user_name']);
 		$_SESSION['user'] = $registedUser;
 	}
-	echo 'registerUser：'.$registedUser->user_name.'-----'.$_SESSION['user']->user_name;
-//	if($result!=-1){
-//		echo "success";
-//	}else{
-//		echo "error";
-//	}
+//	echo 'registerUser：'.$registedUser->user_name.'-----'.$_SESSION['user']->user_name;
+	echo $result;
 	exit(0);
+}elseif ($method=='getUserById'){
+	$userid = $_GET['id'];
+	if(!$userid){
+		$user = null;
+	}else{
+		$userdb = new DbeUser($dbutil);
+		$user = $userdb->getUserByUserId($userid);
+	}
+	if($user){
+		echo json_encode($user);
+	}else {
+		echo "error";
+	}
+	
 }
 
 

@@ -102,5 +102,14 @@ class DbeUser{
 		}
 		return false;
 	}
+	
+/**
+	 * 根据用户名获取用户
+	 * @param unknown_type $username
+	 */
+	function getUserByUserId($id){
+		$user = $this->dbutil->get_row("select * from dbe_user where id='".$id."'");
+		return $user;
+	}
 }
 ?>

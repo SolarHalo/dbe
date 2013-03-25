@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;test/css/style.css&apos; to &apos;accordion-style.css&apos;" description="Rename resource &apos;style.css&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="css/style.css" name="accordion-style.css" stamp="1363782736116" updateReferences="true"/>
+</session>

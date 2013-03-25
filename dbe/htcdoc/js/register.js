@@ -3,6 +3,8 @@
  */
 var checkR = {};
 
+var errorValid = 0;
+
 $(document).ready(function(){
 	
 	$("#user_name").blur(function(){
@@ -82,38 +84,23 @@ $(document).ready(function(){
 		validateTwoPassword();
 	});
 	
-	$("#checkicon").blur(function(){
-		var code = $(this).val();
-		if(code.length == 0){
-			return;
-		}
-		$.ajax({
-			'url':'ajaxuseropt.php',
-			'data': {'method': 'checkcode', 'code': code},
-			'success': function(data){
-				if(data == "yes"){
-					checkR['code'] = true;
-					okJoin();
-					$("#codeIc").removeClass("tisioc");
-					$("#codeIc").html("验证码正确！");
-				}else{
-					$("#codeIc").addClass("tisioc");
-					$("#codeIc").html("验证码不正确！");
-					if(!$("#registerBt").hasClass("login-bg2")){
-						$("#registerBt").addClass("login-bg2")
-					}
-					$("#registerBt").attr("disabled", "disabled");
-				}
-			}
-		})
-	});
 	
 	/**
 	 * 表单提交
 	 */
 	$("#registerBt").click(function(){
+//		var errormsg = $("#wrongMsg").html();
+//		if(errormsg.length>0){
+//			$("#wrongMsg").html("验证失败，请重新填写..");
+//			return;
+//		}
+//		if(beforeregister()==false){
+//			return ;
+//		}
+		$("#wrongMsg").html("正在注册..");
 		var rs = validateForm();
 		if(rs==false){
+			$("#wrongMsg").html("验证失败，请重新填写..");
 			return;
 		}
 		var user_name = $("#user_name").val();
@@ -126,46 +113,35 @@ $(document).ready(function(){
 		var user_purchasing = getSelectedRadio();
 		$("#wrongMsg").html("正在注册..");
 		$.ajax({
-			'url': "/dbe/htcdoc/admin/ajaxuserop.php",
+			'url': "ajaxuserop.php",
 			'data': {'method': 'register','user_name':user_name, 
 				'user_email': user_email, 'user_passwd': user_passwd,
 				'user_company':user_company,'user_industy':user_industy,
 				'user_phone':user_phone,'user_fullname':user_fullname,
 				'user_purchasing':user_purchasing},
+			'async':false,
 			'success': function(data){
 				if(data != -1){
 					$("#wrongMsg").html("您已注册成功！");
-					window.location.href="/dbe/htcdoc/index.php";
+					window.location.href="index.php";
 				}else {
 					$("#wrongMsg").html("注册失败，请重试！");
 				}
 			},
-			'error':function(){
-				alert("ajax for register fail");
+			'error':function(XMLHttpRequest, textStatus, errorThrown){
+				alert("ajax for checkusername fail"+"--status:"+XMLHttpRequest.status+"--readyState"+XMLHttpRequest.readyState+"--textStatus"+textStatus);
+				if(XMLHttpRequest.status == 0 || XMLHttpRequest.status == 200){
+					$("#wrongMsg").html("您已注册成功！");
+					window.location.href="index.php";
+				}else{
+					alert("ajax for register fail"+"--status:"+XMLHttpRequest.status+"---statusText:"+XMLHttpRequest.statusText+"--readyState"+XMLHttpRequest.readyState+"--textStatus"+textStatus);
+					
+				}
 			}
 		});
 	});
 	
 });
-
-function okJoin(){
-	var r = true;
-	var i = 0;
-	for(var k in checkR){
-		if(k){
-			if(!checkR[k]){
-				k = false;
-				break;
-			}
-		}
-		i++;
-	}
-	if(i==5 && r){
-		$("#registerBt").removeClass("login-bg2");
-		$("#registerBt").addClass("login-bg1");
-		$("#registerBt").removeAttr("disabled");
-	}
-}
 
 /**
  * 获取选中的单选框
@@ -205,30 +181,38 @@ function validateForm(){
 /**
  * 验证用户名
  */
+//var userValidateFlag = true;
 function validateUsername(){
+	var userValidateFlag = true;
 	var username = $("#user_name").val();
 	if(username.length<3){
 		$("#wrongMsg").html("用户名长度不能少于3位！");
-		return false;
+		userValidateFlag = false;
+//		return false;
 	}else{
 		$.ajax({
-			'url':"/dbe/htcdoc/admin/ajaxuserop.php",
+			'url':"ajaxuserop.php",
 			'data':{'method':'checkusername','username':username}, 
+			'async':false,
 			'success':function(data){
 				if(data.trim()=='yes'){
 					$("#wrongMsg").html("用户名已有人使用！");
-					return false;
+					userValidateFlag = false;
+//					return false;
 				}else{
 					$("#wrongMsg").html("");
-					return true;
+					userValidateFlag = true;
+//					return true;
 				}
 			},
 			'error':function(XMLHttpRequest, textStatus, errorThrown){
-				alert("ajax for checkusername fail");
-				return false;
+				alert("ajax for checkusername fail"+"--status:"+XMLHttpRequest.status+"--readyState"+XMLHttpRequest.readyState+"--textStatus"+textStatus);
+				userValidateFlag = false;
+//				return false;
 			}
 		});
 	}
+	return userValidateFlag;
 }
 
 /**
@@ -236,46 +220,56 @@ function validateUsername(){
  * @returns {Boolean}
  */
 function validateEmail(){
+	var emailValidFlag = true;
 	var email = $("#user_email").val();
 	if(email.length<1){
-		return true;
-	}
-	var emailPat=/^(.+)@(.+)$/;
-	if(!emailPat.test(email)){
-		$("#wrongMsg").html("请输入正确的邮箱格式！");
-		return false;
+		emailValidFlag = true;
+//		return true;
 	}else{
-		$.ajax({
-			'url': "/dbe/htcdoc/admin/ajaxuserop.php",
-			'data': {'method': 'checkemail', 'email': email},
-			'success': function(data){
-				if(data.trim()=='yes'){
-					$("#wrongMsg").html("邮箱已有人使用！");
-					$("#registerBt").attr("disabled", "disabled");
-					return false;
-				}else{
-					$("#wrongMsg").html("");
-					return true;
+		var emailPat=/^(.+)@(.+)$/;
+		if(!emailPat.test(email)){
+			$("#wrongMsg").html("请输入正确的邮箱格式！");
+			emailValidFlag = false;
+//		return false;
+		}else{
+			$.ajax({
+				'url': "ajaxuserop.php",
+				'data': {'method': 'checkemail', 'email': email},
+				'async':false,
+				'success': function(data){
+					if(data.trim()=='yes'){
+						$("#wrongMsg").html("邮箱已有人使用！");
+						emailValidFlag = false;
+//					return false;
+					}else{
+						$("#wrongMsg").html("");
+						emailValidFlag = true;
+//					return true;
+					}
+				},
+				'error':function(XMLHttpRequest, textStatus, errorThrown){
+					alert("ajax for checkemail fail"+"--status:"+XMLHttpRequest.status+"--readyState"+XMLHttpRequest.readyState+"--textStatus"+textStatus);
+					emailValidFlag = false;
 				}
-			},
-			'error':function(XMLHttpRequest, textStatus, errorThrown){
-				alert("ajax for checkemail fail");
-				return false;
-			}
-		});
+			});
+		}
 	}
+	return emailValidFlag;
 }
 
 /**
  * 验证密码
  */
+var pwdValidFlag = true;
 function validatePassword(){
 	var pass = $("#user_passwd").val();
 	if(pass.length < 6){
 		$("#wrongMsg").html("密码长度不能少于6位！");
+		pwdValidFlag = false;
 		return false;
 	}else{
 		$("#wrongMsg").html("");
+		pwdValidFlag = true;
 		return true;
 	}
 }
@@ -283,17 +277,45 @@ function validatePassword(){
 /**
  * 验证两次密码输入是否一致
  */
+var pwdValidFlag2 = true;
 function validateTwoPassword(){
 	var pass1 = $("#user_passwd").val();
 	var pass2 = $("#user_passwd2").val();
 	if(pass1 != pass2){
 		$("#wrongMsg").html("与第一次输入的密码不同！");
+		pwdValidFlag2 = false;
 		return false;
 	}else{
 		$("#wrongMsg").html("");
+		pwdValidFlag2 = true;
 		return true;
 	}
 }
+
+/**
+ * 提交表单前先校验
+ * @returns
+ */
+function beforeregister(){
+	var result = (userValidateFlag&&emailValidFlag&&pwdValidFlag&&pwdValidFlag2);
+	if(userValidateFlag==false){
+		alert("用户名校验不通过");
+	}
+	if(emailValidFlag==false){
+		alert("邮箱校验不通过");
+	}
+	if(pwdValidFlag==false){
+		alert("密码校验不通过");
+	}
+	if(pwdValidFlag2==false){
+		alert("两次密码输入不一致");
+	}
+	return result;
+}
+
+//function onsubmit(){
+//	alert("jkjjj");
+//}
 
 
 

@@ -29,6 +29,16 @@ if($method=="updatenews"){
 	$result = $dbenews->getNewsById($news_id);
 	echo $result = json_encode($result);
 	exit(0);
+}elseif ($method=="deletepics"){
+	$picpath = $_POST['picpath'];
+	$result = deleteFile($picpath);
+	if($result==true){
+		echo "success";
+	}else {
+		echo "error";
+	}
+	
+	
 }
 
 

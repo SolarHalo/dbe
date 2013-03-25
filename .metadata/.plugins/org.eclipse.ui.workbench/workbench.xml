@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="21" version="2.0">
+<workbench progressCount="29" version="2.0">
 <workbenchAdvisor/>
-<window height="728" maximized="true" width="1024" x="125" y="0">
-<fastViewData fastViewLocation="1024"/>
+<window height="756" maximized="true" width="1256" x="28" y="108">
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="org.eclipse.ui.views.ResourceNavigator"/>
+</fastViewData>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
@@ -19,34 +21,117 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.css.core.csssource.source" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.html.core.htmlsource.source" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.php.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1363270610055" focus="true" label="Workspace - PHP">
+<page aggregateWorkingSetId="Aggregate for window 1363362180910" focus="true" label="Workspace - PHP">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.php.editor" name="config.php" partName="config.php" path="D:/workspace4php/dbe-a/dbe/configs/config.php" title="config.php" tooltip="dbe/configs/config.php" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dbe/configs/config.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="700" selectionTopPixel="153"/>
+<editor id="org.eclipse.php.editor" name="demo.php" partName="demo.php" path="D:/workspace4php/dbe-a/test/upload/demo.php" title="demo.php" tooltip="test/upload/demo.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/upload/demo.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="925" selectionTopPixel="299"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="demo.php" partName="demo.php" path="D:/workspace4php/dbe-a/test/kindeditor/php/demo.php" title="demo.php" tooltip="test/kindeditor/php/demo.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/kindeditor/php/demo.php"/>
+<editorState selectionHorizontalPixel="14" selectionLength="7" selectionOffset="1291" selectionTopPixel="503"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="upload_json.php" partName="upload_json.php" path="D:/workspace4php/dbe-a/test/kindeditor/php/upload_json.php" title="upload_json.php" tooltip="test/kindeditor/php/upload_json.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/kindeditor/php/upload_json.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="254" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="JSON.php" partName="JSON.php" path="D:/workspace4php/dbe-a/test/kindeditor/php/JSON.php" title="JSON.php" tooltip="test/kindeditor/php/JSON.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/kindeditor/php/JSON.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="5430" selectionTopPixel="2125"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="header.tpl" partName="header.tpl" path="D:/workspace4php/dbe-a/dbe/templates/admin/header.tpl" title="header.tpl" tooltip="dbe/templates/admin/header.tpl" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dbe/templates/admin/header.tpl"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1111" selectionTopPixel="102"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="displaynews.tpl" partName="displaynews.tpl" path="D:/workspace4php/dbe-a/dbe/templates/admin/displaynews.tpl" title="displaynews.tpl" tooltip="dbe/templates/admin/displaynews.tpl" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dbe/templates/admin/displaynews.tpl"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2" selectionTopPixel="357"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="updatenews.tpl" partName="updatenews.tpl" path="D:/workspace4php/dbe-a/dbe/templates/admin/updatenews.tpl" title="updatenews.tpl" tooltip="dbe/templates/admin/updatenews.tpl" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dbe/templates/admin/updatenews.tpl"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="12" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="kindeditor.js" partName="kindeditor.js" path="D:/workspace4php/dbe-a/dbe/htcdoc/js/kindeditor/kindeditor.js" title="kindeditor.js" tooltip="dbe/htcdoc/js/kindeditor/kindeditor.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dbe/htcdoc/js/kindeditor/kindeditor.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5690" selectionTopPixel="3203"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="demo.php" partName="demo.php" path="D:/workspace4php/dbe-a/dbe/htcdoc/js/kindeditor/php/demo.php" title="demo.php" tooltip="dbe/htcdoc/js/kindeditor/php/demo.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dbe/htcdoc/js/kindeditor/php/demo.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="7" selectionOffset="666" selectionTopPixel="265"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.php.editor" name="leftnav.tpl" partName="leftnav.tpl" path="D:/workspace4php/dbe-a/dbe/templates/admin/leftnav.tpl" title="leftnav.tpl" tooltip="dbe/templates/admin/leftnav.tpl" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dbe/templates/admin/leftnav.tpl"/>
+<editorState selectionHorizontalPixel="0" selectionLength="604" selectionOffset="1556" selectionTopPixel="389"/>
 </editor>
 </editors>
 <views>
-<view id="org.eclipse.dltk.ui.TypeHierarchy" partName="Type Hierarchy"/>
+<view id="org.eclipse.dltk.ui.TypeHierarchy" partName="Type Hierarchy">
+<viewState isWindowWorkingSet="false" mv_vertical_scroll="0" org.eclipse.dltk.ui.packages.linktypehierarchytoeditor="0" orientation="0" ratio="350" showinherited="false" sortbydefiningtype="false" vertical_scroll="0" view="2" workingSetName=""/>
+</view>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+<view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
+<viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
+<filters>
+<filter element="*.class" isEnabled="false"/>
+<filter element="RemoteSystemsConnections" isEnabled="true"/>
+<filter element="RemoteSystemsTempFiles" isEnabled="true"/>
+<filter element=".*" isEnabled="false"/>
+<filter element="*.class" isEnabled="false"/>
+</filters>
+<expanded>
+<element path="/dbe"/>
+<element path="/dbe/htcdoc"/>
+<element path="/dbe/htcdoc/js"/>
+<element path="/dbe/htcdoc/js/kindeditor"/>
+<element path="/dbe/templates"/>
+<element path="/dbe/templates/admin"/>
+<element path="/test"/>
+<element path="/test/kindeditor"/>
+<element path="/test/upload"/>
+</expanded>
+<selection>
+<element path="/dbe/templates/admin/leftnav.tpl"/>
+</selection>
+</viewState>
+</view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (49 items)"/>
+<category IMemento.internal.id="Warnings (100 of 345 items)"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -54,33 +139,26 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
-<view id="org.eclipse.php.ui.explorer" partName="PHP Explorer">
-<viewState group_libraries="1" isWindowWorkingSet="false" layout="1" linkWithEditor="0" rootMode="1" workingSetName="">
-<customFilters userDefinedPatternsEnabled="false">
-<xmlDefinedFilters>
-<child filterId="org.eclipse.php.ui.explorer.EmptyInnerPackageFilter" isEnabled="false"/>
-<child filterId="org.eclipse.php.ui.explorer.PHPHTMLFilter" isEnabled="false"/>
-<child filterId="org.eclipse.php.ui.explorer.NonScriptElementFilter" isEnabled="false"/>
-<child filterId="org.eclipse.php.ui.explorer.NonPublicFilter" isEnabled="false"/>
-<child filterId="org.eclipse.php.ui.explorer.NonScriptProjectsFilter" isEnabled="false"/>
-<child filterId="org.eclipse.php.ui.explorer.RSEProjectFilter" isEnabled="true"/>
-<child filterId="org.eclipse.php.ui.explorer.FieldsFilter" isEnabled="false"/>
-<child filterId="org.eclipse.php.ui.explorer.EmptyPackageFilter" isEnabled="false"/>
-<child filterId="org.eclipse.php.ui.explorer.ContainMembersFilter" isEnabled="false"/>
-<child filterId="org.eclipse.php.ui.explorer.LibraryFilter" isEnabled="false"/>
-<child filterId="org.eclipse.php.ui.explorer.UseStatementFilter" isEnabled="true"/>
-<child filterId="org.eclipse.php.ui.explorer.SMFileFilter" isEnabled="false"/>
-<child filterId="org.eclipse.php.ui.explorer.NonSharedProjectsFilter" isEnabled="false"/>
-<child filterId="org.eclipse.php.ui.explorer.DotFilesFilter" isEnabled="true"/>
-<child filterId="org.eclipse.php.ui.explorer.ContainedLibraryFilter" isEnabled="false"/>
-<child filterId="org.eclipse.php.ui.explorer.ClosedProjectsFilter" isEnabled="false"/>
-</xmlDefinedFilters>
-</customFilters>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console"/>
+<view id="org.eclipse.debug.ui.PHPDebugOutput" partName="Debug Output">
+<viewState/>
+</view>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
+<view id="org.eclipse.pde.runtime.LogView" partName="Error Log">
+<viewState activate="true" allSessions="true" column2="300" column3="333" column4="150" error="true" groupBy="0" info="true" limit="50" ok="true" orderType="2" orderValue="-1" show_filter_text="true" useLimit="true" warning="true"/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="304" org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.priorityField="20" org.eclipse.ui.ide.resourceField="94"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console"/>
-<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
-<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
@@ -130,57 +208,66 @@
 <perspective_action id="org.eclipse.php.debug.ui.PHPDebugPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.php.ui.explorer"/>
-<view id="org.eclipse.dltk.ui.TypeHierarchy"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.pde.runtime.LogView"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="org.eclipse.dltk.ui.TypeHierarchy"/>
+<view id="org.eclipse.ui.views.ResourceNavigator"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<view id="org.eclipse.debug.ui.PHPDebugOutput"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
-<folder activePageID="org.eclipse.php.ui.explorer" appearance="2" expanded="2">
-<page content="org.eclipse.php.ui.explorer" label="PHP Explorer"/>
+<folder activePageID="org.eclipse.ui.views.ResourceNavigator" appearance="2" expanded="2">
 <page content="org.eclipse.dltk.ui.TypeHierarchy" label="Type Hierarchy"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
+<page content="org.eclipse.php.ui.explorer" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@6d23ea" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.22" ratioLeft="220" ratioRight="780" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottom" ratio="0.74958813" ratioLeft="455" ratioRight="152" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<info part="org.eclipse.ui.editorss" ratio="0.19335793" ratioLeft="262" ratioRight="1093" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.71728593" ratioLeft="444" ratioRight="175" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.search.ui.views.SearchView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.pde.runtime.LogView" label="Error Log"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.75" ratioLeft="585" ratioRight="195" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.debug.ui.PHPDebugOutput" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
+<page content="org.eclipse.debug.ui.PHPDebugOutput" label="Debug Output"/>
 <page content="org.eclipse.php.ui.projectOutline" label="LabelNotFound"/>
 <page content="org.eclipse.php.ui.functions" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
@@ -191,10 +278,162 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/dbe/configs/config.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/dbe/templates/admin/addnews.tpl"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/dbe/templates/admin/updatenews.tpl"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" path="/dbe/htcdoc/js/kindeditor/kindeditor.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/dbe/htcdoc/js/kindeditor/php/demo.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/dbe/templates/admin/displaynews.tpl"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/dbe/templates/admin/leftnav.tpl"/>
 </editors>
-<item active="true" historyLabel="config.php" index="0">
+<item historyLabel="updatenews.tpl" index="1">
+<position info="not_deleted" x="3232" y="0"/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position info="not_deleted" x="3140" y="0"/>
+</item>
+<item historyLabel="kindeditor.js" index="2">
+<position info="not_deleted" x="457" y="10"/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position info="not_deleted" x="3140" y="0"/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position info="not_deleted" x="3212" y="0"/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="kindeditor.js" index="2">
+<position info="not_deleted" x="5126" y="0"/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position info="not_deleted" x="3204" y="12"/>
+</item>
+<item historyLabel="kindeditor.js" index="2">
+<position info="not_deleted" x="5126" y="0"/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position info="not_deleted" x="3204" y="12"/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position info="not_deleted" x="3302" y="0"/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="addnews.tpl" index="0">
+<position info="not_deleted" x="2124" y="142"/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="kindeditor.js" index="2">
+<position info="not_deleted" x="111338" y="16"/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="kindeditor.js" index="2">
+<position info="not_deleted" x="5690" y="0"/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="demo.php" index="3">
+<position info="not_deleted" x="666" y="7"/>
+</item>
+<item historyLabel="displaynews.tpl" index="4">
+<position info="not_deleted" x="2" y="0"/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position info="not_deleted" x="657" y="3"/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position info="not_deleted" x="3211" y="0"/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position info="not_deleted" x="3213" y="0"/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position info="not_deleted" x="3212" y="0"/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position info="not_deleted" x="3210" y="0"/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position info="not_deleted" x="3211" y="0"/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position info="not_deleted" x="3213" y="0"/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position info="not_deleted" x="2649" y="0"/>
+</item>
+<item historyLabel="updatenews.tpl" index="1">
+<position info="not_deleted" x="12" y="0"/>
+</item>
+<item historyLabel="leftnav.tpl" index="5">
 <position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="leftnav.tpl" index="5">
+<position info="not_deleted" x="1971" y="189"/>
+</item>
+<item active="true" historyLabel="leftnav.tpl" index="5">
+<position info="not_deleted" x="1556" y="604"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -202,6 +441,13 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="right"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -209,12 +455,49 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="config.php" tooltip="dbe/configs/config.php">
-<persistable path="/dbe/configs/config.php"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="leftnav.tpl" tooltip="dbe/templates/admin/leftnav.tpl">
+<persistable path="/dbe/templates/admin/leftnav.tpl"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="demo.php" tooltip="dbe/htcdoc/js/kindeditor/php/demo.php">
+<persistable path="/dbe/htcdoc/js/kindeditor/php/demo.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="kindeditor.js" tooltip="dbe/htcdoc/js/kindeditor/kindeditor.js">
+<persistable path="/dbe/htcdoc/js/kindeditor/kindeditor.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="updatenews.tpl" tooltip="dbe/templates/admin/updatenews.tpl">
+<persistable path="/dbe/templates/admin/updatenews.tpl"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="displaynews.tpl" tooltip="dbe/templates/admin/displaynews.tpl">
+<persistable path="/dbe/templates/admin/displaynews.tpl"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="header.tpl" tooltip="dbe/templates/admin/header.tpl">
+<persistable path="/dbe/templates/admin/header.tpl"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="addnews.tpl" tooltip="dbe/templates/admin/addnews.tpl">
+<persistable path="/dbe/templates/admin/addnews.tpl"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="default.css" tooltip="test/kindeditor/themes/default/default.css">
+<persistable path="/test/kindeditor/themes/default/default.css"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="JSON.php" tooltip="test/kindeditor/php/JSON.php">
+<persistable path="/test/kindeditor/php/JSON.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="upload_json.php" tooltip="test/kindeditor/php/upload_json.php">
+<persistable path="/test/kindeditor/php/upload_json.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="demo.php" tooltip="test/kindeditor/php/demo.php">
+<persistable path="/test/kindeditor/php/demo.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="demo.php" tooltip="test/upload/demo.php">
+<persistable path="/test/upload/demo.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="style.css" tooltip="test/css/style.css">
+<persistable path="/test/css/style.css"/>
 </file>
 </mruList>
 </workbench>

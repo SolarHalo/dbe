@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-03-21 00:22:35
+<?php /* Smarty version Smarty-3.1.13, created on 2013-03-24 22:35:20
          compiled from "D:\workspace4php\dbe-a\dbe\templates\admin\displaynews.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:112255141dc67b6bc15-44833870%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'bba25e68d11d9d7b72ec1852c255ea01f1b1164c' => 
     array (
       0 => 'D:\\workspace4php\\dbe-a\\dbe\\templates\\admin\\displaynews.tpl',
-      1 => 1363796543,
+      1 => 1364135613,
       2 => 'file',
     ),
   ),
@@ -29,7 +29,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5141dc67ccc7b8_77462387')) {function content_5141dc67ccc7b8_77462387($_smarty_tpl) {?><div class="adminMainBody">
+<?php if ($_valid && !is_callable('content_5141dc67ccc7b8_77462387')) {function content_5141dc67ccc7b8_77462387($_smarty_tpl) {?>
+
+<div class="adminMainBody">
 
 	<div class="row">
 		<div class="span12">
@@ -64,7 +66,10 @@ $_smarty_tpl->tpl_vars['new']->_loop = true;
 						<td class="news_createtime"><?php echo $_smarty_tpl->tpl_vars['new']->value->news_createtime;?>
 </td>
 						<td>
-							<a  href="#updateNewsModal" data-toggle="modal" class="btn btn-info modifynews" un="<?php echo $_smarty_tpl->tpl_vars['new']->value->id;?>
+<!--							<a  href="#updateNewsModal" data-toggle="modal" class="btn btn-info modifynews" un="<?php echo $_smarty_tpl->tpl_vars['new']->value->id;?>
+"><i class="icon-pencil icon-white"></i> 编辑</a>-->
+							<a  href="updatenews.php?news_id=<?php echo $_smarty_tpl->tpl_vars['new']->value->id;?>
+" data-toggle="modal" class="btn btn-info modifynews" un="<?php echo $_smarty_tpl->tpl_vars['new']->value->id;?>
 "><i class="icon-pencil icon-white"></i> 编辑</a>
 							<a  href="#delNewsModal" data-toggle="modal" class="btn btn-danger delnews" un="<?php echo $_smarty_tpl->tpl_vars['new']->value->id;?>
 "><i class="icon-trash icon-white"></i> 删除</a>
@@ -118,21 +123,21 @@ $_smarty_tpl->tpl_vars['foo']->first = $_smarty_tpl->tpl_vars['foo']->iteration 
 			</div>
 	</div>
 </div>
-<div class="modal hide" id="updateNewsModal">
+<div class="modal hide fade span12" id="updateNewsModal" style="width:80%;height:80%;">
   <div class="modal-header">
     <a class="close" data-dismiss="modal">×</a>
     <h3 id="wintitle">编辑新闻</h3>
   </div>
-  <div class="modal-body">
+  <div class="modal-body span12">
+  
   <form method="post" class="form-horizontal">
 		<table class="table table-bordered">
-		<caption>编辑新闻</caption>
 			<tr>
-				<td><label class="control-label">标题：</label></td>
-				<td><input id="news_title" name="news_title" type="text"></td>
+				<td class="span1"><label class="control-label">标题：</label></td>
+				<td><input id="news_title" name="news_title" type="text" class="x-large"></td>
 			</tr>
 			<tr>
-				<td><label class="control-label">日期：</label></td>
+				<td  class="span1"><label class="control-label">日期：</label></td>
 				<td>
 					<input id="news_createdate" 
 						disabled="disabled" 
@@ -142,12 +147,12 @@ $_smarty_tpl->tpl_vars['foo']->first = $_smarty_tpl->tpl_vars['foo']->iteration 
 			</tr>
 			
 			<tr>
-				<td><label class="control-label">排序：</label></td>
+				<td class="span1"><label class="control-label">排序：</label></td>
 				<td><input id="news_order" name="news_order" type="text"></td>
 			</tr>
 			
 			<tr>
-				<td><label class="control-label">分类：</label></td>
+				<td  class="span1"><label class="control-label">分类：</label></td>
 				<td>
 					<select id="newstype" name="newstype">
 					  <option  value="1">企业新闻</option>
@@ -157,8 +162,11 @@ $_smarty_tpl->tpl_vars['foo']->first = $_smarty_tpl->tpl_vars['foo']->iteration 
 			</tr>
 			
 			<tr>
-				<td><label class="control-label">内容：</label></td>
-				<td><textarea cols="80" id="content" name="content" class="ckeditor"></textarea></td>
+				<td class="span1"><label class="control-label">内容：</label></td>
+				<td>
+<!--				<textarea cols="80" id="content" name="content" class="ckeditor"></textarea>-->
+				<textarea id="content" name="content" style="visibility:hidden;width:100%;height:350px;"><<?php ?>?php echo htmlspecialchars($htmlData); ?<?php ?>></textarea>
+				</td>
 			</tr>
 			
 		</table>
@@ -272,8 +280,8 @@ $(document).ready(function(){
 				if(data==-1){
 					alert("deletenews failed");
 				}else{
-					$("#delnewsbtn").attr('data-dismiss','modal');
 					$("#delNewsModal").modal('hide');
+					$("#delnewsbtn").attr('data-dismiss','modal');
 					$("#newstable >tbody >tr >td").children("a[un='"+news_id+"']").parents("tr").remove();
 				}
 			}
@@ -354,4 +362,6 @@ function beforeSubmit(){
 }
 
 
-</script><?php }} ?>
+</script>
+
+<?php }} ?>

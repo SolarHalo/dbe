@@ -14,7 +14,7 @@ if(array_key_exists('user_name', $_POST) && array_key_exists('user_passwd', $_PO
 		$_SESSION['user'] = $user;
 		$pageto = $_GET['pageto'];
 		if(!$pageto){
-			$pageto = "index.php";
+			$pageto = "../htcdoc/index.php";
 		}
 		header("Location: ".$pageto);
 //		header("Location: index.php");

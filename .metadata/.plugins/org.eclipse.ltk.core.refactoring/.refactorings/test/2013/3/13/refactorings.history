@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;test/kindeditor-4.1.5&apos; to &apos;kindeditor&apos;" description="Rename resource &apos;kindeditor-4.1.5&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="kindeditor-4.1.5" name="kindeditor" stamp="1364131790900" updateReferences="true"/>
+</session>

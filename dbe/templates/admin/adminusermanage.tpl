@@ -2,7 +2,7 @@
 
 	<div class="row" >
 		<div class="span12">
-				<table id="usertable" class="table table-striped table-bordered table-condensed span12" style="font-size: 16px;">
+				<table id="usertable" class="table table-striped table-bordered table-condensed span12">
 					<caption>
 						<div class="well">
 							<strong>用户列表</strong>

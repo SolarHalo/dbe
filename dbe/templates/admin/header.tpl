@@ -12,9 +12,16 @@
 <script type="text/javascript" src="../js/bootstrap.min.js" ></script>
 <!--<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>-->
 <script type="text/javascript" src="../js/My97DatePicker/WdatePicker.js" ></script>
-<script type="text/javascript" src="../js/ckeditor/ckeditor.js"></script>
+<!--<script type="text/javascript" src="../js/ckeditor/ckeditor.js"></script>-->
 <script type="text/javascript" src="../js/bootstrap-collapse.js" ></script>
 <script type="text/javascript" src="../js/date.js"></script>
+
+<link rel="stylesheet" href="../js/kindeditor/themes/default/default.css" />
+<link rel="stylesheet" href="../js/kindeditor/plugins/code/prettify.css" />
+<script charset="utf-8" src="../js/kindeditor/kindeditor.js"></script>
+<script charset="utf-8" src="../js/kindeditor/lang/zh_CN.js"></script>
+<script charset="utf-8" src="../js/kindeditor/plugins/code/prettify.js"></script>
+
 <!--<script type="text/javascript" src="../js/news.js"></script>-->
 
 <script type="text/javascript">

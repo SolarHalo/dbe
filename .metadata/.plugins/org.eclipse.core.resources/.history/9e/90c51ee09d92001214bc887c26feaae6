@@ -1,0 +1,7 @@
+
+<div style="display: table-cell;
+height: 300px;
+vertical-align: middle;">
+<div>{{$fileurl}}</div>
+<img src="{{$fileurl}}"/>
+</div>

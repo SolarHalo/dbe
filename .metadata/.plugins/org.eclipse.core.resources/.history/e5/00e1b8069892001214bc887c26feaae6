@@ -1,0 +1,4 @@
+<?php
+echo "http://".$_SERVER ['HTTP_HOST'];
+echo $_SERVER["ROOT_DOCUMENT"];
+?>

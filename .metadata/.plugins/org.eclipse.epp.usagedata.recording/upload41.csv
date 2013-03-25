@@ -1,0 +1,351 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Zero or negative length StyleRange 3058:0",1363834071951
+error,log,,,"Zero or negative length StyleRange 3086:0",1363834071952
+error,log,,,"Zero or negative length StyleRange 3117:0",1363834071954
+error,log,,,"Zero or negative length StyleRange 3129:0",1363834071955
+error,log,,,"Zero or negative length StyleRange 3214:0",1363834071957
+error,log,,,"Zero or negative length StyleRange 3269:0",1363834071959
+error,log,,,"Zero or negative length StyleRange 3285:0",1363834071960
+error,log,,,"Zero or negative length StyleRange 3303:0",1363834071962
+error,log,,,"Zero or negative length StyleRange 3361:0",1363834071963
+error,log,,,"Zero or negative length StyleRange 3424:0",1363834071965
+error,log,,,"Zero or negative length StyleRange 3438:0",1363834071967
+error,log,,,"Zero or negative length StyleRange 3471:0",1363834071968
+error,log,,,"Zero or negative length StyleRange 3524:0",1363834072054
+error,log,,,"Zero or negative length StyleRange 3624:0",1363834072056
+error,log,,,"Zero or negative length StyleRange 3682:0",1363834072058
+error,log,,,"Zero or negative length StyleRange 3692:0",1363834072060
+error,log,,,"Zero or negative length StyleRange 3705:0",1363834072063
+error,log,,,"Zero or negative length StyleRange 3720:0",1363834072065
+error,log,,,"Zero or negative length StyleRange 3810:0",1363834072067
+error,log,,,"Zero or negative length StyleRange 3851:0",1363834072069
+error,log,,,"Zero or negative length StyleRange 3860:0",1363834072072
+error,log,,,"Zero or negative length StyleRange 3872:0",1363834072074
+error,log,,,"Zero or negative length StyleRange 3914:0",1363834072076
+error,log,,,"Zero or negative length StyleRange 3933:0",1363834072078
+error,log,,,"Zero or negative length StyleRange 3942:0",1363834072079
+error,log,,,"Zero or negative length StyleRange 3990:0",1363834072081
+error,log,,,"Zero or negative length StyleRange 4009:0",1363834072083
+error,log,,,"Zero or negative length StyleRange 4065:0",1363834072085
+error,log,,,"Zero or negative length StyleRange 4099:0",1363834072086
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1363834077726
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1363834080731
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1363834080929
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363834081838
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363834138297
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363834139688
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363834157062
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363834167227
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363834289112
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1363834299040
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1363834301760
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1363834304804
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1363834307283
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1363834308957
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1363834310770
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1363834313873
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363834315052
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363834328396
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1363834334542
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1363834338016
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1363834338974
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1363834343798
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1363834346863
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1363834356795
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1363834361741
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1363834364705
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.paste",1363834370965
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1363834371489
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1363834373334
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363834374570
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363834399134
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363834405420
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363834415062
+error,log,,,"Zero or negative length StyleRange 2981:0",1363834430352
+error,log,,,"Zero or negative length StyleRange 3003:0",1363834430353
+error,log,,,"Zero or negative length StyleRange 3065:0",1363834430355
+error,log,,,"Zero or negative length StyleRange 3086:0",1363834430357
+error,log,,,"Zero or negative length StyleRange 3114:0",1363834430358
+error,log,,,"Zero or negative length StyleRange 3145:0",1363834430359
+error,log,,,"Zero or negative length StyleRange 3157:0",1363834430361
+error,log,,,"Zero or negative length StyleRange 3235:0",1363834430362
+error,log,,,"Zero or negative length StyleRange 3256:0",1363834430364
+error,log,,,"Zero or negative length StyleRange 3311:0",1363834430366
+error,log,,,"Zero or negative length StyleRange 3327:0",1363834430368
+error,log,,,"Zero or negative length StyleRange 3345:0",1363834430369
+error,log,,,"Zero or negative length StyleRange 3396:0",1363834430370
+error,log,,,"Zero or negative length StyleRange 3418:0",1363834430372
+error,log,,,"Zero or negative length StyleRange 3481:0",1363834430373
+error,log,,,"Zero or negative length StyleRange 3495:0",1363834430380
+error,log,,,"Zero or negative length StyleRange 3528:0",1363834430382
+error,log,,,"Zero or negative length StyleRange 3581:0",1363834430384
+error,log,,,"Zero or negative length StyleRange 3674:0",1363834430385
+error,log,,,"Zero or negative length StyleRange 3695:0",1363834430387
+error,log,,,"Zero or negative length StyleRange 3753:0",1363834430388
+error,log,,,"Zero or negative length StyleRange 3763:0",1363834430390
+error,log,,,"Zero or negative length StyleRange 3776:0",1363834430391
+error,log,,,"Zero or negative length StyleRange 3791:0",1363834430393
+error,log,,,"Zero or negative length StyleRange 3891:0",1363834430394
+error,log,,,"Zero or negative length StyleRange 3932:0",1363834430395
+error,log,,,"Zero or negative length StyleRange 3941:0",1363834430397
+error,log,,,"Zero or negative length StyleRange 3953:0",1363834430399
+error,log,,,"Zero or negative length StyleRange 3995:0",1363834430400
+error,log,,,"Zero or negative length StyleRange 4014:0",1363834430402
+error,log,,,"Zero or negative length StyleRange 4023:0",1363834430403
+error,log,,,"Zero or negative length StyleRange 4071:0",1363834430404
+error,log,,,"Zero or negative length StyleRange 4090:0",1363834430406
+error,log,,,"Zero or negative length StyleRange 4146:0",1363834430407
+error,log,,,"Zero or negative length StyleRange 4180:0",1363834430409
+error,log,,,"Zero or negative length StyleRange 4231:0",1363834430410
+error,log,,,"Zero or negative length StyleRange 4255:0",1363834430412
+error,log,,,"Zero or negative length StyleRange 4282:0",1363834430413
+error,log,,,"Zero or negative length StyleRange 4312:0",1363834430415
+error,log,,,"Zero or negative length StyleRange 4326:0",1363834430416
+error,log,,,"Zero or negative length StyleRange 4362:0",1363834430418
+error,log,,,"Zero or negative length StyleRange 4404:0",1363834430419
+error,log,,,"Zero or negative length StyleRange 4434:0",1363834430420
+error,log,,,"Zero or negative length StyleRange 4521:0",1363834430422
+error,log,,,"Zero or negative length StyleRange 4551:0",1363834430423
+error,log,,,"Zero or negative length StyleRange 4560:0",1363834430425
+error,log,,,"Zero or negative length StyleRange 4572:0",1363834430426
+error,log,,,"Zero or negative length StyleRange 4613:0",1363834430428
+error,log,,,"Zero or negative length StyleRange 4629:0",1363834430429
+error,log,,,"Zero or negative length StyleRange 4638:0",1363834430431
+error,log,,,"Zero or negative length StyleRange 4681:0",1363834430432
+error,log,,,"Zero or negative length StyleRange 4697:0",1363834430434
+error,log,,,"Zero or negative length StyleRange 4761:0",1363834430435
+error,log,,,"Zero or negative length StyleRange 2981:0",1363834430483
+error,log,,,"Zero or negative length StyleRange 3003:0",1363834430484
+error,log,,,"Zero or negative length StyleRange 3065:0",1363834430486
+error,log,,,"Zero or negative length StyleRange 3086:0",1363834430488
+error,log,,,"Zero or negative length StyleRange 3114:0",1363834430489
+error,log,,,"Zero or negative length StyleRange 3145:0",1363834430491
+error,log,,,"Zero or negative length StyleRange 3157:0",1363834430493
+error,log,,,"Zero or negative length StyleRange 3235:0",1363834430494
+error,log,,,"Zero or negative length StyleRange 3256:0",1363834430496
+error,log,,,"Zero or negative length StyleRange 3311:0",1363834430497
+error,log,,,"Zero or negative length StyleRange 3327:0",1363834430498
+error,log,,,"Zero or negative length StyleRange 3345:0",1363834430500
+error,log,,,"Zero or negative length StyleRange 3396:0",1363834430502
+error,log,,,"Zero or negative length StyleRange 3418:0",1363834430503
+error,log,,,"Zero or negative length StyleRange 3481:0",1363834430505
+error,log,,,"Zero or negative length StyleRange 3495:0",1363834430507
+error,log,,,"Zero or negative length StyleRange 3528:0",1363834430508
+error,log,,,"Zero or negative length StyleRange 3581:0",1363834430509
+error,log,,,"Zero or negative length StyleRange 3674:0",1363834430511
+error,log,,,"Zero or negative length StyleRange 3695:0",1363834430512
+error,log,,,"Zero or negative length StyleRange 3753:0",1363834430514
+error,log,,,"Zero or negative length StyleRange 3763:0",1363834430515
+error,log,,,"Zero or negative length StyleRange 3776:0",1363834430517
+error,log,,,"Zero or negative length StyleRange 3791:0",1363834430518
+error,log,,,"Zero or negative length StyleRange 3891:0",1363834430520
+error,log,,,"Zero or negative length StyleRange 3932:0",1363834430521
+error,log,,,"Zero or negative length StyleRange 3941:0",1363834430523
+error,log,,,"Zero or negative length StyleRange 3953:0",1363834430524
+error,log,,,"Zero or negative length StyleRange 3995:0",1363834430526
+error,log,,,"Zero or negative length StyleRange 4014:0",1363834430527
+error,log,,,"Zero or negative length StyleRange 4023:0",1363834430529
+error,log,,,"Zero or negative length StyleRange 4071:0",1363834430530
+error,log,,,"Zero or negative length StyleRange 4090:0",1363834430532
+error,log,,,"Zero or negative length StyleRange 4146:0",1363834430533
+error,log,,,"Zero or negative length StyleRange 4180:0",1363834430535
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1363834433939
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363834435850
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363834451076
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.delete.line",1363834453079
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1363834453467
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363834454455
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1363834467716
+error,log,,,"Zero or negative length StyleRange 2436:0",1363834484377
+error,log,,,"Zero or negative length StyleRange 2467:0",1363834484379
+error,log,,,"Zero or negative length StyleRange 2488:0",1363834484381
+error,log,,,"Zero or negative length StyleRange 2436:0",1363834484434
+error,log,,,"Zero or negative length StyleRange 2467:0",1363834484435
+error,log,,,"Zero or negative length StyleRange 2488:0",1363834484437
+error,log,,,"Zero or negative length StyleRange 2436:0",1363834484515
+error,log,,,"Zero or negative length StyleRange 2467:0",1363834484516
+error,log,,,"Zero or negative length StyleRange 2488:0",1363834484518
+error,log,,,"Zero or negative length StyleRange 2436:0",1363834484555
+error,log,,,"Zero or negative length StyleRange 2467:0",1363834484557
+error,log,,,"Zero or negative length StyleRange 2488:0",1363834484558
+error,log,,,"Zero or negative length StyleRange 2437:0",1363834484621
+error,log,,,"Zero or negative length StyleRange 2468:0",1363834484623
+error,log,,,"Zero or negative length StyleRange 2489:0",1363834484624
+error,log,,,"Zero or negative length StyleRange 2437:0",1363834484635
+error,log,,,"Zero or negative length StyleRange 2468:0",1363834484636
+error,log,,,"Zero or negative length StyleRange 2489:0",1363834484638
+error,log,,,"Zero or negative length StyleRange 2438:0",1363834484700
+error,log,,,"Zero or negative length StyleRange 2469:0",1363834484702
+error,log,,,"Zero or negative length StyleRange 2490:0",1363834484703
+error,log,,,"Zero or negative length StyleRange 2520:0",1363834484705
+error,log,,,"Zero or negative length StyleRange 2438:0",1363834484754
+error,log,,,"Zero or negative length StyleRange 2469:0",1363834484756
+error,log,,,"Zero or negative length StyleRange 2490:0",1363834484757
+error,log,,,"Zero or negative length StyleRange 2520:0",1363834484759
+error,log,,,"Zero or negative length StyleRange 2438:0",1363834484798
+error,log,,,"Zero or negative length StyleRange 2469:0",1363834484800
+error,log,,,"Zero or negative length StyleRange 2490:0",1363834484802
+error,log,,,"Zero or negative length StyleRange 2520:0",1363834484803
+error,log,,,"Zero or negative length StyleRange 2438:0",1363834485350
+error,log,,,"Zero or negative length StyleRange 2469:0",1363834485352
+error,log,,,"Zero or negative length StyleRange 2490:0",1363834485354
+error,log,,,"Zero or negative length StyleRange 2520:0",1363834485356
+error,log,,,"Zero or negative length StyleRange 2439:0",1363834486081
+error,log,,,"Zero or negative length StyleRange 2470:0",1363834486084
+error,log,,,"Zero or negative length StyleRange 2491:0",1363834486101
+error,log,,,"Zero or negative length StyleRange 2521:0",1363834486103
+error,log,,,"Zero or negative length StyleRange 2439:0",1363834486158
+error,log,,,"Zero or negative length StyleRange 2470:0",1363834486160
+error,log,,,"Zero or negative length StyleRange 2491:0",1363834486161
+error,log,,,"Zero or negative length StyleRange 2521:0",1363834486163
+error,log,,,"Zero or negative length StyleRange 2439:0",1363834486203
+error,log,,,"Zero or negative length StyleRange 2470:0",1363834486204
+error,log,,,"Zero or negative length StyleRange 2491:0",1363834486206
+error,log,,,"Zero or negative length StyleRange 2521:0",1363834486207
+error,log,,,"Zero or negative length StyleRange 2439:0",1363834486830
+error,log,,,"Zero or negative length StyleRange 2470:0",1363834486832
+error,log,,,"Zero or negative length StyleRange 2491:0",1363834486834
+error,log,,,"Zero or negative length StyleRange 2521:0",1363834486836
+error,log,,,"Zero or negative length StyleRange 2438:0",1363834487051
+error,log,,,"Zero or negative length StyleRange 2469:0",1363834487054
+error,log,,,"Zero or negative length StyleRange 2490:0",1363834487056
+error,log,,,"Zero or negative length StyleRange 2520:0",1363834487058
+error,log,,,"Zero or negative length StyleRange 2550:0",1363834487061
+error,log,,,"Zero or negative length StyleRange 2564:0",1363834487063
+error,log,,,"Zero or negative length StyleRange 2438:0",1363834487114
+error,log,,,"Zero or negative length StyleRange 2469:0",1363834487115
+error,log,,,"Zero or negative length StyleRange 2490:0",1363834487117
+error,log,,,"Zero or negative length StyleRange 2520:0",1363834487118
+error,log,,,"Zero or negative length StyleRange 2550:0",1363834487120
+error,log,,,"Zero or negative length StyleRange 2564:0",1363834487121
+error,log,,,"Zero or negative length StyleRange 2438:0",1363834487161
+error,log,,,"Zero or negative length StyleRange 2469:0",1363834487163
+error,log,,,"Zero or negative length StyleRange 2490:0",1363834487164
+error,log,,,"Zero or negative length StyleRange 2520:0",1363834487165
+error,log,,,"Zero or negative length StyleRange 2550:0",1363834487167
+error,log,,,"Zero or negative length StyleRange 2564:0",1363834487169
+error,log,,,"Zero or negative length StyleRange 2453:0",1363834495479
+error,log,,,"Zero or negative length StyleRange 2484:0",1363834495481
+error,log,,,"Zero or negative length StyleRange 2505:0",1363834495482
+error,log,,,"Zero or negative length StyleRange 2535:0",1363834495484
+error,log,,,"Zero or negative length StyleRange 2565:0",1363834495485
+error,log,,,"Zero or negative length StyleRange 2579:0",1363834495487
+error,log,,,"Zero or negative length StyleRange 2615:0",1363834495488
+error,log,,,"Zero or negative length StyleRange 2657:0",1363834495490
+error,log,,,"Zero or negative length StyleRange 2685:0",1363834495491
+error,log,,,"Zero or negative length StyleRange 2714:0",1363834495493
+error,log,,,"Zero or negative length StyleRange 2728:0",1363834495494
+error,log,,,"Zero or negative length StyleRange 2763:0",1363834495495
+error,log,,,"Zero or negative length StyleRange 2811:0",1363834495497
+error,log,,,"Zero or negative length StyleRange 2832:0",1363834495499
+error,log,,,"Zero or negative length StyleRange 2887:0",1363834495501
+error,log,,,"Zero or negative length StyleRange 2903:0",1363834495502
+error,log,,,"Zero or negative length StyleRange 2921:0",1363834495504
+error,log,,,"Zero or negative length StyleRange 2933:0",1363834495505
+error,log,,,"Zero or negative length StyleRange 2983:0",1363834495507
+error,log,,,"Zero or negative length StyleRange 3005:0",1363834495508
+error,log,,,"Zero or negative length StyleRange 3067:0",1363834495510
+error,log,,,"Zero or negative length StyleRange 3088:0",1363834495511
+error,log,,,"Zero or negative length StyleRange 3116:0",1363834495513
+error,log,,,"Zero or negative length StyleRange 3147:0",1363834495514
+error,log,,,"Zero or negative length StyleRange 3159:0",1363834495516
+error,log,,,"Zero or negative length StyleRange 3237:0",1363834495517
+error,log,,,"Zero or negative length StyleRange 3258:0",1363834495518
+error,log,,,"Zero or negative length StyleRange 3313:0",1363834495520
+error,log,,,"Zero or negative length StyleRange 3329:0",1363834495521
+error,log,,,"Zero or negative length StyleRange 3347:0",1363834495523
+error,log,,,"Zero or negative length StyleRange 3398:0",1363834495524
+error,log,,,"Zero or negative length StyleRange 3420:0",1363834495525
+error,log,,,"Zero or negative length StyleRange 3483:0",1363834495527
+error,log,,,"Zero or negative length StyleRange 3497:0",1363834495529
+error,log,,,"Zero or negative length StyleRange 3530:0",1363834495530
+error,log,,,"Zero or negative length StyleRange 3583:0",1363834495531
+error,log,,,"Zero or negative length StyleRange 3676:0",1363834495533
+error,log,,,"Zero or negative length StyleRange 3697:0",1363834495534
+error,log,,,"Zero or negative length StyleRange 3755:0",1363834495536
+error,log,,,"Zero or negative length StyleRange 3765:0",1363834495538
+error,log,,,"Zero or negative length StyleRange 3778:0",1363834495539
+error,log,,,"Zero or negative length StyleRange 3793:0",1363834495541
+error,log,,,"Zero or negative length StyleRange 3893:0",1363834495543
+error,log,,,"Zero or negative length StyleRange 3934:0",1363834495544
+error,log,,,"Zero or negative length StyleRange 3943:0",1363834495546
+error,log,,,"Zero or negative length StyleRange 3955:0",1363834495547
+error,log,,,"Zero or negative length StyleRange 3997:0",1363834495549
+error,log,,,"Zero or negative length StyleRange 4016:0",1363834495550
+error,log,,,"Zero or negative length StyleRange 4025:0",1363834495552
+error,log,,,"Zero or negative length StyleRange 4073:0",1363834495554
+error,log,,,"Zero or negative length StyleRange 4092:0",1363834495555
+error,log,,,"Zero or negative length StyleRange 4148:0",1363834495557
+error,log,,,"Zero or negative length StyleRange 4182:0",1363834495558
+error,log,,,"Zero or negative length StyleRange 4233:0",1363834495560
+error,log,,,"Zero or negative length StyleRange 4257:0",1363834495562
+error,log,,,"Zero or negative length StyleRange 4284:0",1363834495563
+error,log,,,"Zero or negative length StyleRange 4314:0",1363834495565
+error,log,,,"Zero or negative length StyleRange 4328:0",1363834495566
+error,log,,,"Zero or negative length StyleRange 4364:0",1363834495568
+error,log,,,"Zero or negative length StyleRange 4406:0",1363834495569
+error,log,,,"Zero or negative length StyleRange 4436:0",1363834495571
+error,log,,,"Zero or negative length StyleRange 4523:0",1363834495573
+error,log,,,"Zero or negative length StyleRange 4553:0",1363834495574
+error,log,,,"Zero or negative length StyleRange 4562:0",1363834495576
+error,log,,,"Zero or negative length StyleRange 4574:0",1363834495577
+error,log,,,"Zero or negative length StyleRange 4615:0",1363834495579
+error,log,,,"Zero or negative length StyleRange 4631:0",1363834495580
+error,log,,,"Zero or negative length StyleRange 4640:0",1363834495582
+error,log,,,"Zero or negative length StyleRange 4683:0",1363834495583
+error,log,,,"Zero or negative length StyleRange 4699:0",1363834495585
+error,log,,,"Zero or negative length StyleRange 4763:0",1363834495587
+error,log,,,"Zero or negative length StyleRange 2453:0",1363834495617
+error,log,,,"Zero or negative length StyleRange 2484:0",1363834495618
+error,log,,,"Zero or negative length StyleRange 2505:0",1363834495619
+error,log,,,"Zero or negative length StyleRange 2535:0",1363834495621
+error,log,,,"Zero or negative length StyleRange 2565:0",1363834495623
+error,log,,,"Zero or negative length StyleRange 2579:0",1363834495624
+error,log,,,"Zero or negative length StyleRange 2615:0",1363834495626
+error,log,,,"Zero or negative length StyleRange 2657:0",1363834495627
+error,log,,,"Zero or negative length StyleRange 2685:0",1363834495629
+error,log,,,"Zero or negative length StyleRange 2714:0",1363834495631
+error,log,,,"Zero or negative length StyleRange 2728:0",1363834495632
+error,log,,,"Zero or negative length StyleRange 2763:0",1363834495634
+error,log,,,"Zero or negative length StyleRange 2811:0",1363834495635
+error,log,,,"Zero or negative length StyleRange 2832:0",1363834495637
+error,log,,,"Zero or negative length StyleRange 2887:0",1363834495639
+error,log,,,"Zero or negative length StyleRange 2903:0",1363834495641
+error,log,,,"Zero or negative length StyleRange 2921:0",1363834495642
+error,log,,,"Zero or negative length StyleRange 2933:0",1363834495644
+error,log,,,"Zero or negative length StyleRange 2983:0",1363834495645
+error,log,,,"Zero or negative length StyleRange 3005:0",1363834495647
+error,log,,,"Zero or negative length StyleRange 3067:0",1363834495648
+error,log,,,"Zero or negative length StyleRange 3088:0",1363834495650
+error,log,,,"Zero or negative length StyleRange 3116:0",1363834495651
+error,log,,,"Zero or negative length StyleRange 3147:0",1363834495657
+error,log,,,"Zero or negative length StyleRange 3159:0",1363834495659
+error,log,,,"Zero or negative length StyleRange 3237:0",1363834495660
+error,log,,,"Zero or negative length StyleRange 3258:0",1363834495662
+error,log,,,"Zero or negative length StyleRange 3313:0",1363834495663
+error,log,,,"Zero or negative length StyleRange 3329:0",1363834495665
+error,log,,,"Zero or negative length StyleRange 3347:0",1363834495666
+error,log,,,"Zero or negative length StyleRange 3398:0",1363834495668
+error,log,,,"Zero or negative length StyleRange 3420:0",1363834495670
+error,log,,,"Zero or negative length StyleRange 3483:0",1363834495671
+error,log,,,"Zero or negative length StyleRange 3497:0",1363834495673
+error,log,,,"Zero or negative length StyleRange 3530:0",1363834495674
+error,log,,,"Zero or negative length StyleRange 3583:0",1363834495676
+error,log,,,"Zero or negative length StyleRange 3676:0",1363834495677
+error,log,,,"Zero or negative length StyleRange 3697:0",1363834495679
+error,log,,,"Zero or negative length StyleRange 3755:0",1363834495680
+error,log,,,"Zero or negative length StyleRange 3765:0",1363834495682
+error,log,,,"Zero or negative length StyleRange 3778:0",1363834495683
+error,log,,,"Zero or negative length StyleRange 3793:0",1363834495685
+error,log,,,"Zero or negative length StyleRange 3893:0",1363834495686
+error,log,,,"Zero or negative length StyleRange 3934:0",1363834495688
+error,log,,,"Zero or negative length StyleRange 3943:0",1363834495689
+error,log,,,"Zero or negative length StyleRange 3955:0",1363834495691
+error,log,,,"Zero or negative length StyleRange 3997:0",1363834495692
+error,log,,,"Zero or negative length StyleRange 4016:0",1363834495694
+error,log,,,"Zero or negative length StyleRange 4025:0",1363834495696
+error,log,,,"Zero or negative length StyleRange 4073:0",1363834495697
+error,log,,,"Zero or negative length StyleRange 4092:0",1363834495699
+error,log,,,"Zero or negative length StyleRange 4148:0",1363834495700
+error,log,,,"Zero or negative length StyleRange 4182:0",1363834495702
+error,log,,,"Zero or negative length StyleRange 4233:0",1363834495704

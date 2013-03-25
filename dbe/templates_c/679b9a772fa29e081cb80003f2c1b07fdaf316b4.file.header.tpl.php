@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-03-20 21:12:00
+<?php /* Smarty version Smarty-3.1.13, created on 2013-03-24 22:13:39
          compiled from "D:\workspace4php\dbe-a\dbe\templates\admin\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:43875141dc6309f248-93186258%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '679b9a772fa29e081cb80003f2c1b07fdaf316b4' => 
     array (
       0 => 'D:\\workspace4php\\dbe-a\\dbe\\templates\\admin\\header.tpl',
-      1 => 1363785116,
+      1 => 1364134408,
       2 => 'file',
     ),
   ),
@@ -33,9 +33,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <script type="text/javascript" src="../js/bootstrap.min.js" ></script>
 <!--<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>-->
 <script type="text/javascript" src="../js/My97DatePicker/WdatePicker.js" ></script>
-<script type="text/javascript" src="../js/ckeditor/ckeditor.js"></script>
+<!--<script type="text/javascript" src="../js/ckeditor/ckeditor.js"></script>-->
 <script type="text/javascript" src="../js/bootstrap-collapse.js" ></script>
 <script type="text/javascript" src="../js/date.js"></script>
+
+<link rel="stylesheet" href="../js/kindeditor/themes/default/default.css" />
+<link rel="stylesheet" href="../js/kindeditor/plugins/code/prettify.css" />
+<script charset="utf-8" src="../js/kindeditor/kindeditor.js"></script>
+<script charset="utf-8" src="../js/kindeditor/lang/zh_CN.js"></script>
+<script charset="utf-8" src="../js/kindeditor/plugins/code/prettify.js"></script>
+
 <!--<script type="text/javascript" src="../js/news.js"></script>-->
 
 <script type="text/javascript">

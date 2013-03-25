@@ -1,0 +1,9 @@
+
+<div style="margin-left:50px;margin-top:50px;">
+	<p class="text-success lead">{{$fileurl}}</p>
+	<img src="{{$fileurl}}"/>
+</div>
+
+<div class="thumbnail">
+	 <img src="../../upload/1363931169.jpg" alt="">
+</div>

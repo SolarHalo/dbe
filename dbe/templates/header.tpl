@@ -20,12 +20,20 @@
                             </ul>
                         </div>
                         <div class="slidingList" id="slidingList1">
-                            <img src="images/jianpimg.jpg" border="0" usemap="#Mapjieshao" style="padding-left:5px;" />
-                            <map name="Mapjieshao" id="Mapjieshao">
-                              <area shape="rect" coords="16,217,107,262" href="dbemessage.php?type=company" title="公司介绍" />
-                              <area shape="rect" coords="134,215,288,262" href="dbemessage.php?type=design" title="设计、研发、生产" />
-                              <area shape="rect" coords="310,214,424,263" href="dbemessage.php?type=operation" title="全球合作网络"/>
-                            </map>
+                            <div class="about-text">
+                            	<h2>罗迪精密股份有限公司<br />
+                                		<font>Digital Best Engineering Co.,LTD</font>
+                                </h2>
+                                <P>
+                                	罗迪精密股份有限公司创立于2012年，主要从事各类大型喷墨写真打印机的研发、生产及销售。主要产品含盖所有数码印刷相关产业。
+                                </P>
+                                 <P>
+                                	本公司有用优秀的经营和研发团队，秉承着“品质第一、亲切至诚、和而不同、匠心独创”的经营理念，为产业的数码进程做出贡献。
+                                </P>
+                                <a href="dbemessage.php?type=company" class="about-text-sub">公司介绍</a>
+                                <a href="dbemessage.php?type=design" class="about-text-sub">设计、研发、生产</a>
+                                <a href="dbemessage.php?type=operation" class="about-text-sub">全球合作网络</a>
+                            </div>
                       </div>
                         <div class="slidingList_none" id="slidingList2">
                             <span class="dis-y" style="border-right:1px dashed #ccc; padding-right:50px;">
